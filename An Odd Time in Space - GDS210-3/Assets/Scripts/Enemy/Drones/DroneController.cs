@@ -15,6 +15,11 @@ public class DroneController : BaseEnemyController, IReload
 	[SerializeField] protected AudioClip _hoverSound;
 	protected AudioSource _audioSource;
 
+	// Movement Variables.
+	[Header("Movement")]
+	public Transform _target;
+	[SerializeField] protected float _speed;
+
 	// Instantiates a projectile.
 	public virtual void Shoot()
 	{
@@ -27,5 +32,22 @@ public class DroneController : BaseEnemyController, IReload
 	{
 		base.Start (); // Does parent actions.
 		Invoke("Shoot", _shootDelay);
+	}
+
+	protected virtual void FixedUpdate()
+	{
+		Rotate();
+		Move();
+	}
+
+	// Rotate to look at target pos.
+	protected virtual void Rotate()
+	{
+		_rb.MoveRotation(Quaternion.LookRotation((_target.position - transform.position).normalized, Vector3.up));
+	}
+
+	protected virtual void Move()
+	{
+		_rb.velocity = transform.right * _speed;
 	}
 }

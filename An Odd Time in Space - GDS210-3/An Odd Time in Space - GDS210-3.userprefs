@@ -2,12 +2,12 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Enemy\Drones\DroneController.cs">
     <Files>
-      <File FileName="Assets\Scripts\Reload\BaseReload.cs" Line="5" Column="17" />
-      <File FileName="Assets\Scripts\Reload\AutoFireReload.cs" Line="36" Column="3" />
-      <File FileName="Assets\Scripts\Reload\RandomAutoFireReload.cs" Line="8" Column="1" />
-      <File FileName="Assets\Scripts\Enemy\BaseEnemyController.cs" Line="6" Column="8" />
-      <File FileName="Assets\Scripts\Enemy\Drones\DroneController.cs" Line="30" Column="2" />
-      <File FileName="Assets\Scripts\Enemy\Drones\LaserDrone\LaserDrone.cs" Line="10" Column="3" />
+      <File FileName="Assets\Scripts\Reload\BaseReload.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Reload\AutoFireReload.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Reload\RandomAutoFireReload.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Enemy\BaseEnemyController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Enemy\Drones\DroneController.cs" Line="37" Column="38" />
+      <File FileName="Assets\Scripts\Enemy\Drones\LaserDrone\LaserDrone.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
