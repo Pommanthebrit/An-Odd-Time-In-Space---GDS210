@@ -18,13 +18,14 @@ public class DroneController : BaseEnemyController, IReload
 	// Instantiates a projectile.
 	public virtual void Shoot()
 	{
-		Instantiate(_projectilePrefab, transform.position, transform.rotation);
-		Invoke("Shoot", _shootDelay);
+		Instantiate(_projectilePrefab, transform.position, transform.rotation).GetComponent<Projectile>()._source = this.gameObject;
+		Invoke("Shoot", _shootDelay); // Repeats method.
 	}
 
+	// Initialsation.
 	protected override void Start ()
 	{
-		base.Start ();
-		Shoot();
+		base.Start (); // Does parent actions.
+		Invoke("Shoot", _shootDelay);
 	}
 }

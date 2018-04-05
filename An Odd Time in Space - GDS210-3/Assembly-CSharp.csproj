@@ -157,6 +157,8 @@
      <Compile Include="Assets\Scripts\Enemy\Drones\DroneController.cs" />
      <Compile Include="Assets\Scripts\Enemy\Drones\LaserDrone\LaserDrone.cs" />
      <Compile Include="Assets\Scripts\Interfaces\IReload.cs" />
+     <Compile Include="Assets\Scripts\Projectiles\Laser.cs" />
+     <Compile Include="Assets\Scripts\Projectiles\Projectile.cs" />
      <Compile Include="Assets\Scripts\Reload\AutoFireReload.cs" />
      <Compile Include="Assets\Scripts\Reload\BaseReload.cs" />
      <Compile Include="Assets\Scripts\Reload\RandomAutoFireReload.cs" />

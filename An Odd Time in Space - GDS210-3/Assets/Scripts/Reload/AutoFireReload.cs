@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "AutoFireReload", menuName = "Reload Mechanisms/Auto Fire", order = 1)]
+[CreateAssetMenu(fileName = "AutoFireReload", menuName = "Reload Mechanisms/Auto Fire", order = 1)] // Creates menu item.
 [System.Serializable]
 public class AutoFireReload : BaseReload
 {
@@ -16,6 +16,7 @@ public class AutoFireReload : BaseReload
 		_reloadLength = reloadLength;
 	}
 
+	// Called on every update.
 	public virtual void ProgressReload()
 	{
 		// Advance time.

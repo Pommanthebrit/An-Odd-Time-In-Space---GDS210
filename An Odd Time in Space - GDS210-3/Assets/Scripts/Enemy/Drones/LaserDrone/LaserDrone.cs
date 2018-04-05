@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+// LaserDrone uncomplete.
 public class LaserDrone : DroneController 
 {
 	private void Update()

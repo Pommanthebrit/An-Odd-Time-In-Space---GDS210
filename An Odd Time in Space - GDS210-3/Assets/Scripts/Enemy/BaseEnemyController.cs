@@ -18,11 +18,11 @@ public class BaseEnemyController : MonoBehaviour
 		_rb = this.gameObject.GetComponent<Rigidbody>();
 	}
 
-	// This function destroys this enemy and instantiates death effect.
+	// Destroys this enemy and instantiates death effect.
 	protected virtual void Die()
 	{
 		Instantiate(_enemyDeathEffect, transform.position, transform.rotation);
-		// Add score.
+		// TO-DO: Add score.
 		Destroy(this.gameObject);
 	}
 
@@ -33,7 +33,7 @@ public class BaseEnemyController : MonoBehaviour
 			TakeHealth();
 		}
 	}
-
+		
 	void TakeHealth()
 	{
 		_health--;
