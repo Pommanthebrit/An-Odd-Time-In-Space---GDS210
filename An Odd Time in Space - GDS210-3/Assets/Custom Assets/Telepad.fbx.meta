@@ -14,7 +14,22 @@ ModelImporter:
     3300000: //RootNode
     4300000: pDisc1
     9500000: //RootNode
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LowerPad
+    second: {fileID: 2100000, guid: ec77dc0d6cbb9c64186ab5879cffe65c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pillar
+    second: {fileID: 2100000, guid: ec77dc0d6cbb9c64186ab5879cffe65c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RaisePad
+    second: {fileID: 2100000, guid: ec77dc0d6cbb9c64186ab5879cffe65c, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
