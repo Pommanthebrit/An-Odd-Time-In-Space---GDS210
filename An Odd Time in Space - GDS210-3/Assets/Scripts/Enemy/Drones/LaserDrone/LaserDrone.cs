@@ -15,6 +15,7 @@ public class LaserDrone : DroneController
 	{
 		base.Start ();
 
+		// Randomises start direction.
 		if(Random.value < 0.5)
 		{
 			_vertDir = -1;
@@ -33,7 +34,7 @@ public class LaserDrone : DroneController
 		if(_verticalMove)
 		{
 			float currentVertVel = 0;
-			_velToAdd += new Vector3 (0, Mathf.SmoothDamp(_rb.velocity.y, _maxVerticalVelocity, ref currentVertVel, _verticalForce), 0);
+			_velToAdd += new Vector3 (0, Mathf.SmoothDamp(_rb.velocity.y, _vertDir * _maxVerticalVelocity, ref currentVertVel, _verticalForce), 0);
 			print (currentVertVel);
 		}
 
