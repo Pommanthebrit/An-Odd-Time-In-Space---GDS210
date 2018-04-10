@@ -6,8 +6,8 @@
       <File FileName="Assets\Scripts\Reload\AutoFireReload.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Reload\RandomAutoFireReload.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Enemy\BaseEnemyController.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Enemy\Drones\DroneController.cs" Line="63" Column="28" />
-      <File FileName="Assets\Scripts\Enemy\Drones\LaserDrone\LaserDrone.cs" Line="46" Column="34" />
+      <File FileName="Assets\Scripts\Enemy\Drones\DroneController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Enemy\Drones\LaserDrone\LaserDrone.cs" Line="23" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
