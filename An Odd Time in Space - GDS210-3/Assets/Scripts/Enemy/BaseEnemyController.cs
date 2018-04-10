@@ -5,10 +5,16 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody))]
 public class BaseEnemyController : MonoBehaviour 
 {
+	#region "Death Settings"
 	[Header("Death")]
+
 	[SerializeField] protected GameObject _enemyDeathEffect;
+
 	[SerializeField] protected int _health;
+
+	[Tooltip("How much score should be given upon this enemies death")]
 	[SerializeField] protected int _scoreWorth;
+	#endregion
 
 	// Other Variables.
 	protected Rigidbody _rb;
@@ -22,21 +28,22 @@ public class BaseEnemyController : MonoBehaviour
 	protected virtual void Die()
 	{
 		Instantiate(_enemyDeathEffect, transform.position, transform.rotation);
-		// TO-DO: Add score.
+		//TODO: Add score.
 		Destroy(this.gameObject);
 	}
-
+		
 	void OnCollisionEnter(Collision otherCol)
 	{
 		if(otherCol.gameObject.tag == "PlayerProjectile")
 		{
-			TakeHealth();
+			TakeHealth(1);
 		}
 	}
-		
-	void TakeHealth()
+
+	// Takes away health.
+	void TakeHealth(int damage)
 	{
-		_health--;
+		_health -= damage;
 
 		if(_health < 1)
 		{
