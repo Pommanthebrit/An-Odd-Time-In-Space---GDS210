@@ -10,43 +10,34 @@ public class AutoFireReload : BaseReload
 {
 	[SerializeField] private AudioClip _reloadSound;
 	[SerializeField] private float _reloadLength;
-	private int _currentClip;
+	private int _maxClipSize;
 	private float _currentTime;
-
-	// Initialisation.
-	public AutoFireReload(IReload objToReload, float reloadLength)
-	{
-		_objReloading = objToReload;
-		_reloadLength = reloadLength;
-	}
 
 	// Called on every update.
 	public override void ProgressReload()
 	{
-		if(!_reloadPaused)
-		{
-			// Advance time.
-			_currentTime += Time.deltaTime;
-		}
+		// Advance time.
+		_currentTime += Time.deltaTime;
 
 
 		// Check time.
 		if(_currentTime > _reloadLength)
 		{
+			Debug.Log("Time passed.");
 			CompleteReload();
 		}
 	}
 
-	public override void UpdateReload(int _currentClip)
+	public override void UpdateReload(int maxClipSize)
 	{
-		
+		_maxClipSize = maxClipSize;
 	}
 
 	// Completes the reload process.
 	protected override void CompleteReload()
 	{
+		_objReloading.CurrentClipSize = _maxClipSize;
 		_objReloading.Shoot();
 		_currentTime = 0;
-		_reloadPaused = true;
 	}
 }

@@ -11,6 +11,7 @@ public abstract class DroneController : BaseEnemyController, IReload
 
 	[Tooltip("Sets how many bullets can be fired before a reload is required.")]
 	[SerializeField] private int _clipSize;
+	private int _maxClipSize;
 	public int CurrentClipSize{ get; set; }
 
 	[SerializeField] protected GameObject _projectilePrefab;
@@ -60,25 +61,9 @@ public abstract class DroneController : BaseEnemyController, IReload
 			Instantiate(_projectilePrefab, transform.position, transform.rotation).GetComponent<Projectile>()._source = this.gameObject;
 			CurrentClipSize--;
 
-			_reloadingMechanism.UpdateReload(CurrentClipSize);
-
 			if(CurrentClipSize > 0)
 				Invoke("Shoot", _shootDelay);
 		}
-//		if(_currentClipSize > 0)
-//		{
-//			Instantiate(_projectilePrefab, transform.position, transform.rotation).GetComponent<Projectile>()._source = this.gameObject;
-//			_currentClipSize--;
-//
-//			if(_reloadingMechanism._reloadPaused)
-//			{
-//				Invoke("Shoot", _shootDelay); // Repeats method.
-//			}
-//		}
-//		else if(_reloadingMechanism._reloadPaused)
-//		{
-//			_reloadingMechanism._reloadPaused = false;
-//		}
 	}
 
 
@@ -91,6 +76,7 @@ public abstract class DroneController : BaseEnemyController, IReload
 		// Reloading.
 		// Ensures reloading mechanism is setup to reload this drone.
 		_reloadingMechanism._objReloading = this;
+		_reloadingMechanism.UpdateReload(_clipSize);
 		CurrentClipSize = _clipSize;
 	}
 
