@@ -12,4 +12,9 @@ public abstract class BaseReload : ScriptableObject
 	public abstract void ProgressReload();
 
 	public abstract void UpdateReload(int maxClipSize);
+
+	public void Death()
+	{
+		Destroy(this);
+	}
 }

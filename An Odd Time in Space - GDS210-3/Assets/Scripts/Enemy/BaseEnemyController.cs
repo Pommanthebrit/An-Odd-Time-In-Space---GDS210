@@ -16,7 +16,8 @@ public class BaseEnemyController : MonoBehaviour
 	[SerializeField] protected int _scoreWorth;
 	#endregion
 
-	// Other Variables.
+	[Header("Other")]
+	[SerializeField] private GameGod _gg;
 	protected Rigidbody _rb;
 
 	protected virtual void Start()
@@ -27,8 +28,11 @@ public class BaseEnemyController : MonoBehaviour
 	// Destroys this enemy and instantiates death effect.
 	protected virtual void Die()
 	{
-		Instantiate(_enemyDeathEffect, transform.position, transform.rotation);
-		//TODO: Add score.
+//		Instantiate(_enemyDeathEffect, transform.position, transform.rotation);
+		// TODO: Create death effect.
+
+		_gg.AddScore(_scoreWorth);
+
 		Destroy(this.gameObject);
 	}
 		
@@ -38,6 +42,11 @@ public class BaseEnemyController : MonoBehaviour
 		{
 			TakeHealth(1);
 		}
+	}
+
+	void OnMouseDown()
+	{
+		TakeHealth(1);
 	}
 
 	// Takes away health.

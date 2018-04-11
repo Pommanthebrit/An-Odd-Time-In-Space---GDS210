@@ -75,7 +75,7 @@ public abstract class DroneController : BaseEnemyController, IReload
 
 		// Reloading.
 		// Ensures reloading mechanism is setup to reload this drone.
-		_reloadingMechanism._objReloading = this;
+		_reloadingMechanism._objReloading = this.gameObject.GetComponent<DroneController>();
 		_reloadingMechanism.UpdateReload(_clipSize);
 		CurrentClipSize = _clipSize;
 	}
@@ -123,4 +123,7 @@ public abstract class DroneController : BaseEnemyController, IReload
 	{
 		_rb.velocity = _velToAdd;
 	}
+
+	// TODO: Redo reload and shooting mechanics.
+	// FIXME: TEMP Reloading and Shooting mechanicsms need fixing.
 }
