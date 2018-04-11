@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 4bf7080927952994eaeb385420ae64f5
-timeCreated: 1523334878
-licenseType: Pro
+timeCreated: 1523411437
+licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
@@ -9,7 +9,6 @@ ModelImporter:
     400000: //RootNode
     2100000: Wrapper
     2100002: Tin
-    2100004: lambert1
     2300000: //RootNode
     3300000: //RootNode
     4300000: pCylinder1
@@ -24,7 +23,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Wrapper
-    second: {fileID: 2100000, guid: e7bd371d5191089469f65155438d857d, type: 2}
+    second: {fileID: 2100000, guid: ea8a9971ee2a0914d86bb8f8801dd7c7, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
