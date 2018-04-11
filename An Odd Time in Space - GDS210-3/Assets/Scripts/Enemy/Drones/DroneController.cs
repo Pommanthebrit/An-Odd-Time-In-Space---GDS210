@@ -3,10 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(AudioSource))]
-public class DroneController : BaseEnemyController, IReload
+public abstract class DroneController : BaseEnemyController, IReload
 {
 	#region "||||| Basic Shooting Variables |||||"
+	// TODO: Create seperate "mechanic" for shooting which includes reload.
 	[Header("Drone Shooting")]
+
+	[Tooltip("Sets how many bullets can be fired before a reload is required.")]
+	[SerializeField] private int _clipSize;
+	public int CurrentClipSize{ get; set; }
+
 	[SerializeField] protected GameObject _projectilePrefab;
 
 	[Tooltip("Time it takes until next shot is ready. (NOT RELOAD TIME)")]
@@ -49,15 +55,43 @@ public class DroneController : BaseEnemyController, IReload
 	// Instantiates a projectile.
 	public virtual void Shoot()
 	{
-		Instantiate(_projectilePrefab, transform.position, transform.rotation).GetComponent<Projectile>()._source = this.gameObject;
-		Invoke("Shoot", _shootDelay); // Repeats method.
+		if(CurrentClipSize > 0)
+		{
+			Instantiate(_projectilePrefab, transform.position, transform.rotation).GetComponent<Projectile>()._source = this.gameObject;
+			CurrentClipSize--;
+
+			_reloadingMechanism.UpdateReload(CurrentClipSize);
+
+			if(CurrentClipSize > 0)
+				Invoke("Shoot", _shootDelay);
+		}
+//		if(_currentClipSize > 0)
+//		{
+//			Instantiate(_projectilePrefab, transform.position, transform.rotation).GetComponent<Projectile>()._source = this.gameObject;
+//			_currentClipSize--;
+//
+//			if(_reloadingMechanism._reloadPaused)
+//			{
+//				Invoke("Shoot", _shootDelay); // Repeats method.
+//			}
+//		}
+//		else if(_reloadingMechanism._reloadPaused)
+//		{
+//			_reloadingMechanism._reloadPaused = false;
+//		}
 	}
+
 
 	// Initialsation.
 	protected override void Start ()
 	{
-		base.Start (); // Does parent actions.
+		base.Start(); // Does parent actions.
 		Invoke("Shoot", _shootDelay); // Shoots in "_shootDelay" seconds.
+
+		// Reloading.
+		// Ensures reloading mechanism is setup to reload this drone.
+		_reloadingMechanism._objReloading = this;
+		CurrentClipSize = _clipSize;
 	}
 
 	protected virtual void FixedUpdate()
@@ -68,6 +102,15 @@ public class DroneController : BaseEnemyController, IReload
 		CalculateMovement();
 		Rotate();
 		Move();
+	}
+
+	protected virtual void Update()
+	{
+		// Progress's reload mechanism.
+		if(CurrentClipSize < 1)
+		{
+			_reloadingMechanism.ProgressReload();
+		}
 	}
 
 	// Rotate to look at target pos.

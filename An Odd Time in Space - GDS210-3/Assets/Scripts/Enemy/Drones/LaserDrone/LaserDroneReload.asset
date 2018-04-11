@@ -11,4 +11,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cfed6abe97dbf343aaaf8c26e53940c, type: 3}
   m_Name: LaserDroneReload
   m_EditorClassIdentifier: 
-  _reloadLength: 0
+  _reloadPaused: 1
+  _reloadSound: {fileID: 0}
+  _reloadLength: 1
