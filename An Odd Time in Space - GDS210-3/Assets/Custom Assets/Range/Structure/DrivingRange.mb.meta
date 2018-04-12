@@ -4,7 +4,18 @@ timeCreated: 1523423045
 licenseType: Pro
 ModelImporter:
   serializedVersion: 22
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    100000: //RootNode
+    400000: //RootNode
+    2100000: SphereWall
+    2100002: RampWall
+    2100004: OuterShell
+    2100006: RampFloor
+    2100008: RampBack
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: pCube7
+    9500000: //RootNode
   externalObjects: {}
   materials:
     importMaterials: 1

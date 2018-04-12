@@ -361,7 +361,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 525fe280eea815a49b198cbdbd154817, type: 3}
       propertyPath: m_Name
-      value: DrivingRangeFix (1)
+      value: DrivingRange
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 525fe280eea815a49b198cbdbd154817, type: 3}
       propertyPath: m_LocalScale.x
