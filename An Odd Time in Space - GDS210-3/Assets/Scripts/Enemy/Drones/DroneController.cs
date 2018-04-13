@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(AudioSource))]
-public abstract class DroneController : BaseEnemyController, IReload
+public abstract class DroneController : BaseEnemyController, IShoot
 {
 	#region "||||| Basic Shooting Variables |||||"
 	// TODO: Create seperate "mechanic" for shooting which includes reload.
@@ -20,8 +20,11 @@ public abstract class DroneController : BaseEnemyController, IReload
 	[SerializeField] protected float _shootDelay;
 
 	[Tooltip("Select reload mechanism. To create a reload mechanism go to 'Assets/Create/Reload Mechanisms'")]
-	[SerializeField] protected BaseReload _reloadingMechanism;
-	[SerializeField] protected Shoot _shootingMechanism;
+//	[SerializeField] protected BaseReload _reloadingMechanism;
+	[SerializeField] private BaseShoot _shootingMechanism;
+
+	public BaseShoot ShootingMechanism { get; set; }
+	public AudioSource MyAudioSource { get; set; }
 	#endregion
 
 
@@ -54,17 +57,10 @@ public abstract class DroneController : BaseEnemyController, IReload
 	protected Vector3 _velToAdd;
 	#endregion
 
-	// Instantiates a projectile.
-	public virtual void Shoot()
+	// Instantiates an Object at specified position.
+	public virtual void CreateObj(GameObject obj, Vector3 pos)
 	{
-		if(CurrentClipSize > 0)
-		{
-			Instantiate(_projectilePrefab, transform.position, transform.rotation).GetComponent<Projectile>()._source = this.gameObject;
-			CurrentClipSize--;
-
-			if(CurrentClipSize > 0)
-				Invoke("Shoot", _shootDelay);
-		}
+		Instantiate(obj, pos, transform.rotation);
 	}
 
 
@@ -76,9 +72,11 @@ public abstract class DroneController : BaseEnemyController, IReload
 
 		// Reloading.
 		// Ensures reloading mechanism is setup to reload this drone.
-		_reloadingMechanism._objReloading = this.gameObject.GetComponent<DroneController>();
-		_reloadingMechanism.UpdateReload(_clipSize);
+//		_reloadingMechanism._objReloading = this.gameObject.GetComponent<DroneController>();
+//		_reloadingMechanism.UpdateReload(_clipSize);
 		CurrentClipSize = _clipSize;
+
+		_shootingMechanism.Setup(this);
 	}
 
 	protected virtual void FixedUpdate()
@@ -96,7 +94,7 @@ public abstract class DroneController : BaseEnemyController, IReload
 		// Progress's reload mechanism.
 		if(CurrentClipSize < 1)
 		{
-			_reloadingMechanism.ProgressReload();
+//			_reloadingMechanism.ProgressReload();
 		}
 	}
 
