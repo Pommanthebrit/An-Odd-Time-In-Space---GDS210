@@ -21,6 +21,7 @@ public abstract class DroneController : BaseEnemyController, IReload
 
 	[Tooltip("Select reload mechanism. To create a reload mechanism go to 'Assets/Create/Reload Mechanisms'")]
 	[SerializeField] protected BaseReload _reloadingMechanism;
+	[SerializeField] protected Shoot _shootingMechanism;
 	#endregion
 
 
