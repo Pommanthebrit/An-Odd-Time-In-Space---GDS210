@@ -22,7 +22,6 @@ public abstract class DroneController : BaseEnemyController, IShoot
 	[Tooltip("test")]
 //	[SerializeField] protected BaseReload _reloadingMechanism;
 	public BaseShoot _shootingMechanism;
-	[SerializeField] protected BaseReload _testl;
 
 	public BaseShoot ShootingMechanism { get; set; }
 	public AudioSource MyAudioSource { get; set; }

@@ -2,7 +2,7 @@
 using UnityEditor;
 
 [CustomEditor(typeof(LaserDrone))]
-public class ExampleWindow : Editor
+public class ShootingMechanicEditor: Editor
 {
 	
 	#region "Blog"

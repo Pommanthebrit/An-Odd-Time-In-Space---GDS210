@@ -232,7 +232,7 @@ MonoBehaviour:
   _projectilePrefab: {fileID: 1413678241382792, guid: 2ae727c82d830584c8bb18e178f1028b,
     type: 2}
   _shootDelay: 2
-  _shootingMechanism: {fileID: 11400000, guid: dec5170a1f883bd4aaafada49ea5e15e, type: 2}
+  _shootingMechanism: {fileID: 0}
   _testl: {fileID: 0}
   _hoverSound: {fileID: 0}
   _target: {fileID: 1884115863}
