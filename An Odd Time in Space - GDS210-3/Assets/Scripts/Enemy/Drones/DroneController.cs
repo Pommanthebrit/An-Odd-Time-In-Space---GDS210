@@ -19,15 +19,19 @@ public abstract class DroneController : BaseEnemyController, IShoot
 	[Tooltip("Time it takes until next shot is ready. (NOT RELOAD TIME)")]
 	[SerializeField] protected float _shootDelay;
 
-	[Tooltip("Select reload mechanism. To create a reload mechanism go to 'Assets/Create/Reload Mechanisms'")]
+	[Tooltip("test")]
 //	[SerializeField] protected BaseReload _reloadingMechanism;
-	[SerializeField] private BaseShoot _shootingMechanism;
+	public BaseShoot _shootingMechanism;
+	[SerializeField] protected BaseReload _testl;
 
 	public BaseShoot ShootingMechanism { get; set; }
 	public AudioSource MyAudioSource { get; set; }
 	#endregion
 
-
+//	void OnEnable()
+//	{
+//		_shootingMechanism = ScriptableObject.CreateInstance<BaseShoot>();
+//	}
 
 	#region "||||| Audio Settings |||||"
 	[Header("Drone Audio")]

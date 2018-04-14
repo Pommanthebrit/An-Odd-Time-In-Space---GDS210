@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BaseReloadShoot : BaseShoot 
+[System.Serializable]
+[CreateAssetMenu(fileName = "DATA_ShootingMechanism", menuName = "Shooting Mechanisms/Base Reload")]
+public class BaseReloadShoot : BaseShoot, IShootMech
 {
 	public bool _hasInfiniteAmmo;
 	public int _ammo;
@@ -11,6 +13,7 @@ public class BaseReloadShoot : BaseShoot
 	[SerializeField] private float _reloadDuration;
 
 	private float _reloadTime;
+	private bool _isReloading;
 
 	public override void Shoot()
 	{
@@ -21,11 +24,11 @@ public class BaseReloadShoot : BaseShoot
 		}
 		else if(_ammo > 0)
 		{
-			_reloadTime += _reloadDuration;
+			StartReload();
 		}
 		else if(_hasInfiniteAmmo)
 		{
-			_reloadTime += _reloadDuration;
+			StartReload();
 		}
 		else
 		{
@@ -33,12 +36,35 @@ public class BaseReloadShoot : BaseShoot
 		}
 	}
 
-	private void Reload()
+	public override void CheckAlarms()
+	{
+		base.CheckAlarms();
+
+		if(_reloadTime < _currentTime && _isReloading)
+		{
+			FinishReload();
+		}
+	}
+
+	public void StartReload()
+	{
+		_reloadTime += _reloadDuration;
+		_isReloading = true;
+	}
+
+	public void FinishReload()
 	{
 		if(_ammo > _maxClipSize)
 		{
 			_ammo -= _maxClipSize;
 			_currentClip = _maxClipSize;
 		}
+		else
+		{
+			_currentClip = _ammo;
+			_ammo = 0;
+		}
+
+		_isReloading = false;
 	}
 }

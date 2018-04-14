@@ -1,21 +1,22 @@
-﻿using System.Timers;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 [System.Serializable]
-public class BaseShoot
+[CreateAssetMenu(fileName = "DATA_ShootingMechanism", menuName = "Shooting Mechanisms/BaseShoot", order = 1)] // Creates menu item.
+public class BaseShoot : ScriptableObject, IShootMech
 {
+	[Header("Test")]
 	[SerializeField] protected GameObject _projectilePrefab;
 	[SerializeField] protected AudioClip _shootSound;
 	[SerializeField] protected int _shootDelay;
 
 	[SerializeField] protected Transform _projectileSpawnPos;
-	private bool _canShoot;
+	protected bool _canShoot = true;
 
 	protected IShoot _objShooting;
 
-	private float _currentTime;
+	protected float _currentTime;
 	private float _shootReadyTime;
 
 
