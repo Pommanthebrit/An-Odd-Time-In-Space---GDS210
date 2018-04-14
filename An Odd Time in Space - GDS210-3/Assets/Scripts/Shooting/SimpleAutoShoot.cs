@@ -4,9 +4,8 @@ using UnityEngine;
 
 [System.Serializable]
 [CreateAssetMenu(fileName = "DATA_ShootingMechanism", menuName = "Shooting Mechanisms/Simple Auto")]
-public class SimpleAutoShoot : BaseShoot, IShootMech
+public class SimpleAutoShoot : BaseShoot
 {
-	
 	public override void CheckAlarms()
 	{
 		base.CheckAlarms();

@@ -4,8 +4,5 @@ using UnityEngine;
 
 public class HouseholdDrone : DroneController
 {
-	protected override void Start ()
-	{
-		base.Start();
-	}
+	// Slow right velocity as shootReady goes down.
 }

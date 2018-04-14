@@ -4,27 +4,42 @@ using UnityEngine;
 
 [System.Serializable]
 [CreateAssetMenu(fileName = "DATA_ShootingMechanism", menuName = "Shooting Mechanisms/BaseShoot", order = 1)] // Creates menu item.
-public class BaseShoot : ScriptableObject, IShootMech
+public class BaseShoot : ScriptableObject
 {
-	[Header("Test")]
+	#region "Base Settings"
+	[Header("Base Shooting Settings")]
+
+	[Tooltip("The projectile which will be spawned on the Shoot fucntion.")]
 	[SerializeField] protected GameObject _projectilePrefab;
+
+	[Tooltip("This sound clip will play upon firing and is attached to the shooter.")]
 	[SerializeField] protected AudioClip _shootSound;
+
+	[Tooltip("Time it takes until next shot is ready. (NOT RELOAD TIME)")]
 	[SerializeField] protected int _shootDelay;
 
-	[SerializeField] protected Transform _projectileSpawnPos;
+//	[SerializeField] protected Transform _projectileSpawnPos;
 	protected bool _canShoot = true;
+	#endregion
 
-	protected IShoot _objShooting;
+	#region "Other Variables"
+	// References.
+	protected GameObject _parentObj;
+	protected IShoot _parentScript;
 
+	// Alarms.
 	protected float _currentTime;
 	private float _shootReadyTime;
+	#endregion
 
-
-	public virtual void Setup(IShoot objShooting)
+	// Setups the shooting mechanic.
+	public virtual void Setup(GameObject parentObj)
 	{
-		_objShooting = objShooting;
+		_parentObj = parentObj;
+		_parentScript = _parentObj.GetComponent<IShoot>();
 	}
 
+	// Calls every frame. Ticks time for timers.
 	public virtual void Update()
 	{
 		_currentTime += Time.deltaTime;
@@ -32,6 +47,7 @@ public class BaseShoot : ScriptableObject, IShootMech
 		CheckAlarms();
 	}
 
+	// This functions serves as an event handler. (Handles timers eg. shoot ready time.)
 	public virtual void CheckAlarms()
 	{
 		if(_shootReadyTime < _currentTime)
@@ -40,20 +56,21 @@ public class BaseShoot : ScriptableObject, IShootMech
 		}
 	}
 
+	/* Creates projectile
+	 * Plays audio
+	 * Ensures shooting is disabled
+	 * Sets timer
+	 */
 	public virtual void Shoot()
 	{
 		if(_canShoot)
 		{
-			_objShooting.CreateObj(_projectilePrefab, _projectileSpawnPos.position);
-			_objShooting.MyAudioSource.PlayOneShot(_shootSound);
+			// Creates the projectile at given position. (Consider Revising)
+			_parentScript.CreateObj(_projectilePrefab, _parentObj.transform.position);
+//			_objShooting.MyAudioSource.PlayOneShot(_shootSound);
 
 			_canShoot = false;
 			_shootReadyTime = _currentTime + _shootDelay;
 		}
 	}
-
-//	protected virtual void EnableShooting()
-//	{
-//		Debug.Log(_canShoot);
-//	}
 }

@@ -6,18 +6,7 @@ using UnityEngine;
 public abstract class DroneController : BaseEnemyController, IShoot
 {
 	#region "||||| Basic Shooting Variables |||||"
-	// TODO: Create seperate "mechanic" for shooting which includes reload.
 	[Header("Drone Shooting")]
-
-	[Tooltip("Sets how many bullets can be fired before a reload is required.")]
-	[SerializeField] private int _clipSize;
-	private int _maxClipSize;
-	public int CurrentClipSize{ get; set; }
-
-	[SerializeField] protected GameObject _projectilePrefab;
-
-	[Tooltip("Time it takes until next shot is ready. (NOT RELOAD TIME)")]
-	[SerializeField] protected float _shootDelay;
 
 	[Tooltip("test")]
 //	[SerializeField] protected BaseReload _reloadingMechanism;
@@ -26,11 +15,6 @@ public abstract class DroneController : BaseEnemyController, IShoot
 	public BaseShoot ShootingMechanism { get; set; }
 	public AudioSource MyAudioSource { get; set; }
 	#endregion
-
-//	void OnEnable()
-//	{
-//		_shootingMechanism = ScriptableObject.CreateInstance<BaseShoot>();
-//	}
 
 	#region "||||| Audio Settings |||||"
 	[Header("Drone Audio")]
@@ -42,8 +26,6 @@ public abstract class DroneController : BaseEnemyController, IShoot
 
 	protected AudioSource _audioSource;
 	#endregion
-
-
 
 	#region "||||| Movement Variables |||||"
 	[Header("Movement")]
@@ -70,16 +52,11 @@ public abstract class DroneController : BaseEnemyController, IShoot
 	// Initialsation.
 	protected override void Start ()
 	{
+		_shootingMechanism = ScriptableObject.Instantiate(_shootingMechanism);
+
 		base.Start(); // Does parent actions.
-		Invoke("Shoot", _shootDelay); // Shoots in "_shootDelay" seconds.
 
-		// Reloading.
-		// Ensures reloading mechanism is setup to reload this drone.
-//		_reloadingMechanism._objReloading = this.gameObject.GetComponent<DroneController>();
-//		_reloadingMechanism.UpdateReload(_clipSize);
-		CurrentClipSize = _clipSize;
-
-		_shootingMechanism.Setup(this);
+		_shootingMechanism.Setup(this.gameObject);
 	}
 
 	protected virtual void FixedUpdate()
@@ -94,11 +71,7 @@ public abstract class DroneController : BaseEnemyController, IShoot
 
 	protected virtual void Update()
 	{
-		// Progress's reload mechanism.
-		if(CurrentClipSize < 1)
-		{
-//			_reloadingMechanism.ProgressReload();
-		}
+		_shootingMechanism.Update();
 	}
 
 	// Rotate to look at target pos.
@@ -125,7 +98,4 @@ public abstract class DroneController : BaseEnemyController, IShoot
 	{
 		_rb.velocity = _velToAdd;
 	}
-
-	// TODO: Redo reload and shooting mechanics.
-	// FIXME: TEMP Reloading and Shooting mechanicsms need fixing.
 }
