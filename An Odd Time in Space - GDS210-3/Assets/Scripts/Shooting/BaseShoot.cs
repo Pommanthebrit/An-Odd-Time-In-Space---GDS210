@@ -16,7 +16,7 @@ public class BaseShoot : ScriptableObject
 	[SerializeField] protected AudioClip _shootSound;
 
 	[Tooltip("Time it takes until next shot is ready. (NOT RELOAD TIME)")]
-	public int _shootDelay;
+	public float _shootDelay;
 
 //	[SerializeField] protected Transform _projectileSpawnPos;
 	protected bool _canShoot = true;
