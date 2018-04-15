@@ -206,6 +206,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _birthClip: {fileID: 0}
   _deathClip: {fileID: 0}
-  _lifeSpan: 5
+  _lifeSpan: 10
   _source: {fileID: 0}
   _speed: 1.1
