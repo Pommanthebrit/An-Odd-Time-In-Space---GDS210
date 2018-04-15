@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: dfe25e6f75deb914c845d849056ca9ba
-timeCreated: 1523774857
+guid: 66ed4ca1f5d300944af9094267761ec9
+timeCreated: 1523772096
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
@@ -8,90 +8,40 @@ ModelImporter:
     100000: //RootNode
     100002: pCube1
     100004: pCube2
-    100006: pCube3
-    100008: pCube4
-    100010: pCylinder1
-    100012: pCylinder2
-    100014: pCylinder4
-    100016: polySurface2
-    100018: polySurface2 1
-    100020: polySurface3
-    100022: transform1
-    100024: transform2
-    100026: transform3
-    100028: transform4
-    100030: transform5
-    100032: transform6
-    100034: window1:HUB:pCube1
-    100036: window2:HUB1:pCube1
+    100006: pCylinder2
     400000: //RootNode
     400002: pCube1
     400004: pCube2
-    400006: pCube3
-    400008: pCube4
-    400010: pCylinder1
-    400012: pCylinder2
-    400014: pCylinder4
-    400016: polySurface2
-    400018: polySurface2 1
-    400020: polySurface3
-    400022: transform1
-    400024: transform2
-    400026: transform3
-    400028: transform4
-    400030: transform5
-    400032: transform6
-    400034: window1:HUB:pCube1
-    400036: window2:HUB1:pCube1
-    2100000: Window
+    400006: pCylinder2
+    2100000: Base
     2100002: lambert1
-    2100004: Walls
-    2100006: WindowInnerRim
-    2100008: Flooring
-    2100010: WindowRim
-    2100012: OuterEasterEgg
-    2100014: FloorLookout
-    2300000: pCube4
-    2300002: pCylinder2
-    2300004: polySurface2
-    2300006: window1:HUB:pCube1
-    2300008: window2:HUB1:pCube1
-    3300000: pCube4
-    3300002: pCylinder2
-    3300004: polySurface2
-    3300006: window1:HUB:pCube1
-    3300008: window2:HUB1:pCube1
-    4300000: window1:HUB:pCube1
-    4300002: window2:HUB1:pCube1
+    2100004: FabricOutline
+    2100006: Fabric
+    2300000: pCube1
+    2300002: pCube2
+    2300004: pCylinder2
+    3300000: pCube1
+    3300002: pCube2
+    3300004: pCylinder2
+    4300000: pCube1
+    4300002: pCube2
     4300004: pCylinder2
-    4300006: polySurface2
-    4300008: pCube4
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: FloorLookout
-    second: {fileID: 2100000, guid: fe01622095cdea04cb326a3a67c0a9cb, type: 2}
+      name: Base
+    second: {fileID: 2100000, guid: 9eab4d2edffdb5e4687870dd8b050547, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Flooring
-    second: {fileID: 2100000, guid: 935958bc5f5fdbf4b95a58d4eba8038e, type: 2}
+      name: Fabric
+    second: {fileID: 2100000, guid: 584da0e05f13b5640a920456001e8f31, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: OuterEasterEgg
-    second: {fileID: 2100000, guid: e0a9e8b1e8238494190b5dce0a3ff8c4, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: WindowInnerRim
-    second: {fileID: 2100000, guid: 8f9b94e64e835cc47a2f4274b6b440da, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: WindowRim
-    second: {fileID: 2100000, guid: dd62fc965318db145a69c6bb7644ec7a, type: 2}
+      name: FabricOutline
+    second: {fileID: 2100000, guid: 0279528f882c8c544b04685213695e9c, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
