@@ -17,7 +17,7 @@ public class BaseEnemyController : MonoBehaviour
 	#endregion
 
 	[Header("Other")]
-	[SerializeField] private GameGod _gg;
+	public GameGod _gg;
 	protected Rigidbody _rb;
 
 	protected virtual void Start()
@@ -32,8 +32,9 @@ public class BaseEnemyController : MonoBehaviour
 		// TODO: Create death effect.
 
 		_gg.AddScore(_scoreWorth);
+		_gg._currentEnemyCount--;
 
-		Destroy(this.gameObject);
+		this.gameObject.SetActive(false);
 	}
 		
 	void OnCollisionEnter(Collision otherCol)

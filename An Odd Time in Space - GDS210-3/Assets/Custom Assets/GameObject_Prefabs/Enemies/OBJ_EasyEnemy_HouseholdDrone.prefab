@@ -22,11 +22,12 @@ GameObject:
   - component: {fileID: 33317969991131860}
   - component: {fileID: 135299716120470388}
   - component: {fileID: 23017631605845326}
-  - component: {fileID: 114574485819092166}
   - component: {fileID: 54246126632780102}
+  - component: {fileID: 114247243709644166}
+  - component: {fileID: 82095464742450320}
   m_Layer: 8
-  m_Name: OBJ_Enemy_TestDrone
-  m_TagString: Untagged
+  m_Name: OBJ_EasyEnemy_HouseholdDrone
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -100,7 +101,87 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 96
   m_CollisionDetection: 0
---- !u!114 &114574485819092166
+--- !u!82 &82095464742450320
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1246296127564054}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!114 &114247243709644166
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -108,26 +189,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 1246296127564054}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b0b1e2a2a7277144a535d3b28761ef7, type: 3}
+  m_Script: {fileID: 11500000, guid: 91e6161e9cb04c24082894db4b55c235, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _enemyDeathEffect: {fileID: 0}
-  _health: 0
-  _scoreWorth: 0
+  _health: 3
+  _scoreWorth: 20
   _gg: {fileID: 0}
-  _clipSize: 0
-  _projectilePrefab: {fileID: 1413678241382792, guid: 2ae727c82d830584c8bb18e178f1028b,
-    type: 2}
-  _shootDelay: 2
-  _shootingMechanism: {fileID: 11400000, guid: 1e5424042eb4ba54fa1edc9048626c2e, type: 2}
+  _shootingMechanism: {fileID: 11400000, guid: 0372407f3628c704c83e5886d426cdaf, type: 2}
   _hoverSound: {fileID: 0}
   _target: {fileID: 0}
   _moveRight: 1
-  _speed: 1
-  _verticalMove: 1
-  _smoothTime: 0.3
-  _maxVerticalVelocity: 2
-  _accuracyMeasure: 0
+  _speed: 0.8
+  _slowStartPercentage: 0.25
 --- !u!135 &135299716120470388
 SphereCollider:
   m_ObjectHideFlags: 1

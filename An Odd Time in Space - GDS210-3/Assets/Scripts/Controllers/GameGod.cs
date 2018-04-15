@@ -11,13 +11,15 @@ public class GameGod : MonoBehaviour
 	private int _highscore;
 	private AudioSource _myAudioSource;
 
+	public int _currentEnemyCount;
+
 	void Start()
 	{
 		
-		if(GameObject.FindGameObjectWithTag("GameGod") != null)
-			Destroy (this.gameObject);
-		else
-			DontDestroyOnLoad(this.gameObject);
+//		if(GameObject.FindGameObjectWithTag("GameGod") != null)
+//			Destroy (this.gameObject);
+//		else
+//			DontDestroyOnLoad(this.gameObject);
 
 		_myAudioSource = GetComponent<AudioSource>();
 		// TODO: Add music functionality. (Possibly between scenes.)
