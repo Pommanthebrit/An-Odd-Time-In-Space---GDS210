@@ -42,6 +42,17 @@ public abstract class DroneController : BaseEnemyController, IShoot
 	protected Vector3 _velToAdd;
 	#endregion
 
+	void OnEnable()
+	{
+		if(_shootingMechanism == null)
+			_shootingMechanism = ScriptableObject.CreateInstance<SimpleAutoShoot>();
+	}
+
+	void Awake()
+	{
+		_shootingMechanism = ScriptableObject.Instantiate(_shootingMechanism);
+	}
+
 	// Instantiates an Object at specified position.
 	public virtual void CreateObj(GameObject obj, Vector3 pos)
 	{
@@ -52,7 +63,7 @@ public abstract class DroneController : BaseEnemyController, IShoot
 	// Initialsation.
 	protected override void Start ()
 	{
-		_shootingMechanism = ScriptableObject.Instantiate(_shootingMechanism);
+//		_shootingMechanism = ScriptableObject.Instantiate(_shootingMechanism);
 
 		base.Start(); // Does parent actions.
 

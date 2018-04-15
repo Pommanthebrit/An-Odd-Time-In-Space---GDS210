@@ -24,10 +24,10 @@ public class DroneCtrlEditor : Editor
 			_editor = Editor.CreateEditor(droneCtrl._shootingMechanism);
 		}
 
+		serializedObject.ApplyModifiedProperties(); // Applies properties to scriptable object.
+
 		base.OnInspectorGUI(); // Applies original inspector GUI.
 
 		_editor.DrawDefaultInspector(); // Applies our addition.
-
-		serializedObject.ApplyModifiedProperties(); // Applies properties to scriptable object.
 	}
 }
