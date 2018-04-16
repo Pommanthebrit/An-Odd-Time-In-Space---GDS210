@@ -14,11 +14,16 @@ public class DemiDroneSpawner : BaseDemiSpawner
 	private GameObject _player;
 	private Vector3 _startPos;
 
-	protected override void Start()
+	protected override void Awake()
 	{
 		_player = GameObject.FindGameObjectWithTag("Player");
 		_startPos = transform.position;
 
+		base.Awake();
+	}
+
+	protected override void Start()
+	{
 		StartCoroutine(VerticalTeleport());
 
 		StartCoroutine(ControlSpawning());
@@ -34,17 +39,17 @@ public class DemiDroneSpawner : BaseDemiSpawner
 		drone._target = _player.transform;
 	}
 
-	private void Update()
+	private void FixedUpdate()
 	{
 		transform.LookAt(_player.transform, Vector3.up);
-		transform.Translate(transform.right * Time.deltaTime);
+		transform.Translate(5f * Time.fixedDeltaTime, 0f, 0, Space.Self);
 	}
 
 	IEnumerator VerticalTeleport()
 	{
 		while(true)
 		{
-			transform.position += new Vector3(0, Random.Range(-_maxVerticalDisTeleport, _maxVerticalDisTeleport));
+			transform.position = new Vector3(transform.position.x, _startPos.y, transform.position.z) + new Vector3(0, Random.Range(-_maxVerticalDisTeleport, _maxVerticalDisTeleport));
 
 			yield return new WaitForSeconds(_timeTillVerticalTeleport);
 		}
@@ -52,15 +57,25 @@ public class DemiDroneSpawner : BaseDemiSpawner
 
 	IEnumerator ControlSpawning()
 	{
-		while(true)
-		{
-			// TODO: Add Drone Spawn Effect.
+		// FIXME: Will create effect however no object if object pool is totaly in use.
 
-			yield return new WaitForSeconds(_spawnEffectDuration); // Temp.
+		yield return new WaitForSeconds(_spawnRate);
 
-			AttemptSpawnObj();
+		// Repeats indefinetly;
+		while(true) {
+			print("Went Through");
+			// Creates spawn effect.
+			GameObject spawnEffect = Instantiate(_spawnEffectPrefab, transform.position, transform.rotation);
+
+			// Stops code from going further if spawn effect is still active.
+			while(spawnEffect != null) {
+				yield return null;
+			}
+
+			print("Went Through Again");
 
 			yield return new WaitForSeconds(_spawnRate);
 		}
+
 	}
 }

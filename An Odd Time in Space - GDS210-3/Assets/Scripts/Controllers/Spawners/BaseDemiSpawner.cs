@@ -13,7 +13,7 @@ public abstract class BaseDemiSpawner : MonoBehaviour
 
 	List<GameObject> _pooledObjects;
 
-	protected virtual void Start()
+	protected virtual void Awake()
 	{
 		_pooledObjects = new List<GameObject>();
 		// Setup object pool.
@@ -21,6 +21,10 @@ public abstract class BaseDemiSpawner : MonoBehaviour
 		{
 			AddObjectToPool(_pooledObj);
 		}
+	}
+
+	protected virtual void Start()
+	{
 	}
 
 	protected virtual void CheckAndSetupEnemy(GameObject obj)
@@ -56,7 +60,7 @@ public abstract class BaseDemiSpawner : MonoBehaviour
 		return obj;
 	}
 
-	public virtual void AttemptSpawnObj()
+	public virtual bool AttemptSpawnObj()
 	{
 		GameObject obj = GetPooledObject();
 		if(obj != null)
@@ -64,7 +68,10 @@ public abstract class BaseDemiSpawner : MonoBehaviour
 			obj.transform.position = transform.position;
 			obj.transform.rotation = transform.rotation;
 			obj.SetActive(true);
+			return true;
 		}
+
+		return false;
 	}
 
 	// TODO: Create timer class and replace old timers.
