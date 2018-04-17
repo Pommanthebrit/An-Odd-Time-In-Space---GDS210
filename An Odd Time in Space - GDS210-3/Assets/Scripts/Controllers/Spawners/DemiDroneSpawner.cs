@@ -63,7 +63,6 @@ public class DemiDroneSpawner : BaseDemiSpawner
 
 		// Repeats indefinetly;
 		while(true) {
-			print("Went Through");
 			// Creates spawn effect.
 			GameObject spawnEffect = Instantiate(_spawnEffectPrefab, transform.position, transform.rotation);
 
@@ -71,8 +70,6 @@ public class DemiDroneSpawner : BaseDemiSpawner
 			while(spawnEffect != null) {
 				yield return null;
 			}
-
-			print("Went Through Again");
 
 			yield return new WaitForSeconds(_spawnRate);
 		}

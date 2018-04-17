@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65678b3f447fec44faef3acede2e298d, type: 3}
   m_Name: DATA_Easy_RandomLaserDrone
   m_EditorClassIdentifier: 
-  _projectilePrefab: {fileID: 1595763142309440, guid: 9fcb417b98db3a84ab58c4295f00acee,
+  _projectilePrefab: {fileID: 1039634795759406, guid: bd237825a32cb3841b19091b39d3c38c,
     type: 2}
   _shootSound: {fileID: 0}
   _shootDelay: 4

@@ -2,7 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[System.Serializable]
+/* Scriptable object: can be created from asset menu
+ * Handles reloading (ready for inheritance).
+ * Does not shoot on its own.
+ */
 [CreateAssetMenu(fileName = "DATA_ShootingMechanism", menuName = "Shooting Mechanisms/Base Reload")]
 public class BaseReloadShoot : BaseShoot
 {
@@ -33,6 +36,7 @@ public class BaseReloadShoot : BaseShoot
 	private bool _isReloading;
 	#endregion
 
+	// Handles shooting.
 	public override void Shoot()
 	{
 		/* Shoots if there is ammo left in the clip
@@ -59,6 +63,7 @@ public class BaseReloadShoot : BaseShoot
 		}
 	}
 
+	// Checks if any set timers require actions.
 	public override void CheckAlarms()
 	{
 		base.CheckAlarms();

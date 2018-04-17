@@ -1,8 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Scripting;
 
-[System.Serializable]
+/* BaseShoot is a scriptable object and can be created from the create asset menu.
+ * Controls basic shooting setting (ready for inheritance).
+ * Does not shoot on its own.
+ */
 [CreateAssetMenu(fileName = "DATA_ShootingMechanism", menuName = "Shooting Mechanisms/BaseShoot", order = 1)] // Creates menu item.
 public class BaseShoot : ScriptableObject
 {
@@ -18,18 +22,19 @@ public class BaseShoot : ScriptableObject
 	[Tooltip("Time it takes until next shot is ready. (NOT RELOAD TIME)")]
 	public float _shootDelay;
 
-//	[SerializeField] protected Transform _projectileSpawnPos;
 	protected bool _canShoot = true;
 	#endregion
 
 	#region "Other Variables"
+	[Space]
+	[SerializeField] private GameObject _shootEffect;
 	// References.
 	protected GameObject _parentObj;
-	protected IShoot _parentScript;
+	protected IShoot _parentScript; // Interface that implements shooting critera (See IShoot for more details)
 
 	// Alarms.
-	public float _currentTime;
-	public float _shootReadyTime;
+	[HideInInspector] public float _currentTime;
+	[HideInInspector] public float _shootReadyTime;
 	#endregion
 
 	// Setups the shooting mechanic.
@@ -68,9 +73,17 @@ public class BaseShoot : ScriptableObject
 			// Creates the projectile at given position. (Consider Revising)
 			_parentScript.CreateObj(_projectilePrefab, _parentObj.transform.position);
 //			_objShooting.MyAudioSource.PlayOneShot(_shootSound);
+			// TODO: Finish sounds here.
+			// TODO: Shoot from gun point.
+			// FIXME: CreateObj upgrade.
 
 			_canShoot = false;
 			_shootReadyTime = _currentTime + _shootDelay;
 		}
+	}
+
+	private void CreateEffect()
+	{
+		Instantiate(_shootEffect, _parentObj.transform.position, _parentObj.transform.rotation);
 	}
 }

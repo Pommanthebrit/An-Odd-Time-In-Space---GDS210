@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class HouseholdDrone : DroneController
 {
+	// TODO: Comment this script.
 	[SerializeField] private float _slowStartPercentage;
 
 	private float _beginSpeed;
@@ -36,20 +37,6 @@ public class HouseholdDrone : DroneController
 				StartCoroutine(DecreaseSpeed());
 				_decreasingSpeed = true;
 			}
-//			float cVel = 0;
-//			_smoothTime += Time.deltaTime / (_shootingMechanism._shootDelay * _slowStartPercentage);
-//			float newSpeed = Mathf.Lerp(_beginSpeed, 0, _smoothTime);
-//
-//			_speed = newSpeed;
-//			print(_speed);
-//			timePassedSlow = timePassedFromShot - timePassedFromShot * (1 - _slowStartPercentage);
-//			print(timePassedSlow);
-//
-//			_speed = _beginSpeed -  _speed / _shootingMechanism._shootDelay;
-//
-////			if(timePassedFromShot > 0)
-//				
-//			print(_speed);
 		}
 		else if(_speed == 0 && !_decreasingSpeed)
 		{
@@ -61,13 +48,7 @@ public class HouseholdDrone : DroneController
 				StartCoroutine(IncreaseSpeed());
 				_increasingSpeed = true;
 			}
-//			if(timePassedFromShot > 0)
-//				_speed = 0 + timePassedFromShot / _beginSpeed;
 		}
-
-
-//		if(_speed < 0.01f)
-//			_speed = 0.01f;
 		base.CalculateMovement();
 
 
@@ -75,8 +56,6 @@ public class HouseholdDrone : DroneController
 
 	IEnumerator DecreaseSpeed()
 	{
-		print("Decreasing Speed");
-
 		float smoothTime = 0;
 
 		while(_speed > 0)
@@ -95,8 +74,6 @@ public class HouseholdDrone : DroneController
 
 	IEnumerator IncreaseSpeed()
 	{
-		print("Increasing Speed");
-		
 		float smoothTime = 0;
 
 		while(_speed < _beginSpeed)

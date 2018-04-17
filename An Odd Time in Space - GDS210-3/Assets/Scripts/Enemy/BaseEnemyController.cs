@@ -25,10 +25,10 @@ public class BaseEnemyController : MonoBehaviour
 		_rb = this.gameObject.GetComponent<Rigidbody>();
 	}
 
-	// Destroys this enemy and instantiates death effect.
+	// Returns this enemy to pool and instantiates death effect.
 	protected virtual void Die()
 	{
-//		Instantiate(_enemyDeathEffect, transform.position, transform.rotation);
+		Instantiate(_enemyDeathEffect, transform.position, transform.rotation);
 		// TODO: Create death effect.
 
 		_gg.AddScore(_scoreWorth);
