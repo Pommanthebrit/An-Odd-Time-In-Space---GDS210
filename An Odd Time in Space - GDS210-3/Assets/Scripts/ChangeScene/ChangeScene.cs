@@ -1,16 +1,20 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿// SceneA.
+// SceneA is given the sceneName which will
+// load SceneB from the Build Settings
+
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class ChangeScene : MonoBehaviour {
-
-	// Use this for initialization
-	void Start () {
-		
+public class ChangeScene : MonoBehaviour
+{
+	void Start()
+	{
+		Debug.Log("LoadSceneA");
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		
+
+	public void LoadA(string scenename)
+	{
+		Debug.Log("sceneName to load: " + scenename);
+		SceneManager.LoadScene(scenename);
 	}
 }
