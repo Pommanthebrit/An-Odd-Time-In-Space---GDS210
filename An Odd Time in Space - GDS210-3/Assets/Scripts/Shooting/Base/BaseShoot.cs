@@ -11,23 +11,32 @@ using UnityEngine.Scripting;
 public class BaseShoot : ScriptableObject
 {
 	#region "Base Settings"
-	[Header("Base Shooting Settings")]
+	[Header("Projectile")]
 
 	[Tooltip("The projectile which will be spawned on the Shoot fucntion.")]
 	[SerializeField] protected GameObject _projectilePrefab;
 
-	[Tooltip("This sound clip will play upon firing and is attached to the shooter.")]
-	[SerializeField] protected AudioClip _shootSound;
+	[Tooltip("The location of where the projectile will spawn")]
+	public Transform _projectileSpawnPoint;
 
 	[Tooltip("Time it takes until next shot is ready. (NOT RELOAD TIME)")]
 	public float _shootDelay;
-
-	protected bool _canShoot = true;
 	#endregion
 
-	#region "Other Variables"
-	[Space]
+	#region "Effects"
+	[Header("Effects")]
+
+	[Tooltip("This sound clip will play upon firing and is attached to the shooter.")]
+	[SerializeField] protected AudioClip _shootSound;
+
+	[Tooltip("This will be instantiate at the _projectileSP at relative rotation")]
 	[SerializeField] private GameObject _shootEffect;
+	#endregion
+
+
+	#region "Other Variables"
+	protected bool _canShoot = true;
+
 	// References.
 	protected GameObject _parentObj;
 	protected IShoot _parentScript; // Interface that implements shooting critera (See IShoot for more details)
@@ -42,6 +51,8 @@ public class BaseShoot : ScriptableObject
 	{
 		_parentObj = parentObj;
 		_parentScript = _parentObj.GetComponent<IShoot>();
+
+		// TODO: Remove redunant components (eg. IShoot());
 	}
 
 	// Calls every frame. Ticks time for timers.
@@ -59,6 +70,8 @@ public class BaseShoot : ScriptableObject
 		{
 			_canShoot = true;
 		}
+
+		// TODO: Upgrade alarm handler.
 	}
 
 	/* Creates projectile
@@ -71,19 +84,13 @@ public class BaseShoot : ScriptableObject
 		if(_canShoot)
 		{
 			// Creates the projectile at given position. (Consider Revising)
-			_parentScript.CreateObj(_projectilePrefab, _parentObj.transform.position);
+			Instantiate(_shootEffect, _parentObj.transform.position, _parentObj.transform.rotation);
+			Instantiate(_projectilePrefab, _projectileSpawnPoint.position, _projectileSpawnPoint.rotation);
 //			_objShooting.MyAudioSource.PlayOneShot(_shootSound);
 			// TODO: Finish sounds here.
-			// TODO: Shoot from gun point.
-			// FIXME: CreateObj upgrade.
 
 			_canShoot = false;
 			_shootReadyTime = _currentTime + _shootDelay;
 		}
-	}
-
-	private void CreateEffect()
-	{
-		Instantiate(_shootEffect, _parentObj.transform.position, _parentObj.transform.rotation);
 	}
 }

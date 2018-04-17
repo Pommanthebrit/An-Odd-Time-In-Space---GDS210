@@ -69,6 +69,8 @@ public abstract class BaseDemiSpawner : MonoBehaviour
 			obj.transform.rotation = transform.rotation;
 			obj.SetActive(true);
 			return true;
+
+			// FIXME: Fix objects not being set to active.
 		}
 
 		return false;

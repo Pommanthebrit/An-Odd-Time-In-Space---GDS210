@@ -13,8 +13,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _projectilePrefab: {fileID: 1039634795759406, guid: bd237825a32cb3841b19091b39d3c38c,
     type: 2}
-  _shootSound: {fileID: 0}
+  _projectileSpawnPoint: {fileID: 0}
   _shootDelay: 4
+  _shootSound: {fileID: 0}
+  _shootEffect: {fileID: 1363810707886984, guid: 0a54a1e999b77d74191cf9c227e9e4fa,
+    type: 2}
   _currentTime: 0
   _shootReadyTime: 0
   _maxShootDelay: 3
