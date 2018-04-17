@@ -10,7 +10,7 @@ public class BaseEnemyController : MonoBehaviour
 
 	[SerializeField] protected GameObject _enemyDeathEffect;
 
-	[SerializeField] protected int _health;
+	[SerializeField] protected int _health = 0;
 
 	[Tooltip("How much score should be given upon this enemies death")]
 	[SerializeField] protected int _scoreWorth;
@@ -55,7 +55,7 @@ public class BaseEnemyController : MonoBehaviour
 	{
 		_health -= damage;
 
-		if(_health < 1)
+		if(_health < 1) // TEMP.
 		{
 			Die();
 		}
