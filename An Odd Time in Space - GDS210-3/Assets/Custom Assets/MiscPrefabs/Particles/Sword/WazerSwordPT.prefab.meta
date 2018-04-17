@@ -1,5 +1,7 @@
 fileFormatVersion: 2
 guid: bf35ecf717d64d54aa635e60d625b30f
+labels:
+- Effect
 timeCreated: 1523610864
 licenseType: Free
 NativeFormatImporter:
