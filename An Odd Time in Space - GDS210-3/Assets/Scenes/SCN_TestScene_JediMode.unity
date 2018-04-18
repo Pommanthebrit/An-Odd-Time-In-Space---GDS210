@@ -340,8 +340,9 @@ MonoBehaviour:
   _canGrow: 0
   _maxVerticalDisTeleport: 4
   _timeTillVerticalTeleport: 19
+  _speed: 2
   _spawnEffectDuration: 4
-  _spawnEffectPrefab: {fileID: 1721942050109384, guid: da84f6abb954cf64c8b2cbe9403fdc18,
+  _spawnEffectPrefab: {fileID: 1012534014760942, guid: 3df2596e88d45a840a6a7a6b822c2d75,
     type: 2}
 --- !u!4 &396016236
 Transform:
