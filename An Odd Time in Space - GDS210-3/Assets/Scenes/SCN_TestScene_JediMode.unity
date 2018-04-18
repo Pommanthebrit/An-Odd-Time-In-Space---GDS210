@@ -336,9 +336,9 @@ MonoBehaviour:
   _gg: {fileID: 277952314}
   _spawnRate: 20
   _pooledObjAmount: 3
-  _pooledObj: {fileID: 1068174179815916, guid: 4c81cba8b174cce4e99a389853f171e5, type: 2}
+  _pooledObj: {fileID: 1686091023156718, guid: 4c81cba8b174cce4e99a389853f171e5, type: 2}
   _canGrow: 0
-  _maxVerticalDisTeleport: 2
+  _maxVerticalDisTeleport: 4
   _timeTillVerticalTeleport: 19
   _spawnEffectDuration: 4
   _spawnEffectPrefab: {fileID: 1721942050109384, guid: da84f6abb954cf64c8b2cbe9403fdc18,
@@ -350,7 +350,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 396016234}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10, y: 0, z: -10}
+  m_LocalPosition: {x: 0, y: 5, z: 6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

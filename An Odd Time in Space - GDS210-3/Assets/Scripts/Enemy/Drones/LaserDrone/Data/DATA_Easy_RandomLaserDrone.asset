@@ -13,7 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _projectilePrefab: {fileID: 1039634795759406, guid: bd237825a32cb3841b19091b39d3c38c,
     type: 2}
-  _projectileSpawnPoint: {fileID: 4153908886422356, guid: 4c81cba8b174cce4e99a389853f171e5,
+  _projectileSpawnPoint: {fileID: 1409850376161384, guid: 4c81cba8b174cce4e99a389853f171e5,
     type: 2}
   _shootDelay: 4
   _shootSound: {fileID: 0}

@@ -54,9 +54,8 @@ public class BaseShoot : ScriptableObject
 		_parentScript = _parentObj.GetComponent<IShoot>();
 		_projectileSpawnPos = _projectileSpawnPoint.transform.position;
 		_projectileSpawnPoint = new GameObject ("TRSF_ProjectileSP");
-		_projectileSpawnPoint.transform.SetParent(_parentObj.transform);
 		_projectileSpawnPoint.transform.position = _projectileSpawnPos;
-
+		_projectileSpawnPoint.transform.SetParent(_parentObj.transform);
 		// TODO: Remove redunant components (eg. IShoot());
 	}
 
