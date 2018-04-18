@@ -8,7 +8,8 @@ public class DemiDroneSpawner : BaseDemiSpawner
 	[SerializeField] private float _maxVerticalDisTeleport;
 	[SerializeField] private float _timeTillVerticalTeleport;
 
-	[Header("Spawn Effect")]
+	[Header("Spawn Effect")] 
+	[SerializeField] private float _speed;
 	[SerializeField] private float _spawnEffectDuration;
 	[SerializeField] private GameObject _spawnEffectPrefab;
 	private GameObject _player;
@@ -42,7 +43,7 @@ public class DemiDroneSpawner : BaseDemiSpawner
 	private void FixedUpdate()
 	{
 		transform.LookAt(_player.transform, Vector3.up);
-		transform.Translate(5f * Time.fixedDeltaTime, 0f, 0, Space.Self);
+		transform.position += transform.right * _speed * Time.fixedDeltaTime;
 	}
 
 	IEnumerator VerticalTeleport()
