@@ -17,7 +17,8 @@ public class BaseShoot : ScriptableObject
 	[SerializeField] protected GameObject _projectilePrefab;
 
 	[Tooltip("The location of where the projectile will spawn")]
-	public Transform _projectileSpawnPoint;
+	public GameObject _projectileSpawnPoint;
+	private Vector3 _projectileSpawnPos;
 
 	[Tooltip("Time it takes until next shot is ready. (NOT RELOAD TIME)")]
 	public float _shootDelay;
@@ -51,6 +52,10 @@ public class BaseShoot : ScriptableObject
 	{
 		_parentObj = parentObj;
 		_parentScript = _parentObj.GetComponent<IShoot>();
+		_projectileSpawnPos = _projectileSpawnPoint.transform.position;
+		_projectileSpawnPoint = new GameObject ("TRSF_ProjectileSP");
+		_projectileSpawnPoint.transform.SetParent(_parentObj.transform);
+		_projectileSpawnPoint.transform.position = _projectileSpawnPos;
 
 		// TODO: Remove redunant components (eg. IShoot());
 	}
@@ -59,6 +64,7 @@ public class BaseShoot : ScriptableObject
 	public virtual void Update()
 	{
 		_currentTime += Time.deltaTime;
+		_projectileSpawnPoint.transform.rotation = _parentObj.transform.rotation;
 
 		CheckAlarms();
 	}
@@ -84,8 +90,8 @@ public class BaseShoot : ScriptableObject
 		if(_canShoot)
 		{
 			// Creates the projectile at given position. (Consider Revising)
-			Instantiate(_shootEffect, _parentObj.transform.position, _parentObj.transform.rotation);
-			Instantiate(_projectilePrefab, _projectileSpawnPoint.position, _projectileSpawnPoint.rotation);
+			Instantiate(_shootEffect, _projectileSpawnPoint.transform.position, _projectileSpawnPoint.transform.rotation);
+			Instantiate(_projectilePrefab, _projectileSpawnPoint.transform.position, _projectileSpawnPoint.transform.rotation);
 //			_objShooting.MyAudioSource.PlayOneShot(_shootSound);
 			// TODO: Finish sounds here.
 

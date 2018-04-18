@@ -78,7 +78,7 @@ public class DroneCtrlEditor : Editor
 
 		// Attach transform.
 		GameObject test = (GameObject)prefab;
-		_droneCtrl._shootingMechanism._projectileSpawnPoint = test.transform;
+		_droneCtrl._shootingMechanism._projectileSpawnPoint = test;
 		Debug.Log (_droneCtrl.name + "now has a default projectile SP.\n" +
 			"Transform: " + gObj.transform + "\n" +
 			"Location: " + gObj.transform.position);

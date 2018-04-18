@@ -60,12 +60,12 @@ public abstract class BaseDemiSpawner : MonoBehaviour
 		return obj;
 	}
 
-	public virtual bool AttemptSpawnObj()
+	public virtual bool AttemptSpawnObj(Vector3 spawnPos)
 	{
 		GameObject obj = GetPooledObject();
 		if(obj != null)
 		{
-			obj.transform.position = transform.position;
+			obj.transform.position = spawnPos;
 			obj.transform.rotation = transform.rotation;
 			obj.SetActive(true);
 			return true;
