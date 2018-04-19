@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class GameGod : MonoBehaviour
 {
 	[SerializeField] private AudioClip[] _musicClips;
-	private int _score;
+	public int _score;
 	private int _highscore;
 	private AudioSource _myAudioSource;
 
