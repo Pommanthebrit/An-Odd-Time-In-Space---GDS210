@@ -28,7 +28,7 @@ public class SpawnerGod : MonoBehaviour
 		_hardSpawners = new List<GameObject>();
 		_allSpawners = new List<GameObject> ();
 
-		foreach(BaseDemiSpawner spawner in this.gameObject.GetComponentsInChildren<BaseDemiSpawner>())
+		foreach(BaseDemiSpawner spawner in this.gameObject.GetComponentsInChildren<BaseDemiSpawner>(true))
 		{
 			_allSpawners.Add(spawner.gameObject);
 

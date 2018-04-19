@@ -24,10 +24,6 @@ public abstract class BaseDemiSpawner : MonoBehaviour
 		}
 	}
 
-	protected virtual void Start()
-	{
-	}
-
 	protected virtual void CheckAndSetupEnemy(GameObject obj)
 	{
 		if(obj.tag == "Enemy")

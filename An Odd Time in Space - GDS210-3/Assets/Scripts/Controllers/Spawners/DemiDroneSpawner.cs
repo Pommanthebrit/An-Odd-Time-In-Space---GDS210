@@ -15,21 +15,19 @@ public class DemiDroneSpawner : BaseDemiSpawner
 	private GameObject _player;
 	private Vector3 _startPos;
 
+	void OnEnable()
+	{
+		StartCoroutine(VerticalTeleport());
+
+		StartCoroutine(ControlSpawning());
+	}
+
 	protected override void Awake()
 	{
 		_player = GameObject.FindGameObjectWithTag("Player");
 		_startPos = transform.position;
 
 		base.Awake();
-	}
-
-	protected override void Start()
-	{
-		StartCoroutine(VerticalTeleport());
-
-		StartCoroutine(ControlSpawning());
-
-		base.Start();
 	}
 
 	protected override void CheckAndSetupEnemy(GameObject obj)
