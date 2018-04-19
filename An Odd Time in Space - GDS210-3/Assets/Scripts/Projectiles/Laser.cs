@@ -20,8 +20,6 @@ public class Laser : Projectile {
 
 	protected override void OnCollisionEnter(Collision col)
 	{
-		Debug.LogError("Collision");
-
 		if(col.gameObject != _source)
 		{
 			Die();

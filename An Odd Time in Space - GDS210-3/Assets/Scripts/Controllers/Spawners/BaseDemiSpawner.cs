@@ -6,6 +6,7 @@ public abstract class BaseDemiSpawner : MonoBehaviour
 {
 	public GameGod _gg;
 	public float _spawnRate;
+	public SpawnerGod.SpawnDifficulty _spawnerDifficulty;
 
 	public int _pooledObjAmount;
 	public GameObject _pooledObj;
