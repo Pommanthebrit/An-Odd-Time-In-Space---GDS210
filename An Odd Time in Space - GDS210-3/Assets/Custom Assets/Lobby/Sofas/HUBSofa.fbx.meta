@@ -42,6 +42,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: FabricOutline
     second: {fileID: 2100000, guid: 0279528f882c8c544b04685213695e9c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 9eab4d2edffdb5e4687870dd8b050547, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
