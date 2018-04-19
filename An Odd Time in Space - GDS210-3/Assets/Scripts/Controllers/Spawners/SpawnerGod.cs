@@ -20,10 +20,8 @@ public class SpawnerGod : MonoBehaviour
 		// Add Easy spawners.
 		foreach(BaseDemiSpawner spawner in this.gameObject.GetComponentsInChildren<BaseDemiSpawner>())
 		{
-			switch(spawner.enabled)
+			switch(spawner.)
 			{
-			case true:
-				break;
 			}
 		}
 		// Add Medium spawners.
