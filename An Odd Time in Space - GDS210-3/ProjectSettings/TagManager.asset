@@ -8,6 +8,7 @@ TagManager:
   - FxTemporaire
   - GameGod
   - Enemy
+  - Pourable
   layers:
   - Default
   - TransparentFX

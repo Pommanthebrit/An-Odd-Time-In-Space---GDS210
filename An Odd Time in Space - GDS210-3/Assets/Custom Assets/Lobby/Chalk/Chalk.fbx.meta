@@ -23,7 +23,17 @@ ModelImporter:
     3300000: pCube2
     4300000: pCube2
     9500000: //RootNode
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chalk
+    second: {fileID: 2100000, guid: 3a47b7cdefa241c4a95b01ccb18a14e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wrapper
+    second: {fileID: 2100000, guid: fa847fc647d85144ea2d425de72955c9, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
