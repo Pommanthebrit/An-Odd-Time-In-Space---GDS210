@@ -8,8 +8,9 @@ TagManager:
   - FxTemporaire
   - GameGod
   - Enemy
-  - Pourable
   - Waypoint
+  - Garbage
+  - Item
   layers:
   - Default
   - TransparentFX

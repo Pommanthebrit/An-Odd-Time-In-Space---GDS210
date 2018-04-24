@@ -92,6 +92,7 @@ GameObject:
   - component: {fileID: 114366915381929634}
   - component: {fileID: 114902284544551034}
   - component: {fileID: 64834952141017138}
+  - component: {fileID: 114954892979135308}
   m_Layer: 0
   m_Name: ThrowablePlant
   m_TagString: Untagged
@@ -828,6 +829,8 @@ MonoBehaviour:
   - {fileID: 4954860830895012}
   - {fileID: 4886926164740288}
   - {fileID: 4137187760865728}
+  amountPourable: []
+  pourEmit: {fileID: 0}
 --- !u!114 &114904778938554800
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -837,5 +840,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b93b6a877adcbf94c89a9d6e0c0e844d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114954892979135308
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1403251255617356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e072a6ad871b5fc4da4c1365818e2249, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
