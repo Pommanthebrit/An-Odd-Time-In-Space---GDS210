@@ -9,6 +9,7 @@ TagManager:
   - GameGod
   - Enemy
   - Pourable
+  - Waypoint
   layers:
   - Default
   - TransparentFX

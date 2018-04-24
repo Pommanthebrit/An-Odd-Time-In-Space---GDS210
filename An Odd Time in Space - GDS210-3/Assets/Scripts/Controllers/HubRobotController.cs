@@ -8,34 +8,34 @@ public class HubRobotController : MonoBehaviour {
 	public Transform player;
 	Animator myRobotAnim;
 	public float speed;
+	NavMeshAgent agent;
 
 	// Use this for initialization
 	void Start () {
 		myRobotAnim = GetComponent <Animator> ();
+		agent = transform.parent.GetComponent<NavMeshAgent>();
+		agent.destination = player.position;
+		Walk ();
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		Walk ();
-	}
-
-	public void Walk() {
-		myRobotAnim.SetBool ("IsWalking", true);
-		NavMeshAgent agent = GetComponent<NavMeshAgent>();
-		agent.speed = speed;
-		agent.destination = player.position;
-	}
-
-	public void Idle() {
-		myRobotAnim.SetBool ("IsWalking", false);
-		NavMeshAgent agent = GetComponent<NavMeshAgent>();
-		agent.speed = 0;
-	}
-
-	void OnCollisionEnter (Collision col){
-		if (col.gameObject.name == "Player") {
+		if (agent.remainingDistance < 0.5) {
 			Idle ();
 		}
+	}
+
+	//function for walking animation
+	public void Walk() {
+		myRobotAnim.SetBool ("IsWalking", true);
+		//agent.speed = speed;
+
+	}
+
+	//function for idle pose
+	public void Idle() {
+		myRobotAnim.SetBool ("IsWalking", false);
+		//agent.speed = 0;
 	}
 
 }
