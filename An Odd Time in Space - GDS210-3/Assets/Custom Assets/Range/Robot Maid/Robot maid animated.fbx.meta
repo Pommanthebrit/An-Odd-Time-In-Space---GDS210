@@ -1,0 +1,266 @@
+fileFormatVersion: 2
+guid: 6b9d318a05fb3a0468f5802b37db1499
+timeCreated: 1524545254
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Apron
+    100002: Apron_End
+    100004: Base
+    100006: Bib
+    100008: Bib_End
+    100010: Claw_Base_L
+    100012: Claw_Base_R
+    100014: CTRL_Base
+    100016: Entena_L
+    100018: Entena_L_End
+    100020: Entena_R
+    100022: Entena_R_End
+    100024: Head
+    100026: Head_Base
+    100028: Head_Base 1
+    100030: Head_Dress
+    100032: Head_Dress_End
+    100034: Hips
+    100036: Hover_System
+    100038: Hover_System_End
+    100040: ikHandle3
+    100042: ikHandle4
+    100044: ikHandle5
+    100046: ikHandle6
+    100048: ikHandle7
+    100050: ikHandle8
+    100052: ikHandle9
+    100054: Lower_Arm_L
+    100056: Lower_Arm_R
+    100058: Lower_Back
+    100060: Lower_Claw_L_1
+    100062: Lower_Claw_L_2
+    100064: Lower_Claw_L_End
+    100066: Lower_Claw_R_1
+    100068: Lower_Claw_R_2
+    100070: Lower_Claw_R_End
+    100072: nurbsCircle1
+    100074: nurbsCircle2
+    100076: nurbsCircle3
+    100078: nurbsCircle4
+    100080: nurbsCircle5
+    100082: nurbsCircle6
+    100084: nurbsCircle7
+    100086: pasted__pasted__pCube6
+    100088: //RootNode
+    100090: transform1
+    100092: Upper_Arm_L
+    100094: Upper_Arm_R
+    100096: Upper_Back
+    100098: Upper_Claw_L_1
+    100100: Upper_Claw_L_2
+    100102: Upper_Claw_L_End
+    100104: Upper_Claw_R_1
+    100106: Upper_Claw_R_2
+    100108: Upper_Claw_R_End
+    400000: Apron
+    400002: Apron_End
+    400004: Base
+    400006: Bib
+    400008: Bib_End
+    400010: Claw_Base_L
+    400012: Claw_Base_R
+    400014: CTRL_Base
+    400016: Entena_L
+    400018: Entena_L_End
+    400020: Entena_R
+    400022: Entena_R_End
+    400024: Head
+    400026: Head_Base
+    400028: Head_Base 1
+    400030: Head_Dress
+    400032: Head_Dress_End
+    400034: Hips
+    400036: Hover_System
+    400038: Hover_System_End
+    400040: ikHandle3
+    400042: ikHandle4
+    400044: ikHandle5
+    400046: ikHandle6
+    400048: ikHandle7
+    400050: ikHandle8
+    400052: ikHandle9
+    400054: Lower_Arm_L
+    400056: Lower_Arm_R
+    400058: Lower_Back
+    400060: Lower_Claw_L_1
+    400062: Lower_Claw_L_2
+    400064: Lower_Claw_L_End
+    400066: Lower_Claw_R_1
+    400068: Lower_Claw_R_2
+    400070: Lower_Claw_R_End
+    400072: nurbsCircle1
+    400074: nurbsCircle2
+    400076: nurbsCircle3
+    400078: nurbsCircle4
+    400080: nurbsCircle5
+    400082: nurbsCircle6
+    400084: nurbsCircle7
+    400086: pasted__pasted__pCube6
+    400088: //RootNode
+    400090: transform1
+    400092: Upper_Arm_L
+    400094: Upper_Arm_R
+    400096: Upper_Back
+    400098: Upper_Claw_L_1
+    400100: Upper_Claw_L_2
+    400102: Upper_Claw_L_End
+    400104: Upper_Claw_R_1
+    400106: Upper_Claw_R_2
+    400108: Upper_Claw_R_End
+    2100000: White1
+    2100002: Black
+    2100004: lambert11
+    2100006: lambert6
+    2100008: Wood
+    2100010: Green
+    2100012: lambert1
+    2100014: Eyes
+    4300000: pasted__pasted__pCube6
+    7400000: Wave
+    7400002: Idle
+    9500000: //RootNode
+    13700000: pasted__pasted__pCube6
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 267
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Wave
+      takeName: Take 001
+      firstFrame: 254
+      lastFrame: 513
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 3
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
