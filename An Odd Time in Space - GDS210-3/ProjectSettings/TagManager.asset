@@ -11,6 +11,7 @@ TagManager:
   - Waypoint
   - Garbage
   - Item
+  - Ball
   layers:
   - Default
   - TransparentFX
