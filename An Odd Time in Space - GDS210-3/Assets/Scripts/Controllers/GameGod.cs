@@ -28,6 +28,8 @@ public class GameGod : MonoBehaviour
 	public void AddScore(int score)
 	{
 		_score += score;
+
+        print(_score);
 		// TODO: Create score UI effect. (Possible implementation of a UiGod script?)
 		Debug.Log(_score);
 	}

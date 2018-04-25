@@ -127,7 +127,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _enemyDeathEffect: {fileID: 0}
   _health: 0
-  _scoreWorth: 0
+  _scoreWorth: 2
   _gg: {fileID: 0}
 --- !u!135 &135094931372868994
 SphereCollider:

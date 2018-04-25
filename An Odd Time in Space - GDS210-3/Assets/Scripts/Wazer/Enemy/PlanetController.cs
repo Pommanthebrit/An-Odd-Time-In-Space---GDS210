@@ -6,6 +6,6 @@ public class PlanetController : BaseEnemyController
 {
 	protected override void Die()
 	{
-		_gg.AddScore(_scoreWorth);
+        RangeScoring.AddScore(_scoreWorth);
 	}
 }
