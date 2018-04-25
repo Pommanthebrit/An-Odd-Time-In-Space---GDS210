@@ -6,7 +6,7 @@ public class Deflection : MonoBehaviour {
 
 	public bool collision;
 	public float numBounces;
-
+	/*
 	void OnCollisionEnter(collision : Collision)
 	{
 		var contact : ContactPoint;
@@ -21,4 +21,5 @@ public class Deflection : MonoBehaviour {
 			numBounces -= 1;
 		}
 	}
+	*/
 }

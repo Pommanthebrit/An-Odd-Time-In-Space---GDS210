@@ -20,11 +20,12 @@ GameObject:
   m_Component:
   - component: {fileID: 4112544015482242}
   - component: {fileID: 33848851767015224}
-  - component: {fileID: 135001778123634468}
   - component: {fileID: 23211944089746802}
-  - component: {fileID: 54176516195839554}
   - component: {fileID: 198689620929998646}
   - component: {fileID: 199602757443036386}
+  - component: {fileID: 54686801529881888}
+  - component: {fileID: 135603248477233444}
+  - component: {fileID: 114621840932772692}
   m_Layer: 0
   m_Name: RedPlanetPT
   m_TagString: Untagged
@@ -86,22 +87,37 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1366897790748840}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!54 &54176516195839554
+--- !u!54 &54686801529881888
 Rigidbody:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1366897790748840}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 2.4
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_UseGravity: 0
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!135 &135001778123634468
+--- !u!114 &114621840932772692
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1366897790748840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df6cba1899bd7cd4cab3cd0cdfefff8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _enemyDeathEffect: {fileID: 0}
+  _health: 0
+  _scoreWorth: 0
+  _gg: {fileID: 0}
+--- !u!135 &135603248477233444
 SphereCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -112,7 +128,7 @@ SphereCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: -0.000000029802322, z: 0.0000009536743}
 --- !u!198 &198689620929998646
 ParticleSystem:
   m_ObjectHideFlags: 1
@@ -124,7 +140,7 @@ ParticleSystem:
   simulationSpeed: 1
   stopAction: 0
   looping: 1
-  prewarm: 0
+  prewarm: 1
   playOnAwake: 1
   useUnscaledTime: 0
   autoRandomSeed: 1
