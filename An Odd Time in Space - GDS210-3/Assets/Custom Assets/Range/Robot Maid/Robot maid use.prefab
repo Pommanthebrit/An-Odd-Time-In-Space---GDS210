@@ -457,7 +457,7 @@ GameObject:
   - component: {fileID: 4580826160577728}
   - component: {fileID: 95733364715915758}
   m_Layer: 0
-  m_Name: Robot maid animated
+  m_Name: Robot maid use
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

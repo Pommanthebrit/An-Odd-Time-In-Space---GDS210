@@ -52,7 +52,7 @@ GameObject:
   - component: {fileID: 4965532059104606}
   - component: {fileID: 95428597827046226}
   m_Layer: 0
-  m_Name: MouseDorid
+  m_Name: MouseDroidUse
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
