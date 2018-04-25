@@ -20,17 +20,12 @@ public class ItemChomp : MonoBehaviour {
 			Invoke ("ChompItem", 0.01f);
 		}
 		if (collider.gameObject.tag == "Letter") {
-			Invoke ("ChompLetter", 0.01f);
+			Invoke ("ChompItem", 0.01f);
+			Destroy (collider.gameObject);
 		}
 	}
 
 	void ChompItem () {
-		_audioSource.Play (); //plays chomp audio
-		chompAnim.SetTrigger ("Chomp");
-		chompPT.Emit (40);
-	}
-
-	void ChompLetter () {
 		_audioSource.Play (); //plays chomp audio
 		chompAnim.SetTrigger ("Chomp");
 		chompPT.Emit (40);
