@@ -5,37 +5,44 @@ using UnityEngine.AI;
 
 public class HubRobotController : MonoBehaviour {
 
-	public Transform player;
+	[SerializeField] private AudioClip Robot_Talk1;
+	[SerializeField] private AudioClip Robot_Talk2;
+	private AudioSource _audioSource;
+	public Transform waypoint; //waypoint for robot to walk towards
+	int voice; //variable for selecting random voice line
 	Animator myRobotAnim;
-	public float speed;
 	NavMeshAgent agent;
 
-	// Use this for initialization
 	void Start () {
+		_audioSource = GetComponent<AudioSource>();
 		myRobotAnim = GetComponent <Animator> ();
 		agent = transform.parent.GetComponent<NavMeshAgent>();
-		agent.destination = player.position;
-		Walk ();
+		agent.destination = waypoint.position; //sets Robot destination to waypoint
+		StartCoroutine("Walk");
 	}
 	
-	// Update is called once per frame
-	void Update () {
-		if (agent.remainingDistance < 0.5) {
+	void Update () { 
+		if (agent.remainingDistance < 0.5) { //stops robot within 0.5m of waypoint
 			Idle ();
 		}
 	}
 
-	//function for walking animation
-	public void Walk() {
-		myRobotAnim.SetBool ("IsWalking", true);
-		//agent.speed = speed;
-
+	public IEnumerator Walk() { //function for walking animation
+		myRobotAnim.SetBool ("IsWalking", true); //plays walk animation
+		_audioSource.Play(); //plays walking audio
+		yield return new WaitForSeconds(3.5f); //waits duration of walk distance before stopping looping walk audio
+		_audioSource.Stop ();
+		voice = Random.Range (1, 3); //random number between 1 and 2 for selecting robot talking sound effect
+		print (voice);
+		if (voice == 1) {
+			_audioSource.PlayOneShot (Robot_Talk1); 
+		} else {
+			_audioSource.PlayOneShot (Robot_Talk2);
+		}
 	}
 
-	//function for idle pose
-	public void Idle() {
-		myRobotAnim.SetBool ("IsWalking", false);
-		//agent.speed = 0;
+	public void Idle() { //function for idle pose
+		myRobotAnim.SetBool ("IsWalking", false); 
 	}
 
 }
