@@ -39,7 +39,7 @@ public class BaseEnemyController : MonoBehaviour
 		
 	void OnCollisionEnter(Collision otherCol)
 	{
-		if(otherCol.gameObject.tag == "PlayerProjectile" || otherCol.gameObject.tag == "Ball")
+		if(otherCol.gameObject.tag == "PlayerProjectile" || gameObject.tag == "Planets")
 		{
 			TakeHealth(1);
 		}
