@@ -11,7 +11,12 @@ public class PlayerController : MonoBehaviour
         if(collision.gameObject.tag == "projectile")
         {
             _health--;
-            Debug.Log(_health);
+
+            if(_health < 1)
+            {
+                GameObject.FindGameObjectWithTag("GameGod").GetComponent<WazerStartup>().EndWazeGame();
+                _health = 3;
+            }
         }
     }
 }

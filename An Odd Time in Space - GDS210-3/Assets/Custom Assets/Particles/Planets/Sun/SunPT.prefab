@@ -56,6 +56,7 @@ GameObject:
   - component: {fileID: 23916257576850182}
   - component: {fileID: 54154846972961978}
   - component: {fileID: 114444418647762686}
+  - component: {fileID: 114780049191234410}
   - component: {fileID: 135287299257337394}
   m_Layer: 0
   m_Name: SunPT
@@ -212,6 +213,18 @@ MonoBehaviour:
   _health: 0
   _scoreWorth: 5
   _gg: {fileID: 0}
+--- !u!114 &114780049191234410
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1537184361746064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4711a2217b9c0bd43abf0b8778ca79a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _rotateSpeed: 1
 --- !u!135 &135287299257337394
 SphereCollider:
   m_ObjectHideFlags: 1

@@ -7,10 +7,16 @@ using UnityEditor;
 public class WazerStartup : MonoBehaviour
 {
     [SerializeField] private GameObject[] _objectsToInsantiate;
+    [SerializeField] private GameObject _commenceOrb;
     [SerializeField] private LightEditor[] _lightsToFadeIn;
+    [SerializeField] private LightEditor[] _lightsToFadeOut;
+
+    private List<GameObject> _instantiatedObjects;
 
     public void StartWazeGame()
     {
+        _instantiatedObjects = new List<GameObject>();
+
         foreach(LightEditor light in _lightsToFadeIn)
         {
             if(light._lerpIntensity)
@@ -26,8 +32,31 @@ public class WazerStartup : MonoBehaviour
 
         foreach(GameObject obj in _objectsToInsantiate)
         {
-            Instantiate(obj, transform.parent.transform);
+            _instantiatedObjects.Add(Instantiate(obj, transform.parent.transform));
         }
+    }
+
+    public void EndWazeGame()
+    {
+        foreach(LightEditor light in _lightsToFadeOut)
+        {
+            if (light._lerpIntensity)
+            {
+                StartCoroutine(light.LerpIntensity());
+            }
+
+            if (light._lerpRange)
+            {
+                StartCoroutine(light.LerpRange());
+            }
+        }
+
+        foreach(GameObject obj in _instantiatedObjects)
+        {
+            Destroy(obj);
+        }
+
+        _commenceOrb.SetActive(true);
     }
 }
 

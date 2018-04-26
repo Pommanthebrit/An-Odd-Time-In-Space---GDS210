@@ -24,6 +24,7 @@ GameObject:
   - component: {fileID: 54509742271536282}
   - component: {fileID: 135501400382396274}
   - component: {fileID: 114204660413481154}
+  - component: {fileID: 114764169672096976}
   m_Layer: 0
   m_Name: RingPlanetPT
   m_TagString: Untagged
@@ -177,6 +178,18 @@ MonoBehaviour:
   _health: 0
   _scoreWorth: 10
   _gg: {fileID: 0}
+--- !u!114 &114764169672096976
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1678715979345796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4711a2217b9c0bd43abf0b8778ca79a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _rotateSpeed: 1
 --- !u!135 &135501400382396274
 SphereCollider:
   m_ObjectHideFlags: 1

@@ -73,5 +73,13 @@ public abstract class BaseDemiSpawner : MonoBehaviour
 		return false;
 	}
 
-	// TODO: Create timer class and replace old timers.
+    public void OnDestroy()
+    {
+        foreach(GameObject obj in _pooledObjects)
+        {
+            Destroy(obj);
+        }
+    }
+
+    // TODO: Create timer class and replace old timers.
 }
