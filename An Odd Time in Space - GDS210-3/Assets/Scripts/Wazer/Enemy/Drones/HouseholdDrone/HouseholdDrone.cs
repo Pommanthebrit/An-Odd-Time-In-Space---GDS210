@@ -80,9 +80,7 @@ public class HouseholdDrone : DroneController
 		{
 			smoothTime += Time.deltaTime / (_shootingMechanism._shootDelay * _slowStartPercentage);
 			_speed = Mathf.Lerp(0, _beginSpeed, smoothTime);
-
-			print(_speed);
-
+            
 			yield return null;
 		}
 

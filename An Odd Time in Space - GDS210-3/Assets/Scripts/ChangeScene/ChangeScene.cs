@@ -9,12 +9,12 @@ public class ChangeScene : MonoBehaviour
 {
 	void Start()
 	{
-		Debug.Log("LoadSceneA");
-	}
+        //Debug.Log("LoadAScene");
+    }
 
-	public void LoadA(string scenename)
+    public void LoadA(string scenename)
 	{
-		Debug.Log("sceneName to load: " + scenename);
-		SceneManager.LoadScene(scenename);
-	}
+        //Debug.Log("sceneName to load: " + scenename);
+        SceneManager.LoadScene(scenename);
+    }
 }
