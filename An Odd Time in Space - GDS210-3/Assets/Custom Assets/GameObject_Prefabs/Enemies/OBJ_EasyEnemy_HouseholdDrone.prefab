@@ -139,11 +139,11 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 38476655268809a4a92ff2150b96ec83, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -179,7 +179,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 2
       time: 0
-      value: 0
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -227,7 +227,7 @@ MonoBehaviour:
   _scoreWorth: 20
   _gg: {fileID: 0}
   _shootingMechanism: {fileID: 11400000, guid: 0372407f3628c704c83e5886d426cdaf, type: 2}
-  _hoverSound: {fileID: 0}
+  _hoverSound: {fileID: 8300000, guid: 38476655268809a4a92ff2150b96ec83, type: 3}
   _target: {fileID: 0}
   _moveRight: 1
   _speed: 0.8
