@@ -2717,7 +2717,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 823744101}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.761, y: -2.066, z: 3.5146172}
+  m_LocalPosition: {x: -0.389, y: -2.066, z: 3.5146172}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 187372371}
@@ -5916,7 +5916,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4747605994649236, guid: 539bbeb422a1912498c0cbc45c35ca69, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 0.761
+      value: -0.389
       objectReference: {fileID: 0}
     - target: {fileID: 4747605994649236, guid: 539bbeb422a1912498c0cbc45c35ca69, type: 2}
       propertyPath: m_LocalPosition.y
@@ -5958,6 +5958,15 @@ Prefab:
     - target: {fileID: 1584160904504610, guid: 539bbeb422a1912498c0cbc45c35ca69, type: 2}
       propertyPath: m_TagString
       value: Planets
+      objectReference: {fileID: 0}
+    - target: {fileID: 4409815374834174, guid: 539bbeb422a1912498c0cbc45c35ca69, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114538519943331436, guid: 539bbeb422a1912498c0cbc45c35ca69,
+        type: 2}
+      propertyPath: _pushRadius
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 539bbeb422a1912498c0cbc45c35ca69, type: 2}
