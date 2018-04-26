@@ -845,6 +845,7 @@ GameObject:
   - component: {fileID: 477120767}
   - component: {fileID: 477120769}
   - component: {fileID: 477120768}
+  - component: {fileID: 477120770}
   m_Layer: 5
   m_Name: H3
   m_TagString: Untagged
@@ -903,6 +904,20 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 477120766}
+--- !u!114 &477120770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 477120766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77851a90aa43305499f9b3e4c10359c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myPlayerHealth: 1
+  heartFull: {fileID: 21300000, guid: 964c450c8e7db364bbf24a433254f5cd, type: 3}
+  heartEmpty: {fileID: 21300000, guid: ca3e9acf60ad28b49b65b49e94346f0b, type: 3}
 --- !u!1 &528828888
 GameObject:
   m_ObjectHideFlags: 0
@@ -913,6 +928,7 @@ GameObject:
   - component: {fileID: 528828889}
   - component: {fileID: 528828891}
   - component: {fileID: 528828890}
+  - component: {fileID: 528828892}
   m_Layer: 5
   m_Name: H2
   m_TagString: Untagged
@@ -971,6 +987,20 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 528828888}
+--- !u!114 &528828892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 528828888}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77851a90aa43305499f9b3e4c10359c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myPlayerHealth: 2
+  heartFull: {fileID: 21300000, guid: 964c450c8e7db364bbf24a433254f5cd, type: 3}
+  heartEmpty: {fileID: 21300000, guid: ca3e9acf60ad28b49b65b49e94346f0b, type: 3}
 --- !u!1001 &566985555
 Prefab:
   m_ObjectHideFlags: 0
@@ -2503,6 +2533,7 @@ GameObject:
   - component: {fileID: 2018890058}
   - component: {fileID: 2018890060}
   - component: {fileID: 2018890059}
+  - component: {fileID: 2018890061}
   m_Layer: 5
   m_Name: H1
   m_TagString: Untagged
@@ -2561,6 +2592,20 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2018890057}
+--- !u!114 &2018890061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2018890057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77851a90aa43305499f9b3e4c10359c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myPlayerHealth: 3
+  heartFull: {fileID: 21300000, guid: 964c450c8e7db364bbf24a433254f5cd, type: 3}
+  heartEmpty: {fileID: 21300000, guid: ca3e9acf60ad28b49b65b49e94346f0b, type: 3}
 --- !u!1001 &2087252992
 Prefab:
   m_ObjectHideFlags: 0
