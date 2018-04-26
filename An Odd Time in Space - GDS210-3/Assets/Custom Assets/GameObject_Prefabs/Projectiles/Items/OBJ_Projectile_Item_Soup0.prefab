@@ -24,6 +24,7 @@ GameObject:
   - component: {fileID: 95915192275436874}
   - component: {fileID: 114793688413185442}
   - component: {fileID: 82671040473240798}
+  - component: {fileID: 114933029979767772}
   - component: {fileID: 54581240540946552}
   m_Layer: 0
   m_Name: OBJ_Projectile_Item_Soup0
@@ -215,3 +216,15 @@ MonoBehaviour:
   _lifeSpan: 20
   _source: {fileID: 0}
   _speed: 1.4
+--- !u!114 &114933029979767772
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1478210318277366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4711a2217b9c0bd43abf0b8778ca79a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _rotateSpeed: 3

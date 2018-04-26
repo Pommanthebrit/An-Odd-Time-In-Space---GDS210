@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 23316740530394850}
   - component: {fileID: 114168705910813606}
   - component: {fileID: 82636456162260620}
+  - component: {fileID: 114596318894671018}
   - component: {fileID: 54434725323806248}
   m_Layer: 0
   m_Name: OBJ_Projectile_Item_PaperTowel
@@ -198,3 +199,15 @@ MonoBehaviour:
   _lifeSpan: 20
   _source: {fileID: 0}
   _speed: 1.4
+--- !u!114 &114596318894671018
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1359237658378294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4711a2217b9c0bd43abf0b8778ca79a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _rotateSpeed: 3
