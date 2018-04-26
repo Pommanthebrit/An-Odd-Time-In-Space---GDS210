@@ -12,6 +12,7 @@ TagManager:
   - Garbage
   - Item
   - Ball
+  - Planets
   layers:
   - Default
   - TransparentFX

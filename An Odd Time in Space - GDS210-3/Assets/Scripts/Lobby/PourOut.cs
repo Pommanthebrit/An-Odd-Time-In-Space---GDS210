@@ -10,9 +10,7 @@ public class PourOut : MonoBehaviour {
 	public ParticleSystem pourEmit;
 
 	void Start () {
-	//	ParticleSystem.EmissionModule emit = pourEmit.emission;
 		pourEmit.Stop();
-		//emit.enabled = false;
 	}
 
 	void Update () {

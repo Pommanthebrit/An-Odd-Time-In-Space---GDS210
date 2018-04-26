@@ -8,6 +8,8 @@ public class BouncePT : MonoBehaviour {
 
 	void OnCollisionEnter (Collision collider) {
 		//Creates particle which destroys self after running to completion
-		Instantiate (bounceParticle, collider.transform.position, Quaternion.identity);
+		if (collider.gameObject.tag == "Planets") {
+			Instantiate (bounceParticle, collider.transform.position, Quaternion.identity);
+		}
 	}
 }
