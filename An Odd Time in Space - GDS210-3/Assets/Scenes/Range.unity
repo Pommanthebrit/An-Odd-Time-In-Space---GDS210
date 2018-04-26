@@ -12960,6 +12960,14 @@ Prefab:
       propertyPath: m_CollisionDetection
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 1946039952849080, guid: 539bbeb422a1912498c0cbc45c35ca69, type: 2}
+      propertyPath: m_TagString
+      value: Planets
+      objectReference: {fileID: 0}
+    - target: {fileID: 1584160904504610, guid: 539bbeb422a1912498c0cbc45c35ca69, type: 2}
+      propertyPath: m_TagString
+      value: Planets
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 539bbeb422a1912498c0cbc45c35ca69, type: 2}
   m_IsPrefabParent: 0
