@@ -3,18 +3,24 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 
+
 public class WazerStartup : MonoBehaviour
 {
     [SerializeField] private Light[] _lightsToFadeIn;
     [SerializeField] private float _fadeTime;
     [SerializeField] private float _maxLightRange;
-    [SerializeField] private GameGod[] _objectsToInsantiate;
+    [SerializeField] private GameObject[] _objectsToInsantiate;
 
     public void StartWazeGame()
     {
         foreach(Light light in _lightsToFadeIn)
         {
             StartCoroutine(FadeLight(light));
+        }
+
+        foreach(GameObject obj in _objectsToInsantiate)
+        {
+            Instantiate(obj, transform.parent.transform);
         }
     }
 
@@ -34,6 +40,7 @@ public class WazerStartup : MonoBehaviour
         yield return null;
     }
 }
+
 
 [CustomEditor(typeof(WazerStartup))]
 class TestButton : Editor

@@ -30,6 +30,7 @@ public class SpawnerGod : MonoBehaviour
 
 		foreach(BaseDemiSpawner spawner in this.gameObject.GetComponentsInChildren<BaseDemiSpawner>(true))
 		{
+            spawner._gg = _gg;
 			_allSpawners.Add(spawner.gameObject);
 
 			switch(spawner._spawnerDifficulty)
