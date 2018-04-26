@@ -38,7 +38,6 @@ GameObject:
   - component: {fileID: 4859094567247622}
   - component: {fileID: 33918286104716422}
   - component: {fileID: 23169960783904292}
-  - component: {fileID: 95936454141802796}
   m_Layer: 0
   m_Name: TelepadUse
   m_TagString: Untagged
@@ -177,23 +176,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1275415691803880}
   m_Mesh: {fileID: 4300000, guid: ca15bdca13b12bb4a9b8fc00b97e47c4, type: 3}
---- !u!95 &95936454141802796
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1275415691803880}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: ca15bdca13b12bb4a9b8fc00b97e47c4, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
 --- !u!108 &108430771940314164
 Light:
   m_ObjectHideFlags: 1

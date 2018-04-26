@@ -1,20 +1,25 @@
-﻿// SceneA.
-// SceneA is given the sceneName which will
-// load SceneB from the Build Settings
-
+﻿using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class ChangeScene : MonoBehaviour
-{
-	void Start()
-	{
-        //Debug.Log("LoadAScene");
-    }
+[RequireComponent(typeof(AudioSource))]
+public class ChangeScene : MonoBehaviour {
 
-    public void LoadA(string scenename)
-	{
-        //Debug.Log("sceneName to load: " + scenename);
-        SceneManager.LoadScene(scenename);
-    }
+	AudioSource _audioSource;
+
+	void Start () {
+		_audioSource = GetComponent<AudioSource> ();
+	}
+
+	//Open new scene button with delay
+	public void OpenSceneDelayed(string sceneName) {
+		StartCoroutine("Load", sceneName);
+	}
+
+	IEnumerator Load(string sceneName) {
+		_audioSource.Play ();
+		yield return new WaitForSeconds (0.5f);
+		SceneManager.LoadScene (sceneName);
+	}
 }
