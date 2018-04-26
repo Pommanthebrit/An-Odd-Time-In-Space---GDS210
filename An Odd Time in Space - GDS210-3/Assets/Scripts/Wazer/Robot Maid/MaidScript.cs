@@ -7,14 +7,14 @@ public class MaidScript : MonoBehaviour {
 	private Animator _animator;
 	public AudioClip SoundToPlay;
 	public float Volume;
-	AudioSource audio;
+	AudioSource _audio;
 	public bool alreadyPlayed = false;
 
 	// Use this for initialization
 	void Start () 
 	{
 		_animator = GetComponent<Animator> ();
-		audio = GetComponent<AudioSource> ();
+		_audio = GetComponent<AudioSource> ();
 
 	}
 
@@ -23,7 +23,7 @@ public class MaidScript : MonoBehaviour {
 		if (other.tag == "Player") 
 		{
 			_animator.SetBool ("Wave", true);
-			audio.PlayOneShot (SoundToPlay, Volume);
+			_audio.PlayOneShot (SoundToPlay, Volume);
 		}
 		if (!alreadyPlayed) 
 		{
