@@ -120,6 +120,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1926773563}
     m_Modifications:
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4908716930414774, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
       propertyPath: m_LocalPosition.x
       value: 3.13
@@ -176,6 +181,31 @@ Prefab:
       propertyPath: m_TagString
       value: Planets
       objectReference: {fileID: 0}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1194986279}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 2b5aff74c20a1194d87933196c199a56, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 4e20032fcf8584645abd930e16bc0320, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 0eb2ef8f3459e8f4d8e9cea167ff0df8, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 22ee48249c59f4c40a56e3f53d71fc92, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
   m_IsPrefabParent: 0
@@ -196,6 +226,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1926773563}
     m_Modifications:
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4908716930414774, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
       propertyPath: m_LocalPosition.x
       value: 10.133928
@@ -240,6 +275,31 @@ Prefab:
       propertyPath: m_TagString
       value: Planets
       objectReference: {fileID: 0}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1194986279}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 2b5aff74c20a1194d87933196c199a56, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 4e20032fcf8584645abd930e16bc0320, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 0eb2ef8f3459e8f4d8e9cea167ff0df8, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 22ee48249c59f4c40a56e3f53d71fc92, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
   m_IsPrefabParent: 0
@@ -255,6 +315,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1926773563}
     m_Modifications:
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4908716930414774, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
       propertyPath: m_LocalPosition.x
       value: -30.77
@@ -324,6 +389,31 @@ Prefab:
       propertyPath: m_TagString
       value: Planets
       objectReference: {fileID: 0}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1194986279}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 2b5aff74c20a1194d87933196c199a56, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 4e20032fcf8584645abd930e16bc0320, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 0eb2ef8f3459e8f4d8e9cea167ff0df8, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 22ee48249c59f4c40a56e3f53d71fc92, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
   m_IsPrefabParent: 0
@@ -380,6 +470,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1926773563}
     m_Modifications:
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4908716930414774, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
       propertyPath: m_LocalPosition.x
       value: -21.19
@@ -444,6 +539,31 @@ Prefab:
       propertyPath: m_TagString
       value: Planets
       objectReference: {fileID: 0}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1194986279}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 2b5aff74c20a1194d87933196c199a56, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 4e20032fcf8584645abd930e16bc0320, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 0eb2ef8f3459e8f4d8e9cea167ff0df8, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 22ee48249c59f4c40a56e3f53d71fc92, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
   m_IsPrefabParent: 0
@@ -459,6 +579,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1926773563}
     m_Modifications:
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4908716930414774, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
       propertyPath: m_LocalPosition.x
       value: -11.13
@@ -503,6 +628,31 @@ Prefab:
       propertyPath: m_TagString
       value: Planets
       objectReference: {fileID: 0}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1194986279}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 2b5aff74c20a1194d87933196c199a56, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 4e20032fcf8584645abd930e16bc0320, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 0eb2ef8f3459e8f4d8e9cea167ff0df8, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 22ee48249c59f4c40a56e3f53d71fc92, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
   m_IsPrefabParent: 0
@@ -598,6 +748,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78f98a2e4249aaf4392262568b92464a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _audioSource: {fileID: 0}
+  crashAudio: []
   bounceParticle: {fileID: 1078658540513078, guid: e0362338f525dcc4cbdac785aa47b249,
     type: 2}
 --- !u!1 &290162730
@@ -653,6 +805,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78f98a2e4249aaf4392262568b92464a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _audioSource: {fileID: 0}
+  crashAudio: []
   bounceParticle: {fileID: 1078658540513078, guid: e0362338f525dcc4cbdac785aa47b249,
     type: 2}
 --- !u!1001 &344378241
@@ -662,6 +816,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1926773563}
     m_Modifications:
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4908716930414774, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
       propertyPath: m_LocalPosition.x
       value: -7.8
@@ -731,6 +890,31 @@ Prefab:
       propertyPath: m_TagString
       value: Planets
       objectReference: {fileID: 0}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1194986279}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 2b5aff74c20a1194d87933196c199a56, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 4e20032fcf8584645abd930e16bc0320, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 0eb2ef8f3459e8f4d8e9cea167ff0df8, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 22ee48249c59f4c40a56e3f53d71fc92, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
   m_IsPrefabParent: 0
@@ -815,6 +999,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1926773563}
     m_Modifications:
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4908716930414774, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
       propertyPath: m_LocalPosition.x
       value: 13.66144
@@ -884,6 +1073,31 @@ Prefab:
       propertyPath: m_TagString
       value: Planets
       objectReference: {fileID: 0}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1194986279}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 2b5aff74c20a1194d87933196c199a56, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 4e20032fcf8584645abd930e16bc0320, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 0eb2ef8f3459e8f4d8e9cea167ff0df8, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 22ee48249c59f4c40a56e3f53d71fc92, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
   m_IsPrefabParent: 0
@@ -945,6 +1159,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1926773563}
     m_Modifications:
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4908716930414774, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
       propertyPath: m_LocalPosition.x
       value: 46.433884
@@ -997,6 +1216,31 @@ Prefab:
       propertyPath: m_TagString
       value: Planets
       objectReference: {fileID: 0}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1194986279}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 2b5aff74c20a1194d87933196c199a56, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 4e20032fcf8584645abd930e16bc0320, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 0eb2ef8f3459e8f4d8e9cea167ff0df8, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 22ee48249c59f4c40a56e3f53d71fc92, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
   m_IsPrefabParent: 0
@@ -1012,6 +1256,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1926773563}
     m_Modifications:
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4908716930414774, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
       propertyPath: m_LocalPosition.x
       value: -24.873426
@@ -1081,6 +1330,31 @@ Prefab:
       propertyPath: m_TagString
       value: Planets
       objectReference: {fileID: 0}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1194986279}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 2b5aff74c20a1194d87933196c199a56, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 4e20032fcf8584645abd930e16bc0320, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 0eb2ef8f3459e8f4d8e9cea167ff0df8, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 22ee48249c59f4c40a56e3f53d71fc92, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
   m_IsPrefabParent: 0
@@ -1174,6 +1448,30 @@ Transform:
   m_PrefabParentObject: {fileID: 4112544015482242, guid: 16d230f040a7b274fb5379dbb1311250,
     type: 2}
   m_PrefabInternal: {fileID: 438825340}
+--- !u!1 &438825342 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1366897790748840, guid: 16d230f040a7b274fb5379dbb1311250,
+    type: 2}
+  m_PrefabInternal: {fileID: 438825340}
+--- !u!114 &438825343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 438825342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78f98a2e4249aaf4392262568b92464a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _audioSource: {fileID: 1194986279}
+  crashAudio:
+  - {fileID: 8300000, guid: 2b5aff74c20a1194d87933196c199a56, type: 3}
+  - {fileID: 8300000, guid: 4e20032fcf8584645abd930e16bc0320, type: 3}
+  - {fileID: 8300000, guid: 0eb2ef8f3459e8f4d8e9cea167ff0df8, type: 3}
+  - {fileID: 8300000, guid: 22ee48249c59f4c40a56e3f53d71fc92, type: 3}
+  bounceParticle: {fileID: 1004058741447654, guid: deea2109fdea0274d8900fa84c88233e,
+    type: 2}
 --- !u!1001 &455333430
 Prefab:
   m_ObjectHideFlags: 0
@@ -1181,6 +1479,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1926773563}
     m_Modifications:
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4908716930414774, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
       propertyPath: m_LocalPosition.x
       value: 18.2
@@ -1245,6 +1548,31 @@ Prefab:
       propertyPath: m_TagString
       value: Planets
       objectReference: {fileID: 0}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1194986279}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 2b5aff74c20a1194d87933196c199a56, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 4e20032fcf8584645abd930e16bc0320, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 0eb2ef8f3459e8f4d8e9cea167ff0df8, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 22ee48249c59f4c40a56e3f53d71fc92, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
   m_IsPrefabParent: 0
@@ -1260,6 +1588,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1926773563}
     m_Modifications:
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4908716930414774, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
       propertyPath: m_LocalPosition.x
       value: 2.3080606
@@ -1316,6 +1649,31 @@ Prefab:
       propertyPath: m_TagString
       value: Planets
       objectReference: {fileID: 0}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1194986279}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 2b5aff74c20a1194d87933196c199a56, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 4e20032fcf8584645abd930e16bc0320, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 0eb2ef8f3459e8f4d8e9cea167ff0df8, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 22ee48249c59f4c40a56e3f53d71fc92, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
   m_IsPrefabParent: 0
@@ -1331,6 +1689,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1926773563}
     m_Modifications:
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4908716930414774, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
       propertyPath: m_LocalPosition.x
       value: -13.896307
@@ -1395,6 +1758,31 @@ Prefab:
       propertyPath: m_TagString
       value: Planets
       objectReference: {fileID: 0}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1194986279}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 2b5aff74c20a1194d87933196c199a56, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 4e20032fcf8584645abd930e16bc0320, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 0eb2ef8f3459e8f4d8e9cea167ff0df8, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 22ee48249c59f4c40a56e3f53d71fc92, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
   m_IsPrefabParent: 0
@@ -1410,6 +1798,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1926773563}
     m_Modifications:
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4908716930414774, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
       propertyPath: m_LocalPosition.x
       value: -18
@@ -1479,6 +1872,31 @@ Prefab:
       propertyPath: m_TagString
       value: Planets
       objectReference: {fileID: 0}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1194986279}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 2b5aff74c20a1194d87933196c199a56, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 4e20032fcf8584645abd930e16bc0320, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 0eb2ef8f3459e8f4d8e9cea167ff0df8, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 22ee48249c59f4c40a56e3f53d71fc92, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
   m_IsPrefabParent: 0
@@ -1774,6 +2192,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1926773563}
     m_Modifications:
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4908716930414774, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
       propertyPath: m_LocalPosition.x
       value: 11.638283
@@ -1843,6 +2266,31 @@ Prefab:
       propertyPath: m_TagString
       value: Planets
       objectReference: {fileID: 0}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1194986279}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 2b5aff74c20a1194d87933196c199a56, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 4e20032fcf8584645abd930e16bc0320, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 0eb2ef8f3459e8f4d8e9cea167ff0df8, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 22ee48249c59f4c40a56e3f53d71fc92, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
   m_IsPrefabParent: 0
@@ -1858,6 +2306,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1926773563}
     m_Modifications:
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4908716930414774, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
       propertyPath: m_LocalPosition.x
       value: 18.617764
@@ -1927,6 +2380,31 @@ Prefab:
       propertyPath: m_TagString
       value: Planets
       objectReference: {fileID: 0}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1194986279}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 2b5aff74c20a1194d87933196c199a56, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 4e20032fcf8584645abd930e16bc0320, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 0eb2ef8f3459e8f4d8e9cea167ff0df8, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 22ee48249c59f4c40a56e3f53d71fc92, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
   m_IsPrefabParent: 0
@@ -1942,6 +2420,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1926773563}
     m_Modifications:
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4908716930414774, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
       propertyPath: m_LocalPosition.x
       value: 36.579628
@@ -2006,6 +2489,31 @@ Prefab:
       propertyPath: m_TagString
       value: Planets
       objectReference: {fileID: 0}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1194986279}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 2b5aff74c20a1194d87933196c199a56, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 4e20032fcf8584645abd930e16bc0320, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 0eb2ef8f3459e8f4d8e9cea167ff0df8, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 22ee48249c59f4c40a56e3f53d71fc92, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
   m_IsPrefabParent: 0
@@ -2054,6 +2562,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1926773563}
     m_Modifications:
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4908716930414774, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
       propertyPath: m_LocalPosition.x
       value: -22.055597
@@ -2123,6 +2636,31 @@ Prefab:
       propertyPath: m_TagString
       value: Planets
       objectReference: {fileID: 0}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1194986279}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 2b5aff74c20a1194d87933196c199a56, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 4e20032fcf8584645abd930e16bc0320, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 0eb2ef8f3459e8f4d8e9cea167ff0df8, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 22ee48249c59f4c40a56e3f53d71fc92, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
   m_IsPrefabParent: 0
@@ -2138,6 +2676,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1926773563}
     m_Modifications:
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4908716930414774, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
       propertyPath: m_LocalPosition.x
       value: -13.857982
@@ -2194,6 +2737,31 @@ Prefab:
       propertyPath: m_TagString
       value: Planets
       objectReference: {fileID: 0}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1194986279}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 2b5aff74c20a1194d87933196c199a56, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 4e20032fcf8584645abd930e16bc0320, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 0eb2ef8f3459e8f4d8e9cea167ff0df8, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 22ee48249c59f4c40a56e3f53d71fc92, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
   m_IsPrefabParent: 0
@@ -2209,6 +2777,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1926773563}
     m_Modifications:
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4908716930414774, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
       propertyPath: m_LocalPosition.x
       value: 13.98579
@@ -2278,6 +2851,31 @@ Prefab:
       propertyPath: m_TagString
       value: Planets
       objectReference: {fileID: 0}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1194986279}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 2b5aff74c20a1194d87933196c199a56, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 4e20032fcf8584645abd930e16bc0320, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 0eb2ef8f3459e8f4d8e9cea167ff0df8, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 22ee48249c59f4c40a56e3f53d71fc92, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
   m_IsPrefabParent: 0
@@ -2387,6 +2985,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1926773563}
     m_Modifications:
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4908716930414774, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
       propertyPath: m_LocalPosition.x
       value: 14.55
@@ -2451,6 +3054,31 @@ Prefab:
       propertyPath: m_TagString
       value: Planets
       objectReference: {fileID: 0}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1194986279}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 2b5aff74c20a1194d87933196c199a56, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 4e20032fcf8584645abd930e16bc0320, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 0eb2ef8f3459e8f4d8e9cea167ff0df8, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 22ee48249c59f4c40a56e3f53d71fc92, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
   m_IsPrefabParent: 0
@@ -2466,6 +3094,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1926773563}
     m_Modifications:
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4908716930414774, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
       propertyPath: m_LocalPosition.x
       value: 12.1562605
@@ -2535,6 +3168,31 @@ Prefab:
       propertyPath: m_TagString
       value: Planets
       objectReference: {fileID: 0}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1194986279}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 2b5aff74c20a1194d87933196c199a56, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 4e20032fcf8584645abd930e16bc0320, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 0eb2ef8f3459e8f4d8e9cea167ff0df8, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 22ee48249c59f4c40a56e3f53d71fc92, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
   m_IsPrefabParent: 0
@@ -2550,6 +3208,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1926773563}
     m_Modifications:
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4908716930414774, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
       propertyPath: m_LocalPosition.x
       value: 14.296923
@@ -2619,6 +3282,31 @@ Prefab:
       propertyPath: m_TagString
       value: Planets
       objectReference: {fileID: 0}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1194986279}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 2b5aff74c20a1194d87933196c199a56, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 4e20032fcf8584645abd930e16bc0320, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 0eb2ef8f3459e8f4d8e9cea167ff0df8, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 22ee48249c59f4c40a56e3f53d71fc92, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
   m_IsPrefabParent: 0
@@ -2634,6 +3322,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1926773563}
     m_Modifications:
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4908716930414774, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
       propertyPath: m_LocalPosition.x
       value: 35.65
@@ -2698,6 +3391,31 @@ Prefab:
       propertyPath: m_TagString
       value: Planets
       objectReference: {fileID: 0}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1194986279}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 2b5aff74c20a1194d87933196c199a56, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 4e20032fcf8584645abd930e16bc0320, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 0eb2ef8f3459e8f4d8e9cea167ff0df8, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 22ee48249c59f4c40a56e3f53d71fc92, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
   m_IsPrefabParent: 0
@@ -2787,6 +3505,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78f98a2e4249aaf4392262568b92464a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _audioSource: {fileID: 0}
+  crashAudio: []
   bounceParticle: {fileID: 1078658540513078, guid: e0362338f525dcc4cbdac785aa47b249,
     type: 2}
 --- !u!1 &885195441
@@ -2981,6 +3701,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1926773563}
     m_Modifications:
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4908716930414774, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
       propertyPath: m_LocalPosition.x
       value: 20
@@ -3050,6 +3775,31 @@ Prefab:
       propertyPath: m_TagString
       value: Planets
       objectReference: {fileID: 0}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1194986279}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 2b5aff74c20a1194d87933196c199a56, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 4e20032fcf8584645abd930e16bc0320, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 0eb2ef8f3459e8f4d8e9cea167ff0df8, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 22ee48249c59f4c40a56e3f53d71fc92, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
   m_IsPrefabParent: 0
@@ -3111,6 +3861,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78f98a2e4249aaf4392262568b92464a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _audioSource: {fileID: 0}
+  crashAudio: []
   bounceParticle: {fileID: 1078658540513078, guid: e0362338f525dcc4cbdac785aa47b249,
     type: 2}
 --- !u!1001 &910197209
@@ -3172,6 +3924,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1926773563}
     m_Modifications:
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4908716930414774, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
       propertyPath: m_LocalPosition.x
       value: -6.05
@@ -3241,6 +3998,31 @@ Prefab:
       propertyPath: m_TagString
       value: Planets
       objectReference: {fileID: 0}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1194986279}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 2b5aff74c20a1194d87933196c199a56, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 4e20032fcf8584645abd930e16bc0320, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 0eb2ef8f3459e8f4d8e9cea167ff0df8, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 22ee48249c59f4c40a56e3f53d71fc92, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
   m_IsPrefabParent: 0
@@ -3256,6 +4038,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1926773563}
     m_Modifications:
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4908716930414774, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
       propertyPath: m_LocalPosition.x
       value: 35.5
@@ -3320,6 +4107,31 @@ Prefab:
       propertyPath: m_TagString
       value: Planets
       objectReference: {fileID: 0}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1194986279}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 2b5aff74c20a1194d87933196c199a56, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 4e20032fcf8584645abd930e16bc0320, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 0eb2ef8f3459e8f4d8e9cea167ff0df8, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 22ee48249c59f4c40a56e3f53d71fc92, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
   m_IsPrefabParent: 0
@@ -3335,6 +4147,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1926773563}
     m_Modifications:
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4908716930414774, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
       propertyPath: m_LocalPosition.x
       value: -46.88
@@ -3404,6 +4221,31 @@ Prefab:
       propertyPath: m_TagString
       value: Planets
       objectReference: {fileID: 0}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1194986279}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 2b5aff74c20a1194d87933196c199a56, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 4e20032fcf8584645abd930e16bc0320, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 0eb2ef8f3459e8f4d8e9cea167ff0df8, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 22ee48249c59f4c40a56e3f53d71fc92, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
   m_IsPrefabParent: 0
@@ -3519,6 +4361,30 @@ Transform:
   m_PrefabParentObject: {fileID: 4171778056561680, guid: 0757590cbfb316645b869129e774402f,
     type: 2}
   m_PrefabInternal: {fileID: 1065808762}
+--- !u!1 &1065808764 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1263723156762902, guid: 0757590cbfb316645b869129e774402f,
+    type: 2}
+  m_PrefabInternal: {fileID: 1065808762}
+--- !u!114 &1065808765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1065808764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78f98a2e4249aaf4392262568b92464a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _audioSource: {fileID: 1194986279}
+  crashAudio:
+  - {fileID: 8300000, guid: 2b5aff74c20a1194d87933196c199a56, type: 3}
+  - {fileID: 8300000, guid: 4e20032fcf8584645abd930e16bc0320, type: 3}
+  - {fileID: 8300000, guid: 0eb2ef8f3459e8f4d8e9cea167ff0df8, type: 3}
+  - {fileID: 8300000, guid: 22ee48249c59f4c40a56e3f53d71fc92, type: 3}
+  bounceParticle: {fileID: 1383864442897104, guid: 64de6bf86b4845f4791280c49c059d92,
+    type: 2}
 --- !u!1 &1069799039
 GameObject:
   m_ObjectHideFlags: 0
@@ -3591,6 +4457,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1926773563}
     m_Modifications:
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4908716930414774, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
       propertyPath: m_LocalPosition.x
       value: 30.51
@@ -3660,6 +4531,31 @@ Prefab:
       propertyPath: m_TagString
       value: Planets
       objectReference: {fileID: 0}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1194986279}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 2b5aff74c20a1194d87933196c199a56, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 4e20032fcf8584645abd930e16bc0320, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 0eb2ef8f3459e8f4d8e9cea167ff0df8, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 22ee48249c59f4c40a56e3f53d71fc92, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
   m_IsPrefabParent: 0
@@ -3675,6 +4571,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1926773563}
     m_Modifications:
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4908716930414774, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
       propertyPath: m_LocalPosition.x
       value: 18.921467
@@ -3739,6 +4640,31 @@ Prefab:
       propertyPath: m_TagString
       value: Planets
       objectReference: {fileID: 0}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1194986279}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 2b5aff74c20a1194d87933196c199a56, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 4e20032fcf8584645abd930e16bc0320, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 0eb2ef8f3459e8f4d8e9cea167ff0df8, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 22ee48249c59f4c40a56e3f53d71fc92, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
   m_IsPrefabParent: 0
@@ -3754,6 +4680,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1926773563}
     m_Modifications:
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4908716930414774, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
       propertyPath: m_LocalPosition.x
       value: -0.90115166
@@ -3818,6 +4749,31 @@ Prefab:
       propertyPath: m_TagString
       value: Planets
       objectReference: {fileID: 0}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1194986279}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 2b5aff74c20a1194d87933196c199a56, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 4e20032fcf8584645abd930e16bc0320, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 0eb2ef8f3459e8f4d8e9cea167ff0df8, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 22ee48249c59f4c40a56e3f53d71fc92, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
   m_IsPrefabParent: 0
@@ -3833,6 +4789,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1926773563}
     m_Modifications:
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4908716930414774, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
       propertyPath: m_LocalPosition.x
       value: 29.11
@@ -3902,6 +4863,31 @@ Prefab:
       propertyPath: m_TagString
       value: Planets
       objectReference: {fileID: 0}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1194986279}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 2b5aff74c20a1194d87933196c199a56, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 4e20032fcf8584645abd930e16bc0320, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 0eb2ef8f3459e8f4d8e9cea167ff0df8, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 22ee48249c59f4c40a56e3f53d71fc92, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
   m_IsPrefabParent: 0
@@ -4053,6 +5039,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1926773563}
     m_Modifications:
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4908716930414774, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
       propertyPath: m_LocalPosition.x
       value: 5.3979816
@@ -4117,6 +5108,31 @@ Prefab:
       propertyPath: m_TagString
       value: Planets
       objectReference: {fileID: 0}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1194986279}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 2b5aff74c20a1194d87933196c199a56, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 4e20032fcf8584645abd930e16bc0320, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 0eb2ef8f3459e8f4d8e9cea167ff0df8, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 22ee48249c59f4c40a56e3f53d71fc92, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
   m_IsPrefabParent: 0
@@ -4125,6 +5141,115 @@ Transform:
   m_PrefabParentObject: {fileID: 4908716930414774, guid: b1fe76ae69852bd41b438f62f4260635,
     type: 2}
   m_PrefabInternal: {fileID: 1189033379}
+--- !u!1 &1194986277
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1194986278}
+  - component: {fileID: 1194986279}
+  m_Layer: 0
+  m_Name: CollisionAudio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1194986278
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1194986277}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2112217329}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1194986279
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1194986277}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
 --- !u!1 &1201578820
 GameObject:
   m_ObjectHideFlags: 0
@@ -4202,6 +5327,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1926773563}
     m_Modifications:
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4908716930414774, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
       propertyPath: m_LocalPosition.x
       value: 1.9782758
@@ -4266,6 +5396,31 @@ Prefab:
       propertyPath: m_TagString
       value: Planets
       objectReference: {fileID: 0}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1194986279}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 2b5aff74c20a1194d87933196c199a56, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 4e20032fcf8584645abd930e16bc0320, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 0eb2ef8f3459e8f4d8e9cea167ff0df8, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 22ee48249c59f4c40a56e3f53d71fc92, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
   m_IsPrefabParent: 0
@@ -4318,6 +5473,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1926773563}
     m_Modifications:
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4908716930414774, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
       propertyPath: m_LocalPosition.x
       value: 18.103964
@@ -4387,6 +5547,31 @@ Prefab:
       propertyPath: m_TagString
       value: Planets
       objectReference: {fileID: 0}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1194986279}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 2b5aff74c20a1194d87933196c199a56, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 4e20032fcf8584645abd930e16bc0320, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 0eb2ef8f3459e8f4d8e9cea167ff0df8, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 22ee48249c59f4c40a56e3f53d71fc92, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
   m_IsPrefabParent: 0
@@ -4402,6 +5587,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1926773563}
     m_Modifications:
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4908716930414774, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
       propertyPath: m_LocalPosition.x
       value: 26.59
@@ -4471,6 +5661,31 @@ Prefab:
       propertyPath: m_TagString
       value: Planets
       objectReference: {fileID: 0}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1194986279}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 2b5aff74c20a1194d87933196c199a56, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 4e20032fcf8584645abd930e16bc0320, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 0eb2ef8f3459e8f4d8e9cea167ff0df8, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 22ee48249c59f4c40a56e3f53d71fc92, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
   m_IsPrefabParent: 0
@@ -4514,6 +5729,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1926773563}
     m_Modifications:
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4908716930414774, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
       propertyPath: m_LocalPosition.x
       value: 15.682563
@@ -4578,6 +5798,31 @@ Prefab:
       propertyPath: m_TagString
       value: Planets
       objectReference: {fileID: 0}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1194986279}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 2b5aff74c20a1194d87933196c199a56, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 4e20032fcf8584645abd930e16bc0320, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 0eb2ef8f3459e8f4d8e9cea167ff0df8, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 22ee48249c59f4c40a56e3f53d71fc92, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
   m_IsPrefabParent: 0
@@ -4593,6 +5838,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1926773563}
     m_Modifications:
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4908716930414774, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
       propertyPath: m_LocalPosition.x
       value: 14.179006
@@ -4662,6 +5912,31 @@ Prefab:
       propertyPath: m_TagString
       value: Planets
       objectReference: {fileID: 0}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1194986279}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 2b5aff74c20a1194d87933196c199a56, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 4e20032fcf8584645abd930e16bc0320, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 0eb2ef8f3459e8f4d8e9cea167ff0df8, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 22ee48249c59f4c40a56e3f53d71fc92, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
   m_IsPrefabParent: 0
@@ -4677,6 +5952,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1926773563}
     m_Modifications:
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4908716930414774, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
       propertyPath: m_LocalPosition.x
       value: 33.57323
@@ -4741,6 +6021,31 @@ Prefab:
       propertyPath: m_TagString
       value: Planets
       objectReference: {fileID: 0}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1194986279}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 2b5aff74c20a1194d87933196c199a56, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 4e20032fcf8584645abd930e16bc0320, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 0eb2ef8f3459e8f4d8e9cea167ff0df8, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 22ee48249c59f4c40a56e3f53d71fc92, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
   m_IsPrefabParent: 0
@@ -4840,6 +6145,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1926773563}
     m_Modifications:
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4908716930414774, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
       propertyPath: m_LocalPosition.x
       value: -14.8
@@ -4909,6 +6219,31 @@ Prefab:
       propertyPath: m_TagString
       value: Planets
       objectReference: {fileID: 0}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1194986279}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 2b5aff74c20a1194d87933196c199a56, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 4e20032fcf8584645abd930e16bc0320, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 0eb2ef8f3459e8f4d8e9cea167ff0df8, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 22ee48249c59f4c40a56e3f53d71fc92, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
   m_IsPrefabParent: 0
@@ -4924,6 +6259,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1926773563}
     m_Modifications:
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4908716930414774, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
       propertyPath: m_LocalPosition.x
       value: -20.727982
@@ -4993,6 +6333,31 @@ Prefab:
       propertyPath: m_TagString
       value: Planets
       objectReference: {fileID: 0}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1194986279}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 2b5aff74c20a1194d87933196c199a56, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 4e20032fcf8584645abd930e16bc0320, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 0eb2ef8f3459e8f4d8e9cea167ff0df8, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 22ee48249c59f4c40a56e3f53d71fc92, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
   m_IsPrefabParent: 0
@@ -5008,6 +6373,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1926773563}
     m_Modifications:
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4908716930414774, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
       propertyPath: m_LocalPosition.x
       value: 19.961643
@@ -5077,6 +6447,31 @@ Prefab:
       propertyPath: m_TagString
       value: Planets
       objectReference: {fileID: 0}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1194986279}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 2b5aff74c20a1194d87933196c199a56, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 4e20032fcf8584645abd930e16bc0320, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 0eb2ef8f3459e8f4d8e9cea167ff0df8, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 22ee48249c59f4c40a56e3f53d71fc92, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
   m_IsPrefabParent: 0
@@ -5092,6 +6487,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1926773563}
     m_Modifications:
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4908716930414774, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
       propertyPath: m_LocalPosition.x
       value: -31.32
@@ -5161,6 +6561,31 @@ Prefab:
       propertyPath: m_TagString
       value: Planets
       objectReference: {fileID: 0}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1194986279}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 2b5aff74c20a1194d87933196c199a56, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 4e20032fcf8584645abd930e16bc0320, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 0eb2ef8f3459e8f4d8e9cea167ff0df8, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 22ee48249c59f4c40a56e3f53d71fc92, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
   m_IsPrefabParent: 0
@@ -5250,6 +6675,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1926773563}
     m_Modifications:
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4908716930414774, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
       propertyPath: m_LocalPosition.x
       value: -21.701097
@@ -5319,6 +6749,31 @@ Prefab:
       propertyPath: m_TagString
       value: Planets
       objectReference: {fileID: 0}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1194986279}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 2b5aff74c20a1194d87933196c199a56, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 4e20032fcf8584645abd930e16bc0320, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 0eb2ef8f3459e8f4d8e9cea167ff0df8, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 22ee48249c59f4c40a56e3f53d71fc92, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
   m_IsPrefabParent: 0
@@ -5407,6 +6862,30 @@ Transform:
   m_PrefabParentObject: {fileID: 4662409780582704, guid: 875205c6acaae3049b5b7a848e0b11a5,
     type: 2}
   m_PrefabInternal: {fileID: 1506013388}
+--- !u!1 &1506013390 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1537184361746064, guid: 875205c6acaae3049b5b7a848e0b11a5,
+    type: 2}
+  m_PrefabInternal: {fileID: 1506013388}
+--- !u!114 &1506013391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1506013390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78f98a2e4249aaf4392262568b92464a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _audioSource: {fileID: 1194986279}
+  crashAudio:
+  - {fileID: 8300000, guid: 2b5aff74c20a1194d87933196c199a56, type: 3}
+  - {fileID: 8300000, guid: 4e20032fcf8584645abd930e16bc0320, type: 3}
+  - {fileID: 8300000, guid: 0eb2ef8f3459e8f4d8e9cea167ff0df8, type: 3}
+  - {fileID: 8300000, guid: 22ee48249c59f4c40a56e3f53d71fc92, type: 3}
+  bounceParticle: {fileID: 1966031097952702, guid: d370beaa56c190d439c1e304466deebe,
+    type: 2}
 --- !u!1001 &1513030403
 Prefab:
   m_ObjectHideFlags: 0
@@ -5414,6 +6893,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1926773563}
     m_Modifications:
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4908716930414774, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
       propertyPath: m_LocalPosition.x
       value: 51.34
@@ -5478,6 +6962,31 @@ Prefab:
       propertyPath: m_TagString
       value: Planets
       objectReference: {fileID: 0}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1194986279}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 2b5aff74c20a1194d87933196c199a56, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 4e20032fcf8584645abd930e16bc0320, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 0eb2ef8f3459e8f4d8e9cea167ff0df8, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 22ee48249c59f4c40a56e3f53d71fc92, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
   m_IsPrefabParent: 0
@@ -5493,6 +7002,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1926773563}
     m_Modifications:
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4908716930414774, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
       propertyPath: m_LocalPosition.x
       value: 5.056199
@@ -5562,6 +7076,31 @@ Prefab:
       propertyPath: m_TagString
       value: Planets
       objectReference: {fileID: 0}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1194986279}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 2b5aff74c20a1194d87933196c199a56, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 4e20032fcf8584645abd930e16bc0320, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 0eb2ef8f3459e8f4d8e9cea167ff0df8, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 22ee48249c59f4c40a56e3f53d71fc92, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
   m_IsPrefabParent: 0
@@ -5675,6 +7214,30 @@ Transform:
   m_PrefabParentObject: {fileID: 4672924250889004, guid: 85f813040f10d7444bca328ff596704f,
     type: 2}
   m_PrefabInternal: {fileID: 1549142488}
+--- !u!1 &1549142490 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1678715979345796, guid: 85f813040f10d7444bca328ff596704f,
+    type: 2}
+  m_PrefabInternal: {fileID: 1549142488}
+--- !u!114 &1549142491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1549142490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78f98a2e4249aaf4392262568b92464a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _audioSource: {fileID: 1194986279}
+  crashAudio:
+  - {fileID: 8300000, guid: 2b5aff74c20a1194d87933196c199a56, type: 3}
+  - {fileID: 8300000, guid: 4e20032fcf8584645abd930e16bc0320, type: 3}
+  - {fileID: 8300000, guid: 0eb2ef8f3459e8f4d8e9cea167ff0df8, type: 3}
+  - {fileID: 8300000, guid: 22ee48249c59f4c40a56e3f53d71fc92, type: 3}
+  bounceParticle: {fileID: 1966031097952702, guid: d370beaa56c190d439c1e304466deebe,
+    type: 2}
 --- !u!1001 &1551634944
 Prefab:
   m_ObjectHideFlags: 0
@@ -5682,6 +7245,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1926773563}
     m_Modifications:
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4908716930414774, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
       propertyPath: m_LocalPosition.x
       value: 12.830468
@@ -5738,6 +7306,31 @@ Prefab:
       propertyPath: m_TagString
       value: Planets
       objectReference: {fileID: 0}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1194986279}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 2b5aff74c20a1194d87933196c199a56, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 4e20032fcf8584645abd930e16bc0320, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 0eb2ef8f3459e8f4d8e9cea167ff0df8, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 22ee48249c59f4c40a56e3f53d71fc92, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
   m_IsPrefabParent: 0
@@ -5770,6 +7363,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1926773563}
     m_Modifications:
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4908716930414774, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
       propertyPath: m_LocalPosition.x
       value: -17.86
@@ -5839,6 +7437,31 @@ Prefab:
       propertyPath: m_TagString
       value: Planets
       objectReference: {fileID: 0}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1194986279}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 2b5aff74c20a1194d87933196c199a56, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 4e20032fcf8584645abd930e16bc0320, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 0eb2ef8f3459e8f4d8e9cea167ff0df8, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 22ee48249c59f4c40a56e3f53d71fc92, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
   m_IsPrefabParent: 0
@@ -5854,6 +7477,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1926773563}
     m_Modifications:
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4908716930414774, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
       propertyPath: m_LocalPosition.x
       value: 6.51
@@ -5910,6 +7538,31 @@ Prefab:
       propertyPath: m_TagString
       value: Planets
       objectReference: {fileID: 0}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1194986279}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 2b5aff74c20a1194d87933196c199a56, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 4e20032fcf8584645abd930e16bc0320, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 0eb2ef8f3459e8f4d8e9cea167ff0df8, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 22ee48249c59f4c40a56e3f53d71fc92, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
   m_IsPrefabParent: 0
@@ -5994,6 +7647,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1926773563}
     m_Modifications:
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4908716930414774, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
       propertyPath: m_LocalPosition.x
       value: -11.52
@@ -6058,6 +7716,31 @@ Prefab:
       propertyPath: m_TagString
       value: Planets
       objectReference: {fileID: 0}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1194986279}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 2b5aff74c20a1194d87933196c199a56, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 4e20032fcf8584645abd930e16bc0320, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 0eb2ef8f3459e8f4d8e9cea167ff0df8, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 22ee48249c59f4c40a56e3f53d71fc92, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
   m_IsPrefabParent: 0
@@ -6073,6 +7756,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1926773563}
     m_Modifications:
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4908716930414774, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
       propertyPath: m_LocalPosition.x
       value: -28.31
@@ -6137,6 +7825,31 @@ Prefab:
       propertyPath: m_TagString
       value: Planets
       objectReference: {fileID: 0}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1194986279}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 2b5aff74c20a1194d87933196c199a56, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 4e20032fcf8584645abd930e16bc0320, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 0eb2ef8f3459e8f4d8e9cea167ff0df8, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 22ee48249c59f4c40a56e3f53d71fc92, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
   m_IsPrefabParent: 0
@@ -6217,6 +7930,30 @@ Transform:
   m_PrefabParentObject: {fileID: 4820576867237656, guid: 85a91bf4152ab9e47adca861c1bc5d5d,
     type: 2}
   m_PrefabInternal: {fileID: 1812303394}
+--- !u!1 &1812303396 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1306328587250342, guid: 85a91bf4152ab9e47adca861c1bc5d5d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1812303394}
+--- !u!114 &1812303397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1812303396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78f98a2e4249aaf4392262568b92464a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _audioSource: {fileID: 1194986279}
+  crashAudio:
+  - {fileID: 8300000, guid: 2b5aff74c20a1194d87933196c199a56, type: 3}
+  - {fileID: 8300000, guid: 4e20032fcf8584645abd930e16bc0320, type: 3}
+  - {fileID: 8300000, guid: 0eb2ef8f3459e8f4d8e9cea167ff0df8, type: 3}
+  - {fileID: 8300000, guid: 22ee48249c59f4c40a56e3f53d71fc92, type: 3}
+  bounceParticle: {fileID: 1046417984154246, guid: d49eb3848d8cb0e40bc3c737751208f5,
+    type: 2}
 --- !u!1 &1864395185 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1584160904504610, guid: 539bbeb422a1912498c0cbc45c35ca69,
@@ -6309,6 +8046,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1926773563}
     m_Modifications:
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4908716930414774, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
       propertyPath: m_LocalPosition.x
       value: -30.642075
@@ -6369,6 +8111,31 @@ Prefab:
       propertyPath: m_TagString
       value: Planets
       objectReference: {fileID: 0}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1194986279}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 2b5aff74c20a1194d87933196c199a56, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 4e20032fcf8584645abd930e16bc0320, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 0eb2ef8f3459e8f4d8e9cea167ff0df8, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 22ee48249c59f4c40a56e3f53d71fc92, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
   m_IsPrefabParent: 0
@@ -6425,6 +8192,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1926773563}
     m_Modifications:
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4908716930414774, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
       propertyPath: m_LocalPosition.x
       value: 13.938107
@@ -6494,6 +8266,31 @@ Prefab:
       propertyPath: m_TagString
       value: Planets
       objectReference: {fileID: 0}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1194986279}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 2b5aff74c20a1194d87933196c199a56, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 4e20032fcf8584645abd930e16bc0320, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 0eb2ef8f3459e8f4d8e9cea167ff0df8, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 22ee48249c59f4c40a56e3f53d71fc92, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
   m_IsPrefabParent: 0
@@ -6596,6 +8393,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1926773563}
     m_Modifications:
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4908716930414774, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
       propertyPath: m_LocalPosition.x
       value: -14.340111
@@ -6665,6 +8467,31 @@ Prefab:
       propertyPath: m_TagString
       value: Planets
       objectReference: {fileID: 0}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1194986279}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 2b5aff74c20a1194d87933196c199a56, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 4e20032fcf8584645abd930e16bc0320, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 0eb2ef8f3459e8f4d8e9cea167ff0df8, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 22ee48249c59f4c40a56e3f53d71fc92, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
   m_IsPrefabParent: 0
@@ -6850,6 +8677,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1926773563}
     m_Modifications:
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4908716930414774, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
       propertyPath: m_LocalPosition.x
       value: 16.52
@@ -6914,6 +8746,31 @@ Prefab:
       propertyPath: m_TagString
       value: Planets
       objectReference: {fileID: 0}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1194986279}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 2b5aff74c20a1194d87933196c199a56, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 4e20032fcf8584645abd930e16bc0320, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 0eb2ef8f3459e8f4d8e9cea167ff0df8, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 22ee48249c59f4c40a56e3f53d71fc92, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
   m_IsPrefabParent: 0
@@ -7013,6 +8870,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1926773563}
     m_Modifications:
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4908716930414774, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
       propertyPath: m_LocalPosition.x
       value: -38.969963
@@ -7077,6 +8939,31 @@ Prefab:
       propertyPath: m_TagString
       value: Planets
       objectReference: {fileID: 0}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1194986279}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 2b5aff74c20a1194d87933196c199a56, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 4e20032fcf8584645abd930e16bc0320, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 0eb2ef8f3459e8f4d8e9cea167ff0df8, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 22ee48249c59f4c40a56e3f53d71fc92, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
   m_IsPrefabParent: 0
@@ -7092,6 +8979,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1926773563}
     m_Modifications:
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4908716930414774, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
       propertyPath: m_LocalPosition.x
       value: -0.25
@@ -7161,6 +9053,31 @@ Prefab:
       propertyPath: m_TagString
       value: Planets
       objectReference: {fileID: 0}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1194986279}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 2b5aff74c20a1194d87933196c199a56, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 4e20032fcf8584645abd930e16bc0320, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 0eb2ef8f3459e8f4d8e9cea167ff0df8, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 22ee48249c59f4c40a56e3f53d71fc92, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
   m_IsPrefabParent: 0
@@ -7235,6 +9152,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1926773563}
     m_Modifications:
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4908716930414774, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
       propertyPath: m_LocalPosition.x
       value: 29.96
@@ -7304,6 +9226,31 @@ Prefab:
       propertyPath: m_TagString
       value: Planets
       objectReference: {fileID: 0}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1194986279}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 2b5aff74c20a1194d87933196c199a56, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 4e20032fcf8584645abd930e16bc0320, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 0eb2ef8f3459e8f4d8e9cea167ff0df8, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 22ee48249c59f4c40a56e3f53d71fc92, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
   m_IsPrefabParent: 0
@@ -7360,6 +9307,7 @@ Transform:
   - {fileID: 2068945815}
   - {fileID: 1069799041}
   - {fileID: 889472627}
+  - {fileID: 1194986278}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7388,6 +9336,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1926773563}
     m_Modifications:
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4908716930414774, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
       propertyPath: m_LocalPosition.x
       value: -34.65
@@ -7448,6 +9401,31 @@ Prefab:
       propertyPath: m_TagString
       value: Planets
       objectReference: {fileID: 0}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1194986279}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 2b5aff74c20a1194d87933196c199a56, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 4e20032fcf8584645abd930e16bc0320, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 0eb2ef8f3459e8f4d8e9cea167ff0df8, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 22ee48249c59f4c40a56e3f53d71fc92, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
   m_IsPrefabParent: 0
@@ -7509,6 +9487,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78f98a2e4249aaf4392262568b92464a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _audioSource: {fileID: 0}
+  crashAudio: []
   bounceParticle: {fileID: 1078658540513078, guid: e0362338f525dcc4cbdac785aa47b249,
     type: 2}
 --- !u!1001 &2144091211
@@ -7518,6 +9498,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1926773563}
     m_Modifications:
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4908716930414774, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
       propertyPath: m_LocalPosition.x
       value: -30.53
@@ -7587,6 +9572,31 @@ Prefab:
       propertyPath: m_TagString
       value: Planets
       objectReference: {fileID: 0}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1194986279}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 2b5aff74c20a1194d87933196c199a56, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 4e20032fcf8584645abd930e16bc0320, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 0eb2ef8f3459e8f4d8e9cea167ff0df8, type: 3}
+    - target: {fileID: 114606046493410844, guid: b1fe76ae69852bd41b438f62f4260635,
+        type: 2}
+      propertyPath: crashAudio.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 22ee48249c59f4c40a56e3f53d71fc92, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b1fe76ae69852bd41b438f62f4260635, type: 2}
   m_IsPrefabParent: 0
