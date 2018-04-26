@@ -6,38 +6,28 @@ using UnityEditor;
 
 public class WazerStartup : MonoBehaviour
 {
-    [SerializeField] private Light[] _lightsToFadeIn;
-    [SerializeField] private float _fadeTime;
-    [SerializeField] private float _maxLightRange;
     [SerializeField] private GameObject[] _objectsToInsantiate;
+    [SerializeField] private LightEditor[] _lightsToFadeIn;
 
     public void StartWazeGame()
     {
-        foreach(Light light in _lightsToFadeIn)
+        foreach(LightEditor light in _lightsToFadeIn)
         {
-            StartCoroutine(FadeLight(light));
+            if(light._lerpIntensity)
+            {
+                StartCoroutine(light.LerpIntensity());
+            }
+
+            if(light._lerpRange)
+            {
+                StartCoroutine(light.LerpRange());
+            }
         }
 
         foreach(GameObject obj in _objectsToInsantiate)
         {
             Instantiate(obj, transform.parent.transform);
         }
-    }
-
-    IEnumerator FadeLight(Light light)
-    {
-        float step = 0;
-
-        while(step < 1)
-        {
-            light.range = Mathf.Lerp(0, _maxLightRange, step);
-
-            step += Time.deltaTime / _fadeTime;
-
-            yield return null;
-        }
-
-        yield return null;
     }
 }
 

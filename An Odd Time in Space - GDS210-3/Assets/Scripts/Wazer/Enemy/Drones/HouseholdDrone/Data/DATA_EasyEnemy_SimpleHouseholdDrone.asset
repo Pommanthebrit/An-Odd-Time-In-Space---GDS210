@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ddc44514ab86f84890a76b1afebb479, type: 3}
   m_Name: DATA_EasyEnemy_SimpleHouseholdDrone
   m_EditorClassIdentifier: 
-  _projectilePrefab: {fileID: 1413678241382792, guid: f7bb32045b437d6428a5f369f32a3867,
+  _projectilePrefab: {fileID: 1359237658378294, guid: cfbaf121d0eb1074ca8210763c5476d3,
     type: 2}
   _projectileSpawnPoint: {fileID: 1094293834542876, guid: 26bbae3b91f14d348b95a889bd2aae66,
     type: 2}
