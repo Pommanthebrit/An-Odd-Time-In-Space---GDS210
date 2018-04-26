@@ -304,7 +304,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1045593992610336}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: 8}
+  m_LocalPosition: {x: 0, y: 2, z: 8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4075206087551136}
@@ -498,13 +498,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _gg: {fileID: 0}
-  _spawnRate: 20
+  _spawnRate: 50
   _spawnerDifficulty: 0
   _pooledObjAmount: 1
   _pooledObj: {fileID: 1095293538585872, guid: 26bbae3b91f14d348b95a889bd2aae66, type: 2}
   _canGrow: 0
-  _maxVerticalDisTeleport: 4
-  _timeTillVerticalTeleport: 19
+  _maxVerticalDisTeleport: 0
+  _timeTillVerticalTeleport: 0
   _speed: 2
   _spawnEffectDuration: 4
   _spawnEffectPrefab: {fileID: 1012534014760942, guid: 3df2596e88d45a840a6a7a6b822c2d75,
