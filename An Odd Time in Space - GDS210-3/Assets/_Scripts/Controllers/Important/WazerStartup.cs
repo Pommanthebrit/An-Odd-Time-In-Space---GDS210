@@ -6,12 +6,18 @@ using UnityEditor;
 
 public class WazerStartup : MonoBehaviour
 {
+	AudioSource _audioSource;
+	[SerializeField] AudioClip defeatJingle;
     [SerializeField] private GameObject[] _objectsToInsantiate;
     [SerializeField] private GameObject _commenceOrb;
     [SerializeField] private LightEditor[] _lightsToFadeIn;
     [SerializeField] private LightEditor[] _lightsToFadeOut;
 
     private List<GameObject> _instantiatedObjects;
+
+	void Start () {
+		_audioSource = GetComponent<AudioSource> ();
+	}
 
     public void StartWazeGame()
     {
@@ -38,6 +44,8 @@ public class WazerStartup : MonoBehaviour
 
     public void EndWazeGame()
     {
+		_audioSource.PlayOneShot (defeatJingle);
+
         foreach(LightEditor light in _lightsToFadeOut)
         {
             if (light._lerpIntensity)

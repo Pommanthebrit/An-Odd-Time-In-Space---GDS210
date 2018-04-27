@@ -461,6 +461,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7be03a63bb9d7014aa19745ec4d26a70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  defeatJingle: {fileID: 8300000, guid: 7ae8f7bd8173cb547b3bbba12b5abf3d, type: 3}
   _objectsToInsantiate:
   - {fileID: 1870878161239986, guid: 4bc130b7e8fef94419ada89835c0a53a, type: 2}
   _commenceOrb: {fileID: 807697458}
@@ -2455,15 +2456,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4438749831130734, guid: 0757590cbfb316645b869129e774402f, type: 2}
       propertyPath: m_LocalScale.x
-      value: 6
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 4438749831130734, guid: 0757590cbfb316645b869129e774402f, type: 2}
       propertyPath: m_LocalScale.y
-      value: 6
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 4438749831130734, guid: 0757590cbfb316645b869129e774402f, type: 2}
       propertyPath: m_LocalScale.z
-      value: 6
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 198478093543193916, guid: 0757590cbfb316645b869129e774402f,
         type: 2}
@@ -2473,17 +2474,17 @@ Prefab:
     - target: {fileID: 198478093543193916, guid: 0757590cbfb316645b869129e774402f,
         type: 2}
       propertyPath: InitialModule.startColor.maxGradient.key1.r
-      value: 0.010458867
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 198478093543193916, guid: 0757590cbfb316645b869129e774402f,
         type: 2}
       propertyPath: InitialModule.startColor.maxGradient.key1.b
-      value: 0.16176468
+      value: 0.8308824
       objectReference: {fileID: 0}
     - target: {fileID: 198478093543193916, guid: 0757590cbfb316645b869129e774402f,
         type: 2}
       propertyPath: InitialModule.startColor.maxGradient.key1.g
-      value: 0
+      value: 0.17763686
       objectReference: {fileID: 0}
     - target: {fileID: 114544354513022506, guid: 0757590cbfb316645b869129e774402f,
         type: 2}
@@ -3242,7 +3243,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 6496fff01d12a3549959cb8a6c4faeff, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.3
+  m_Volume: 0.1
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -3304,7 +3305,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 2
       time: 0
-      value: 1
+      value: 0.8
       inSlope: 0
       outSlope: 0
       tangentMode: 0
