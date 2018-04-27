@@ -133,20 +133,20 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 4ba2dca64205917479c999788fbeef45, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
+  m_Volume: 0.3
+  m_Pitch: 2
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 10
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -173,7 +173,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 2
       time: 0
-      value: 0
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -191,7 +191,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   reverbZoneMixCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -215,8 +215,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae0718a3d2ca18348b9ab525560b2763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _birthClip: {fileID: 0}
-  _deathClip: {fileID: 0}
+  _birthClip: {fileID: 8300000, guid: e67c0b0f15b69ea4fb595d13bed57557, type: 3}
+  _deathClip: {fileID: 8300000, guid: 279c976151619f349933e56d0736b5b9, type: 3}
   _lifeSpan: 10
   _source: {fileID: 0}
   _speed: 5.6
@@ -226,7 +226,7 @@ CapsuleCollider:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1039634795759406}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 9473458bd626dd34da4c4aa58b0889d9, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.12

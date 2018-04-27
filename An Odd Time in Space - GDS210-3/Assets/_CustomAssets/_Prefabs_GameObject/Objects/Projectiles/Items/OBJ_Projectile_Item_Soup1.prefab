@@ -26,6 +26,7 @@ GameObject:
   - component: {fileID: 82525571244844880}
   - component: {fileID: 114217258559089098}
   - component: {fileID: 54611072728267274}
+  - component: {fileID: 136073993583637346}
   m_Layer: 0
   m_Name: OBJ_Projectile_Item_Soup1
   m_TagString: projectile
@@ -170,7 +171,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   reverbZoneMixCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -228,3 +229,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _rotateSpeed: 3
+--- !u!136 &136073993583637346
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1717930999029372}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.027362961
+  m_Height: 0.10094014
+  m_Direction: 1
+  m_Center: {x: -9.313226e-10, y: -0.000010350719, z: -0.000000022351742}
