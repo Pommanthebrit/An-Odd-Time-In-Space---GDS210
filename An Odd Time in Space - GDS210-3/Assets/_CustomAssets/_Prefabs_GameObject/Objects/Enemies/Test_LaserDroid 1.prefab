@@ -101,7 +101,7 @@ GameObject:
   - component: {fileID: 82969371055499456}
   - component: {fileID: 54043305931423612}
   - component: {fileID: 114823732637371576}
-  - component: {fileID: 135523514379517178}
+  - component: {fileID: 136058695587285940}
   m_Layer: 0
   m_Name: Test_LaserDroid 1
   m_TagString: Untagged
@@ -245,7 +245,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1292700280893642}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.091, z: 0.389}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4167841664409410}
@@ -397,7 +397,7 @@ Animator:
   m_GameObject: {fileID: 1597546737160508}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 0120855dab9db814db40efe48cecefbe, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2f3cfb95326f999468658af64ae33873, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -430,8 +430,8 @@ MonoBehaviour:
   _smoothTime: 0.2
   _maxVerticalVelocity: 3
   _accuracyMeasure: 0.1
---- !u!135 &135523514379517178
-SphereCollider:
+--- !u!136 &136058695587285940
+CapsuleCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -439,8 +439,9 @@ SphereCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.2
+  m_Radius: 0.11
+  m_Height: 0.4
+  m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!137 &137172788815035682
 SkinnedMeshRenderer:
