@@ -162,6 +162,10 @@ Prefab:
       propertyPath: randomSeed
       value: -1229874013
       objectReference: {fileID: 0}
+    - target: {fileID: 1261910103929450, guid: bf35ecf717d64d54aa635e60d625b30f, type: 2}
+      propertyPath: m_TagString
+      value: Sword
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bf35ecf717d64d54aa635e60d625b30f, type: 2}
   m_IsPrefabParent: 0
@@ -1824,7 +1828,7 @@ GameObject:
   - component: {fileID: 1435517678}
   m_Layer: 0
   m_Name: ThrowableSword
-  m_TagString: Untagged
+  m_TagString: Sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2103,7 +2107,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 1fbde4fd99a46e749b2497ca1f45e843, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: Sword
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9500000, guid: 1fbde4fd99a46e749b2497ca1f45e843, type: 3}
@@ -2412,7 +2416,7 @@ GameObject:
   - component: {fileID: 1676584047}
   m_Layer: 0
   m_Name: Point light
-  m_TagString: Untagged
+  m_TagString: Sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

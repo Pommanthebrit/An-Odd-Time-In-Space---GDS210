@@ -13,6 +13,7 @@ TagManager:
   - Item
   - Ball
   - Planets
+  - Sword
   layers:
   - Default
   - TransparentFX

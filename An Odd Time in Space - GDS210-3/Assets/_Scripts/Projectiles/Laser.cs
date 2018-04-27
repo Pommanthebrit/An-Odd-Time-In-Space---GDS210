@@ -20,7 +20,7 @@ public class Laser : Projectile {
 
 	protected override void OnCollisionEnter(Collision col)
 	{
-		if(col.gameObject != _source)
+		if(col.gameObject.tag != "Sword" && col.gameObject != _source)
 		{
 			Die();
 		}
