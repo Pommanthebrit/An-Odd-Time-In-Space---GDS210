@@ -88,7 +88,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: d99d5a434680b80449d07f9ac922f729, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -228,6 +228,7 @@ MonoBehaviour:
   _gg: {fileID: 0}
   _shootingMechanism: {fileID: 11400000, guid: 3d29698d11fe5d1459d7a7eb9a50fe8b, type: 2}
   _hoverSound: {fileID: 8300000, guid: e82013eeab4ea6a42875f07440360ee4, type: 3}
+  _spawnSound: {fileID: 8300000, guid: a0519af3e116be3478c8a8f8729f5ab0, type: 3}
   _target: {fileID: 0}
   _moveRight: 0
   _speed: 1

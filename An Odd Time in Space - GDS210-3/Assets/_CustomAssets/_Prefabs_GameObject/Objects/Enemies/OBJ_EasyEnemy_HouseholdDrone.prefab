@@ -228,6 +228,7 @@ MonoBehaviour:
   _gg: {fileID: 0}
   _shootingMechanism: {fileID: 11400000, guid: 0372407f3628c704c83e5886d426cdaf, type: 2}
   _hoverSound: {fileID: 8300000, guid: e82013eeab4ea6a42875f07440360ee4, type: 3}
+  _spawnSound: {fileID: 8300000, guid: 2eb37c97d71b3ab4db59f6ab5e2e6683, type: 3}
   _target: {fileID: 0}
   _moveRight: 1
   _speed: 0.8

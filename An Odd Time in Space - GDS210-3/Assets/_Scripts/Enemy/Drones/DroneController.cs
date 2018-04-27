@@ -23,6 +23,7 @@ public abstract class DroneController : BaseEnemyController, IShoot
 
 	[Tooltip("A sound that will consitently play.")]
 	[SerializeField] protected AudioClip _hoverSound;
+	[SerializeField] protected AudioClip _spawnSound;
 
 	protected AudioSource _audioSource;
 	#endregion
@@ -73,6 +74,9 @@ public abstract class DroneController : BaseEnemyController, IShoot
 
 		_shootingMechanism.Setup(this.gameObject);
         _shootingMechanism._targetTransform = _target;
+
+		_audioSource = GetComponent<AudioSource> ();
+		_audioSource.PlayOneShot (_spawnSound);
     }
 
 	protected virtual void FixedUpdate()

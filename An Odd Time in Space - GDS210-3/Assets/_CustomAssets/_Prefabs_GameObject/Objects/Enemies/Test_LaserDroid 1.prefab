@@ -375,7 +375,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   reverbZoneMixCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -423,6 +423,7 @@ MonoBehaviour:
   _gg: {fileID: 0}
   _shootingMechanism: {fileID: 11400000, guid: 3d29698d11fe5d1459d7a7eb9a50fe8b, type: 2}
   _hoverSound: {fileID: 8300000, guid: e82013eeab4ea6a42875f07440360ee4, type: 3}
+  _spawnSound: {fileID: 8300000, guid: a0519af3e116be3478c8a8f8729f5ab0, type: 3}
   _target: {fileID: 0}
   _moveRight: 0
   _speed: 1
