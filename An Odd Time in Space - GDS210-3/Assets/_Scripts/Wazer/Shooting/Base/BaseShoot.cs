@@ -91,6 +91,11 @@ public class BaseShoot : ScriptableObject
 			// Creates the projectile at given position. (Consider Revising)
 			Instantiate(_shootEffect, _projectileSpawnPoint.transform.position, _projectileSpawnPoint.transform.rotation);
 			Instantiate(_projectilePrefab, _projectileSpawnPoint.transform.position, _projectileSpawnPoint.transform.rotation);
+
+            if(_parentObj.GetComponent<Animator>() != null)
+            {
+                _parentObj.GetComponent<Animator>().SetTrigger("Shoot");
+            }
 //			_objShooting.MyAudioSource.PlayOneShot(_shootSound);
 			// TODO: Finish sounds here.
 
