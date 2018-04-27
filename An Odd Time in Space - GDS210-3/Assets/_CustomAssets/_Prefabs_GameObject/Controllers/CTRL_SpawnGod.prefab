@@ -226,7 +226,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1991221569257494}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 5, z: 8}
+  m_LocalPosition: {x: 0, y: 7, z: 8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4075206087551136}
@@ -386,9 +386,9 @@ MonoBehaviour:
   _spawnRate: 15
   _spawnerDifficulty: 0
   _pooledObjAmount: 2
-  _pooledObj: {fileID: 1686091023156718, guid: 4c81cba8b174cce4e99a389853f171e5, type: 2}
+  _pooledObj: {fileID: 1597546737160508, guid: 46daf42f546e2b940976080d796656ce, type: 2}
   _canGrow: 0
-  _maxVerticalDisTeleport: 4
+  _maxVerticalDisTeleport: 2
   _timeTillVerticalTeleport: 19
   _speed: 2
   _spawnEffectDuration: 4
