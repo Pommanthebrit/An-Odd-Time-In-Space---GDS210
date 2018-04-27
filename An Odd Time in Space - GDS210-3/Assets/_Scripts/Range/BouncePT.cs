@@ -13,7 +13,7 @@ public class BouncePT : MonoBehaviour {
 		if (collider.gameObject.tag == "Planets" || collider.gameObject.tag == "Ball") {
 			Instantiate (bounceParticle, collider.transform.position, Quaternion.identity);
 
-			_audioSource.PlayOneShot (crashAudio[Random.Range (0, 3)]); 
+			_audioSource.PlayOneShot (crashAudio[Random.Range (0, crashAudio.Length)]); 
 		}
 	}
 }
