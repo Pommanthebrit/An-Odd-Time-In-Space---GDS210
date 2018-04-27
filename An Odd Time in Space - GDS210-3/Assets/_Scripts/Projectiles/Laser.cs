@@ -7,6 +7,9 @@ public class Laser : Projectile {
 	[Header("Movement")]
 	[SerializeField] private float _speed;
 
+	[Header("Effects")]
+	[SerializeField] private GameObject deathPT;
+
 	protected override void Start ()
 	{
 		base.Start ();
@@ -22,6 +25,7 @@ public class Laser : Projectile {
 	{
 		if(col.gameObject.tag != "Sword" && col.gameObject != _source)
 		{
+			Instantiate (deathPT, GetComponent<Collider>().transform.position, Quaternion.identity);
 			Die();
 		}
 	}

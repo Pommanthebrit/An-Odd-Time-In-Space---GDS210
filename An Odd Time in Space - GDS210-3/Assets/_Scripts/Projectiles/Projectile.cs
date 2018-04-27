@@ -8,7 +8,8 @@ public abstract class Projectile : MonoBehaviour {
 	
 	[Header("Audio")]
 	[SerializeField] protected AudioClip _birthClip;
-	[SerializeField] protected AudioClip _deathClip;
+	//Moved death audio to be paired with the death particle instantiation
+	//[SerializeField] protected AudioClip _deathClip;
 
 	[Header("Other")]
 	[SerializeField] private float _lifeSpan;
@@ -31,8 +32,6 @@ public abstract class Projectile : MonoBehaviour {
 
 	protected virtual void Die()
 	{
-		_audioSource.PlayOneShot(_deathClip);
-
 		Destroy(this.gameObject);
 	}
 

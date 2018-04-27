@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class BouncePT : MonoBehaviour {
 
-	public AudioSource _audioSource;
-	public AudioClip[] crashAudio;
-	public GameObject bounceParticle;
+	[Header("Effects")]
+	[SerializeField] AudioSource _audioSource;
+	[SerializeField] AudioClip[] crashAudio;
+	[SerializeField] GameObject bounceParticle;
 
 	void OnCollisionEnter (Collision collider) {
 		//Creates particle which destroys self after running to completion

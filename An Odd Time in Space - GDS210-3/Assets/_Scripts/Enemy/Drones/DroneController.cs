@@ -42,8 +42,8 @@ public abstract class DroneController : BaseEnemyController, IShoot
 	protected Vector3 _velToAdd;
     #endregion
 
-    [Header("Scoring")]
-    [SerializeField] private int _scoreWorth;
+	//_scoreWorth located in baseEnemyController
+    //[SerializeField] private int _scoreWorth;
 
 	void OnEnable()
 	{

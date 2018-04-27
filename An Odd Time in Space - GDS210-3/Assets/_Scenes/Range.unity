@@ -750,7 +750,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _audioSource: {fileID: 1194986279}
   crashAudio:
-  - {fileID: 8300000, guid: 2e2751a0af240cf4ba3d6468310edee1, type: 3}
+  - {fileID: 8300000, guid: 2b5aff74c20a1194d87933196c199a56, type: 3}
+  - {fileID: 8300000, guid: 4e20032fcf8584645abd930e16bc0320, type: 3}
+  - {fileID: 8300000, guid: 0eb2ef8f3459e8f4d8e9cea167ff0df8, type: 3}
+  - {fileID: 8300000, guid: 22ee48249c59f4c40a56e3f53d71fc92, type: 3}
   bounceParticle: {fileID: 1078658540513078, guid: e0362338f525dcc4cbdac785aa47b249,
     type: 2}
 --- !u!1 &290162730
@@ -808,7 +811,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _audioSource: {fileID: 1194986279}
   crashAudio:
-  - {fileID: 8300000, guid: 2e2751a0af240cf4ba3d6468310edee1, type: 3}
+  - {fileID: 8300000, guid: 2b5aff74c20a1194d87933196c199a56, type: 3}
+  - {fileID: 8300000, guid: 4e20032fcf8584645abd930e16bc0320, type: 3}
+  - {fileID: 8300000, guid: 0eb2ef8f3459e8f4d8e9cea167ff0df8, type: 3}
+  - {fileID: 8300000, guid: 22ee48249c59f4c40a56e3f53d71fc92, type: 3}
   bounceParticle: {fileID: 1078658540513078, guid: e0362338f525dcc4cbdac785aa47b249,
     type: 2}
 --- !u!1001 &344378241
@@ -3509,7 +3515,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _audioSource: {fileID: 1194986279}
   crashAudio:
-  - {fileID: 8300000, guid: 2e2751a0af240cf4ba3d6468310edee1, type: 3}
+  - {fileID: 8300000, guid: 2b5aff74c20a1194d87933196c199a56, type: 3}
+  - {fileID: 8300000, guid: 4e20032fcf8584645abd930e16bc0320, type: 3}
+  - {fileID: 8300000, guid: 0eb2ef8f3459e8f4d8e9cea167ff0df8, type: 3}
+  - {fileID: 8300000, guid: 22ee48249c59f4c40a56e3f53d71fc92, type: 3}
   bounceParticle: {fileID: 1078658540513078, guid: e0362338f525dcc4cbdac785aa47b249,
     type: 2}
 --- !u!1 &885195441
@@ -3697,6 +3706,11 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 525fe280eea815a49b198cbdbd154817, type: 3}
   m_PrefabInternal: {fileID: 889472626}
+--- !u!1 &897062859 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1486008166737706, guid: 539bbeb422a1912498c0cbc45c35ca69,
+    type: 2}
+  m_PrefabInternal: {fileID: 1731989725}
 --- !u!1001 &898510234
 Prefab:
   m_ObjectHideFlags: 0
@@ -3866,7 +3880,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _audioSource: {fileID: 1194986279}
   crashAudio:
-  - {fileID: 8300000, guid: 2e2751a0af240cf4ba3d6468310edee1, type: 3}
+  - {fileID: 8300000, guid: 2b5aff74c20a1194d87933196c199a56, type: 3}
+  - {fileID: 8300000, guid: 4e20032fcf8584645abd930e16bc0320, type: 3}
+  - {fileID: 8300000, guid: 0eb2ef8f3459e8f4d8e9cea167ff0df8, type: 3}
+  - {fileID: 8300000, guid: 22ee48249c59f4c40a56e3f53d71fc92, type: 3}
   bounceParticle: {fileID: 1078658540513078, guid: e0362338f525dcc4cbdac785aa47b249,
     type: 2}
 --- !u!1001 &910197209
@@ -4297,6 +4314,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 114920657318905158, guid: f512e2d7eebcc7849a550f18c63c4279,
+        type: 2}
+      propertyPath: onHandHoverEnd.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 2100000, guid: 6edbf387b99e545479f4ddab2419108e, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f512e2d7eebcc7849a550f18c63c4279, type: 2}
   m_IsPrefabParent: 0
@@ -7634,8 +7656,23 @@ Prefab:
     - target: {fileID: 114538519943331436, guid: 539bbeb422a1912498c0cbc45c35ca69,
         type: 2}
       propertyPath: _pushRadius
-      value: 10
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114538519943331436, guid: 539bbeb422a1912498c0cbc45c35ca69,
+        type: 2}
+      propertyPath: _hitForce
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 114538519943331436, guid: 539bbeb422a1912498c0cbc45c35ca69,
+        type: 2}
+      propertyPath: _clubHead
+      value: 
+      objectReference: {fileID: 897062859}
+    - target: {fileID: 114538519943331436, guid: 539bbeb422a1912498c0cbc45c35ca69,
+        type: 2}
+      propertyPath: _ball
+      value: 
+      objectReference: {fileID: 2101181725}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 539bbeb422a1912498c0cbc45c35ca69, type: 2}
   m_IsPrefabParent: 0
@@ -7972,7 +8009,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 9675bb9ca38a0b94a8055a0fa965cdc8, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 2b5aff74c20a1194d87933196c199a56, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -9493,7 +9530,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _audioSource: {fileID: 1194986279}
   crashAudio:
-  - {fileID: 8300000, guid: 2e2751a0af240cf4ba3d6468310edee1, type: 3}
+  - {fileID: 8300000, guid: 2b5aff74c20a1194d87933196c199a56, type: 3}
+  - {fileID: 8300000, guid: 4e20032fcf8584645abd930e16bc0320, type: 3}
+  - {fileID: 8300000, guid: 0eb2ef8f3459e8f4d8e9cea167ff0df8, type: 3}
+  - {fileID: 8300000, guid: 22ee48249c59f4c40a56e3f53d71fc92, type: 3}
   bounceParticle: {fileID: 1078658540513078, guid: e0362338f525dcc4cbdac785aa47b249,
     type: 2}
 --- !u!1001 &2144091211

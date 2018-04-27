@@ -5,7 +5,7 @@ using UnityEngine;
 public class Activate : MonoBehaviour {
 
 	public Material Purple;
-	public ParticleSystem swordPT;
+	[SerializeField] ParticleSystem swordPT;
 
 	public void SwordActivate () {
 		Material[] previousMaterials = GetComponent<MeshRenderer> ().materials;
