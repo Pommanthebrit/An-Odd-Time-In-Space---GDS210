@@ -6,11 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/HUB.unity
+    path: Assets/_Scenes/HUB/HUB.unity
     guid: 90153481da4fab241a1e19644981951c
   - enabled: 1
-    path: Assets/Scenes/Range.unity
+    path: Assets/_Scenes/Range.unity
     guid: 2a64032b1b72205478c1a3bd593284ff
   - enabled: 1
-    path: Assets/Scenes/SCN_TestScene_JediMode.unity
+    path: Assets/_Scenes/SCN_TestScene_JediMode.unity
     guid: 6756464231ac17740b02ce3ed2aec500

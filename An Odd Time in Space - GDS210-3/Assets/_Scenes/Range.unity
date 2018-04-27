@@ -748,8 +748,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78f98a2e4249aaf4392262568b92464a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _audioSource: {fileID: 0}
-  crashAudio: []
+  _audioSource: {fileID: 1194986279}
+  crashAudio:
+  - {fileID: 8300000, guid: 2e2751a0af240cf4ba3d6468310edee1, type: 3}
   bounceParticle: {fileID: 1078658540513078, guid: e0362338f525dcc4cbdac785aa47b249,
     type: 2}
 --- !u!1 &290162730
@@ -805,8 +806,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78f98a2e4249aaf4392262568b92464a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _audioSource: {fileID: 0}
-  crashAudio: []
+  _audioSource: {fileID: 1194986279}
+  crashAudio:
+  - {fileID: 8300000, guid: 2e2751a0af240cf4ba3d6468310edee1, type: 3}
   bounceParticle: {fileID: 1078658540513078, guid: e0362338f525dcc4cbdac785aa47b249,
     type: 2}
 --- !u!1001 &344378241
@@ -3505,8 +3507,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78f98a2e4249aaf4392262568b92464a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _audioSource: {fileID: 0}
-  crashAudio: []
+  _audioSource: {fileID: 1194986279}
+  crashAudio:
+  - {fileID: 8300000, guid: 2e2751a0af240cf4ba3d6468310edee1, type: 3}
   bounceParticle: {fileID: 1078658540513078, guid: e0362338f525dcc4cbdac785aa47b249,
     type: 2}
 --- !u!1 &885195441
@@ -3861,8 +3864,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78f98a2e4249aaf4392262568b92464a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _audioSource: {fileID: 0}
-  crashAudio: []
+  _audioSource: {fileID: 1194986279}
+  crashAudio:
+  - {fileID: 8300000, guid: 2e2751a0af240cf4ba3d6468310edee1, type: 3}
   bounceParticle: {fileID: 1078658540513078, guid: e0362338f525dcc4cbdac785aa47b249,
     type: 2}
 --- !u!1001 &910197209
@@ -9487,8 +9491,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78f98a2e4249aaf4392262568b92464a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _audioSource: {fileID: 0}
-  crashAudio: []
+  _audioSource: {fileID: 1194986279}
+  crashAudio:
+  - {fileID: 8300000, guid: 2e2751a0af240cf4ba3d6468310edee1, type: 3}
   bounceParticle: {fileID: 1078658540513078, guid: e0362338f525dcc4cbdac785aa47b249,
     type: 2}
 --- !u!1001 &2144091211
