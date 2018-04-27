@@ -40,7 +40,10 @@ public abstract class DroneController : BaseEnemyController, IShoot
 
 	// Velocity that will be added after all changes to velocity have been calculated.
 	protected Vector3 _velToAdd;
-	#endregion
+    #endregion
+
+    [Header("Scoring")]
+    [SerializeField] private int _scoreWorth;
 
 	void OnEnable()
 	{
@@ -109,4 +112,10 @@ public abstract class DroneController : BaseEnemyController, IShoot
 	{
 		_rb.velocity = _velToAdd;
 	}
+
+    protected override void Die()
+    {
+        base.Die();
+        _gg.AddScore(_scoreWorth);
+    }
 }
