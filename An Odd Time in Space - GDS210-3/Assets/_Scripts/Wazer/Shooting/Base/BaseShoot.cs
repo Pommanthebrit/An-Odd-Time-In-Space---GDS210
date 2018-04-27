@@ -32,10 +32,11 @@ public class BaseShoot : ScriptableObject
 
 	[Tooltip("This will be instantiate at the _projectileSP at relative rotation")]
 	[SerializeField] private GameObject _shootEffect;
-	#endregion
+    #endregion
 
 
-	#region "Other Variables"
+    #region "Other Variables"
+    [HideInInspector] public Transform _targetTransform;
 	protected bool _canShoot = true;
 
 	// References.
@@ -50,6 +51,7 @@ public class BaseShoot : ScriptableObject
 	// Setups the shooting mechanic.
 	public virtual void Setup(GameObject parentObj)
 	{
+        // Needs revising
 		_parentObj = parentObj;
 		_parentScript = _parentObj.GetComponent<IShoot>();
 		_projectileSpawnPos = _projectileSpawnPoint.transform.localPosition;
@@ -90,7 +92,8 @@ public class BaseShoot : ScriptableObject
 		{
 			// Creates the projectile at given position. (Consider Revising)
 			Instantiate(_shootEffect, _projectileSpawnPoint.transform.position, _projectileSpawnPoint.transform.rotation);
-			Instantiate(_projectilePrefab, _projectileSpawnPoint.transform.position, _projectileSpawnPoint.transform.rotation);
+			GameObject newProjectile = Instantiate(_projectilePrefab, _projectileSpawnPoint.transform.position, _projectileSpawnPoint.transform.rotation);
+            newProjectile.GetComponent<Projectile>()._targetTransform = this._targetTransform;
 
             if(_parentObj.GetComponent<Animator>() != null)
             {

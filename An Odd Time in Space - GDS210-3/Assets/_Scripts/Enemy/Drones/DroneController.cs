@@ -54,6 +54,7 @@ public abstract class DroneController : BaseEnemyController, IShoot
 	void Awake()
 	{
 		_shootingMechanism = ScriptableObject.Instantiate(_shootingMechanism);
+        print(_target);
 	}
 
 	// Instantiates an Object at specified position.
@@ -71,7 +72,8 @@ public abstract class DroneController : BaseEnemyController, IShoot
 		base.Start(); // Does parent actions.
 
 		_shootingMechanism.Setup(this.gameObject);
-	}
+        _shootingMechanism._targetTransform = _target;
+    }
 
 	protected virtual void FixedUpdate()
 	{

@@ -14,6 +14,7 @@ public abstract class Projectile : MonoBehaviour {
 	[Header("Other")]
 	[SerializeField] private float _lifeSpan;
 	[HideInInspector] public GameObject _source;
+    [HideInInspector] public Transform _targetTransform;
 	protected AudioSource _audioSource;
 	protected Rigidbody _rb;
 
@@ -23,6 +24,9 @@ public abstract class Projectile : MonoBehaviour {
 		_rb = GetComponent<Rigidbody>();
 		_audioSource = GetComponent<AudioSource> ();
 		_audioSource.PlayOneShot(_birthClip);
+
+        transform.LookAt(_targetTransform);
+        print(_targetTransform);
 
 		Invoke ("Die", _lifeSpan);
 	}
