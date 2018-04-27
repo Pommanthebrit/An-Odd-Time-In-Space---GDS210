@@ -20,7 +20,8 @@ public abstract class Projectile : MonoBehaviour {
 	protected virtual void Start () 
 	{
 		_rb = GetComponent<Rigidbody>();
-		//_audioSource.PlayOneShot(_birthClip);
+		_audioSource = GetComponent<AudioSource> ();
+		_audioSource.PlayOneShot(_birthClip);
 
 		Invoke ("Die", _lifeSpan);
 	}
@@ -30,7 +31,7 @@ public abstract class Projectile : MonoBehaviour {
 
 	protected virtual void Die()
 	{
-		//_audioSource.PlayOneShot(_deathClip);
+		_audioSource.PlayOneShot(_deathClip);
 
 		Destroy(this.gameObject);
 	}

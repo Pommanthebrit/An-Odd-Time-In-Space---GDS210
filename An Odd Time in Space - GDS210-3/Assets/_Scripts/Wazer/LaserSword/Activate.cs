@@ -5,17 +5,13 @@ using UnityEngine;
 public class Activate : MonoBehaviour {
 
 	public Material Purple;
+	public ParticleSystem swordPT;
 
-	// Use this for initialization
-	void Start () {
+	public void SwordActivate () {
 		Material[] previousMaterials = GetComponent<MeshRenderer> ().materials;
 		previousMaterials [3] = Purple;
 		GetComponent<MeshRenderer> ().materials = previousMaterials;
 
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
+		swordPT.Play ();
 	}
 }
