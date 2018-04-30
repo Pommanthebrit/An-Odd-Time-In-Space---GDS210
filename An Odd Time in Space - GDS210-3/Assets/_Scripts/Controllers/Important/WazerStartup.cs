@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEditor;
+//using UnityEditor;
 
 
 public class WazerStartup : MonoBehaviour
@@ -68,7 +68,7 @@ public class WazerStartup : MonoBehaviour
     }
 }
 
-
+/* Unable to build - temp comment out due to errors
 [CustomEditor(typeof(WazerStartup))]
 class TestButton : Editor
 {
@@ -84,3 +84,4 @@ class TestButton : Editor
         }
     }
 }
+*/

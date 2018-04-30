@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEditor;
+//using UnityEditor; commented out due to build errors
 
 public class SpawnerGod : MonoBehaviour 
 {
