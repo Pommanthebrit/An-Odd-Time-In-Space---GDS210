@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class RotateSlowly : MonoBehaviour {
 
-    [SerializeField] private float _rotateSpeed;
+    private float _rotateSpeed = 0f;
 
 	void Start ()
     {
-        GetComponent<Rigidbody>().AddTorque(new Vector3(Random.value, Random.value, Random.value) * _rotateSpeed, ForceMode.Impulse);
+		_rotateSpeed = Random.Range (1f, 2f);
+        GetComponent<Rigidbody>().AddTorque(new Vector3 (Random.value, Random.value, Random.value) * _rotateSpeed, ForceMode.Impulse);
     }
 }

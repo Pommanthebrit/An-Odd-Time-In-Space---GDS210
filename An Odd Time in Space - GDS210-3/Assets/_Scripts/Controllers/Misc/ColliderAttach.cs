@@ -6,7 +6,8 @@ public class ColliderAttach : MonoBehaviour {
 
 	public Transform attachTo;
 	
-	void Update () {
+	void FixedUpdate () {
 		transform.position = attachTo.transform.position;
+		transform.rotation = attachTo.transform.rotation;
 	}
 }
