@@ -319,6 +319,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 114555033142959500, guid: 85a91bf4152ab9e47adca861c1bc5d5d,
+        type: 2}
+      propertyPath: _rotateSpeed
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 85a91bf4152ab9e47adca861c1bc5d5d, type: 2}
   m_IsPrefabParent: 0
@@ -715,6 +720,11 @@ Prefab:
     - target: {fileID: 4672924250889004, guid: 85f813040f10d7444bca328ff596704f, type: 2}
       propertyPath: m_LocalScale.z
       value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 114764169672096976, guid: 85f813040f10d7444bca328ff596704f,
+        type: 2}
+      propertyPath: _rotateSpeed
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 85f813040f10d7444bca328ff596704f, type: 2}
@@ -4943,6 +4953,11 @@ Prefab:
       propertyPath: m_LocalScale.y
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 114527909617477920, guid: 16d230f040a7b274fb5379dbb1311250,
+        type: 2}
+      propertyPath: _rotateSpeed
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 16d230f040a7b274fb5379dbb1311250, type: 2}
   m_IsPrefabParent: 0
@@ -5288,6 +5303,7 @@ GameObject:
   - component: {fileID: 801731855}
   - component: {fileID: 801731854}
   - component: {fileID: 801731853}
+  - component: {fileID: 801731858}
   m_Layer: 0
   m_Name: SunPT
   m_TagString: Untagged
@@ -5383,6 +5399,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 801731852}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &801731858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 801731852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4711a2217b9c0bd43abf0b8778ca79a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _rotateSpeed: 2
 --- !u!1 &813595793
 GameObject:
   m_ObjectHideFlags: 0
@@ -11574,6 +11602,11 @@ Prefab:
     - target: {fileID: 1263723156762902, guid: 0757590cbfb316645b869129e774402f, type: 2}
       propertyPath: m_Name
       value: BluePlanetPT
+      objectReference: {fileID: 0}
+    - target: {fileID: 114544354513022506, guid: 0757590cbfb316645b869129e774402f,
+        type: 2}
+      propertyPath: _rotateSpeed
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0757590cbfb316645b869129e774402f, type: 2}
