@@ -2,32 +2,28 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ItemChomp : MonoBehaviour {
+public class ItemOutOfBound : MonoBehaviour {
 
-	Animator chompAnim;
-	ParticleSystem chompPT;
+	[SerializeField] private GameObject destroyPT;
 	AudioSource _audioSource;
 
 	void Start () {
 		_audioSource = GetComponent<AudioSource>();
-		chompAnim = GetComponent<Animator> ();
-		chompPT = GetComponent<ParticleSystem> ();
 	}
-	
+
 	void OnCollisionEnter (Collision collider) {
 		//Particles for eating items
 		if (collider.gameObject.tag == "Item") {
-			Invoke ("ChompItem", 0.01f);
+			Invoke ("KillItem", 0.01f);
 		}
 		if (collider.gameObject.tag == "Letter") {
-			Invoke ("ChompItem", 0.01f);
+			Invoke ("KillItem", 0.01f);
 			Destroy (collider.gameObject);
 		}
 	}
 
-	void ChompItem () {
-		_audioSource.Play (); //plays chomp audio
-		chompAnim.SetTrigger ("Chomp");
-		chompPT.Emit (40);
+	void KillItem () {
+		_audioSource.Play ();
+		Instantiate (destroyPT, GetComponent<Collider>().transform.position, Quaternion.identity);
 	}
 }
