@@ -220,10 +220,7 @@ MonoBehaviour:
   _source: {fileID: 0}
   _targetTransform: {fileID: 0}
   _speed: 5.6
-  _maxDeflectAimDis: 0
-  _layersToDetect:
-    serializedVersion: 2
-    m_Bits: 4294964223
+  _homingTarget: {fileID: 0}
   deathPT: {fileID: 1615305425706140, guid: ecee645ae9253bc408504298a70e3608, type: 2}
 --- !u!136 &136152477872251692
 CapsuleCollider:
@@ -231,7 +228,7 @@ CapsuleCollider:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1039634795759406}
-  m_Material: {fileID: 13400000, guid: a2b4198998433774f82ee163de8ad6b4, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.12

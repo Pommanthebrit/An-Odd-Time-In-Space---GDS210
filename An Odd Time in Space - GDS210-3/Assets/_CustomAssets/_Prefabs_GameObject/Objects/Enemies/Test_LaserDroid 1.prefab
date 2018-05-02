@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4360159615287178}
   - component: {fileID: 33326187636613334}
   - component: {fileID: 23077050314799720}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DroneBody
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36,7 +36,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4539673657364156}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: joint5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51,7 +51,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4260287435933162}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: imagePlane1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -66,7 +66,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4732012318512020}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: TRSF_ProjectileSP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -82,7 +82,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4093275815724250}
   - component: {fileID: 137172788815035682}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: TurrentArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -99,7 +99,7 @@ GameObject:
   - component: {fileID: 4672836920940686}
   - component: {fileID: 198918780613444230}
   - component: {fileID: 199956276214240278}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LaserRayHitPT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -119,7 +119,7 @@ GameObject:
   - component: {fileID: 54043305931423612}
   - component: {fileID: 114823732637371576}
   - component: {fileID: 136058695587285940}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Test_LaserDroid 1
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -135,7 +135,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4568070758556510}
   - component: {fileID: 137486714267188878}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Turrent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -150,7 +150,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4521943506368690}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: joint6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
