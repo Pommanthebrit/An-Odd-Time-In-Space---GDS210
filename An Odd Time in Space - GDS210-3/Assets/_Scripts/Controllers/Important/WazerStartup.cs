@@ -13,9 +13,12 @@ public class WazerStartup : MonoBehaviour
     [SerializeField] private LightEditor[] _lightsToFadeIn;
     [SerializeField] private LightEditor[] _lightsToFadeOut;
 
+    private PlayerController _player;
     private List<GameObject> _instantiatedObjects;
+    private float _longestLerp;
 
 	void Start () {
+        _player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
 		_audioSource = GetComponent<AudioSource> ();
 	}
 
@@ -57,6 +60,9 @@ public class WazerStartup : MonoBehaviour
             {
                 StartCoroutine(light.LerpRange());
             }
+
+            if (light._longestLerp > _longestLerp)
+                _longestLerp = light._longestLerp;
         }
 
         foreach(GameObject obj in _instantiatedObjects)
@@ -64,7 +70,20 @@ public class WazerStartup : MonoBehaviour
             Destroy(obj);
         }
 
+        Debug.Log(_longestLerp);
+
+        StartCoroutine(DelayEndGameActions());
+
+    }
+
+    IEnumerator DelayEndGameActions()
+    {
+
+        yield return new WaitForSeconds(_longestLerp);
+
         _commenceOrb.SetActive(true);
+        _player._health = 3;
+        yield return null;
     }
 }
 

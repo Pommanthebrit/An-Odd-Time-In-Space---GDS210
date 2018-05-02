@@ -18,8 +18,12 @@ public class LightEditor
     [SerializeField] private float _maxIntensity;
     [SerializeField] private float _intensityLerpDuration;
 
+    [HideInInspector] public float _longestLerp;
+
     public IEnumerator LerpRange()
     {
+        CheckLongestLerp();
+
         float step = 0;
         float startingRange = _lightEditing.range;
 
@@ -37,6 +41,8 @@ public class LightEditor
 
     public IEnumerator LerpIntensity()
     {
+        CheckLongestLerp();
+
         float step = 0;
         float startingIntensity = _lightEditing.intensity;
 
@@ -50,5 +56,13 @@ public class LightEditor
         }
 
         yield return null;
+    }
+
+    private void CheckLongestLerp()
+    {
+        if (_intensityLerpDuration > _rangeLerpDuration)
+            _longestLerp = _intensityLerpDuration;
+        else
+            _longestLerp = _rangeLerpDuration;
     }
 }

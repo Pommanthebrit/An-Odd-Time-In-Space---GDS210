@@ -477,6 +477,7 @@ MonoBehaviour:
     _lerpIntensity: 0
     _maxIntensity: 0
     _intensityLerpDuration: 0
+    _longestLerp: 0
   - _lightEditing: {fileID: 1312588155}
     _lerpRange: 0
     _maxRange: 0
@@ -484,6 +485,7 @@ MonoBehaviour:
     _lerpIntensity: 1
     _maxIntensity: 1
     _intensityLerpDuration: 8
+    _longestLerp: 0
   - _lightEditing: {fileID: 2110050376}
     _lerpRange: 0
     _maxRange: 0
@@ -491,6 +493,7 @@ MonoBehaviour:
     _lerpIntensity: 1
     _maxIntensity: 1
     _intensityLerpDuration: 8
+    _longestLerp: 0
   _lightsToFadeOut:
   - _lightEditing: {fileID: 245325835}
     _lerpRange: 1
@@ -499,6 +502,7 @@ MonoBehaviour:
     _lerpIntensity: 0
     _maxIntensity: 0
     _intensityLerpDuration: 0
+    _longestLerp: 0
   - _lightEditing: {fileID: 1312588155}
     _lerpRange: 0
     _maxRange: 0
@@ -506,6 +510,7 @@ MonoBehaviour:
     _lerpIntensity: 1
     _maxIntensity: 0
     _intensityLerpDuration: 4
+    _longestLerp: 0
   - _lightEditing: {fileID: 2110050376}
     _lerpRange: 0
     _maxRange: 0
@@ -513,6 +518,7 @@ MonoBehaviour:
     _lerpIntensity: 1
     _maxIntensity: 0
     _intensityLerpDuration: 4
+    _longestLerp: 0
 --- !u!1 &362752286 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100088, guid: 8d94b0068f48ca54b8083d247377d4da, type: 3}
@@ -4130,6 +4136,10 @@ Prefab:
     - target: {fileID: 121078, guid: dc06161b6d97feb419f45f03b62e14b9, type: 2}
       propertyPath: m_Layer
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1012814104690054, guid: dc06161b6d97feb419f45f03b62e14b9, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114000012530188460, guid: dc06161b6d97feb419f45f03b62e14b9, type: 2}
