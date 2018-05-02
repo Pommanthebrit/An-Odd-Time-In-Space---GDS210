@@ -54,9 +54,9 @@ public abstract class DroneController : BaseEnemyController, IShoot
             _targeted = value;
 
             if (_targeted)
-                _targetedEffect.SetActive(false);
-            else
                 _targetedEffect.SetActive(true);
+            else
+                _targetedEffect.SetActive(false);
 
         }
     }
