@@ -16,6 +16,7 @@ TagManager:
   - Sword
   - Pourable
   - Letter
+  - PlayerProjectile
   layers:
   - Default
   - TransparentFX
