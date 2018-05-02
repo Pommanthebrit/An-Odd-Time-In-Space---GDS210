@@ -43,6 +43,25 @@ public abstract class DroneController : BaseEnemyController, IShoot
 	protected Vector3 _velToAdd;
     #endregion
 
+
+    public bool Targeted
+    {
+        get { return _targeted; }
+        set
+        {
+            _targeted = value;
+
+            if (_targeted)
+                _targetedEffect.SetActive(false);
+            else
+                _targetedEffect.SetActive(true);
+
+        }
+    }
+
+    [SerializeField] private GameObject _targetedEffect;
+    private bool _targeted;
+
 	//_scoreWorth located in baseEnemyController
     //[SerializeField] private int _scoreWorth;
 

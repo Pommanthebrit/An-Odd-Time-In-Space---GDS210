@@ -31,11 +31,14 @@ public class PlayerController : MonoBehaviour
         if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out _hitInfo, _maxDisForRay, _layersToCount))
         {
             _selectedTransform = _hitInfo.collider.transform;
+            _selectedTransform.GetComponent<DroneController>().Targeted = true;
             _playerDeflectionItem._targetedEnemy = _selectedTransform;
             Debug.Log("Looking At: " + _hitInfo.collider.name);
         }
         else
         {
+            if(_selectedTransform != null)
+                _selectedTransform.GetComponent<DroneController>().Targeted = false;
         }
     }
 }
