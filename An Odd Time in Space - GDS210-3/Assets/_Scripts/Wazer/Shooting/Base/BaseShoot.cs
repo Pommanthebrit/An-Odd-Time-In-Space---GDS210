@@ -48,24 +48,29 @@ public class BaseShoot : ScriptableObject
 	[HideInInspector] public float _shootReadyTime;
 
     // Animations
+    private Animator _animator;
     private bool _animChecked;
     private bool _hasShootAnim;
 
-	#endregion
+    #endregion
 
-	// Setups the shooting mechanic.
-	public virtual void Setup(GameObject parentObj)
-	{
+    // Setups the shooting mechanic.
+    public virtual void Setup(GameObject parentObj)
+    {
         // Needs revising
-		_parentObj = parentObj;
-		_parentScript = _parentObj.GetComponent<IShoot>();
-		_projectileSpawnPos = _projectileSpawnPoint.transform.localPosition;
-		_projectileSpawnPoint = new GameObject ("TRSF_ProjectileSP");
-		_projectileSpawnPoint.transform.SetParent(_parentObj.transform);
-		_projectileSpawnPoint.transform.localPosition = _projectileSpawnPos;
+        _parentObj = parentObj;
+        _parentScript = _parentObj.GetComponent<IShoot>();
+        _projectileSpawnPos = _projectileSpawnPoint.transform.localPosition;
+        _projectileSpawnPoint = new GameObject("TRSF_ProjectileSP");
+        _projectileSpawnPoint.transform.SetParent(_parentObj.transform);
+        _projectileSpawnPoint.transform.localPosition = _projectileSpawnPos;
 
-		// TODO: Remove redunant components (eg. IShoot());
-	}
+        if (_parentObj.GetComponent<Animator>() != null)
+        {
+            _animator = _parentObj.GetComponent<Animator>();
+            // TODO: Remove redunant components (eg. IShoot());
+        }
+    }
 
 	// Calls every frame. Ticks time for timers.
 	public virtual void Update()
@@ -102,26 +107,14 @@ public class BaseShoot : ScriptableObject
             newProjectile.GetComponent<Projectile>()._targetTransform = this._targetTransform;
 
 
-            if(!_animChecked || _hasShootAnim)
+            if(!_animChecked)
             {
-                if (_parentObj.GetComponent<Animator>() != null)
-                {
-                    Animator anim = _parentObj.GetComponent<Animator>();
+                CheckAnimation();
+            }
 
-                    if(!_animChecked)
-                    {
-                        for (int index = 0; index < anim.parameters.Length; index++)
-                        {
-                            if (anim.parameters[index].name == "Shoot")
-                            {
-                                anim.SetTrigger("Shoot");
-                                _hasShootAnim = true;
-                            }
-                        }
-
-                        _animChecked = true;
-                    }
-                }
+            if(_hasShootAnim)
+            {
+                _animator.SetTrigger("Shoot");
             }
 
 //			_objShooting.MyAudioSource.PlayOneShot(_shootSound);
@@ -131,4 +124,17 @@ public class BaseShoot : ScriptableObject
 			_shootReadyTime = _currentTime + _shootDelay;
 		}
 	}
+
+    void CheckAnimation()
+    {
+        for (int index = 0; index < _animator.parameters.Length; index++)
+        {
+            if (_animator.parameters[index].name == "Shoot")
+            {
+                _hasShootAnim = true;
+            }
+        }
+
+        _animChecked = true;
+    }
 }
