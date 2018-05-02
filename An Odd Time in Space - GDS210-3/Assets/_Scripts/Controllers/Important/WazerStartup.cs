@@ -78,11 +78,11 @@ public class WazerStartup : MonoBehaviour
 
     IEnumerator DelayEndGameActions()
     {
-
         yield return new WaitForSeconds(_longestLerp);
 
         _commenceOrb.SetActive(true);
         _player._health = 3;
+
         yield return null;
     }
 }

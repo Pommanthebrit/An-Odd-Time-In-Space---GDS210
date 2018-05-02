@@ -47,7 +47,7 @@ public class Laser : Projectile
 
     private void HomeIn()
     {
-        _rb.velocity = (transform.position - _homingTarget.position).normalized * _speed;
+        _rb.velocity = (_homingTarget.position - transform.position).normalized * _speed;
     }
 
     private void Update()
