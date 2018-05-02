@@ -15,7 +15,6 @@ public class PlayerController : MonoBehaviour
             if(_health < 1)
             {
                 GameObject.FindGameObjectWithTag("GameGod").GetComponent<WazerStartup>().EndWazeGame();
-                _health = 3;
             }
         }
     }

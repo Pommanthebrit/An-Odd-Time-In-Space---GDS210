@@ -498,10 +498,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _gg: {fileID: 0}
-  _spawnRate: 50
+  _spawnRate: 1
   _spawnerDifficulty: 0
   _pooledObjAmount: 1
-  _pooledObj: {fileID: 1095293538585872, guid: 26bbae3b91f14d348b95a889bd2aae66, type: 2}
+  _pooledObj: {fileID: 1584480196732676, guid: 4e89f2c329969cc498f40603ffa82965, type: 2}
   _canGrow: 0
   _maxVerticalDisTeleport: 0
   _timeTillVerticalTeleport: 0
