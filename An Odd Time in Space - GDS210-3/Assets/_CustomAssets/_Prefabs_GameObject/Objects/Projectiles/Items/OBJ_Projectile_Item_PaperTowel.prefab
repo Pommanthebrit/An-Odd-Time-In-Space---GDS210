@@ -21,11 +21,11 @@ GameObject:
   - component: {fileID: 4533681750232564}
   - component: {fileID: 33260869064424742}
   - component: {fileID: 23316740530394850}
-  - component: {fileID: 114168705910813606}
   - component: {fileID: 82636456162260620}
   - component: {fileID: 114596318894671018}
   - component: {fileID: 54434725323806248}
   - component: {fileID: 136358278725432734}
+  - component: {fileID: 114050368055870496}
   m_Layer: 0
   m_Name: OBJ_Projectile_Item_PaperTowel
   m_TagString: projectile
@@ -184,7 +184,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
---- !u!114 &114168705910813606
+--- !u!114 &114050368055870496
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -192,14 +192,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1359237658378294}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ae0718a3d2ca18348b9ab525560b2763, type: 3}
+  m_Script: {fileID: 11500000, guid: 7a8a67c0688e61a48ad5f8ab877e600b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _birthClip: {fileID: 0}
-  _lifeSpan: 20
+  _lifeSpan: 10
   _source: {fileID: 0}
+  _targetTransform: {fileID: 0}
   _speed: 1.4
   deathPT: {fileID: 1530144398299324, guid: d2a3620cfb4ade84eb28a0b7dab57d7f, type: 2}
+  _hitGroundSound: {fileID: 0}
 --- !u!114 &114596318894671018
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -211,7 +213,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4711a2217b9c0bd43abf0b8778ca79a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _rotateSpeed: 3
 --- !u!136 &136358278725432734
 CapsuleCollider:
   m_ObjectHideFlags: 1

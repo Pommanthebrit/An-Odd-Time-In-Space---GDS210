@@ -21,11 +21,11 @@ GameObject:
   - component: {fileID: 4634037521826158}
   - component: {fileID: 33872297832154530}
   - component: {fileID: 23870600321310350}
-  - component: {fileID: 114809533353464574}
   - component: {fileID: 82314155284052096}
   - component: {fileID: 114484867320181836}
   - component: {fileID: 54627726628278238}
   - component: {fileID: 136743880462542846}
+  - component: {fileID: 114537858754831900}
   m_Layer: 0
   m_Name: OBJ_Projectile_Item_Flower
   m_TagString: projectile
@@ -197,8 +197,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4711a2217b9c0bd43abf0b8778ca79a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _rotateSpeed: 3
---- !u!114 &114809533353464574
+--- !u!114 &114537858754831900
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -206,14 +205,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1276666820292640}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ae0718a3d2ca18348b9ab525560b2763, type: 3}
+  m_Script: {fileID: 11500000, guid: 7a8a67c0688e61a48ad5f8ab877e600b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _birthClip: {fileID: 0}
-  _lifeSpan: 20
+  _lifeSpan: 10
   _source: {fileID: 0}
+  _targetTransform: {fileID: 0}
   _speed: 1.4
   deathPT: {fileID: 1530144398299324, guid: d2a3620cfb4ade84eb28a0b7dab57d7f, type: 2}
+  _hitGroundSound: {fileID: 0}
 --- !u!136 &136743880462542846
 CapsuleCollider:
   m_ObjectHideFlags: 1

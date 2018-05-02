@@ -21,11 +21,11 @@ GameObject:
   - component: {fileID: 4775261707821088}
   - component: {fileID: 33435739667626746}
   - component: {fileID: 23052436643892284}
-  - component: {fileID: 114095155506738028}
   - component: {fileID: 82525571244844880}
   - component: {fileID: 114217258559089098}
   - component: {fileID: 54611072728267274}
   - component: {fileID: 136073993583637346}
+  - component: {fileID: 114117390627872070}
   m_Layer: 0
   m_Name: OBJ_Projectile_Item_Soup1
   m_TagString: projectile
@@ -183,7 +183,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
---- !u!114 &114095155506738028
+--- !u!114 &114117390627872070
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -191,14 +191,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1717930999029372}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ae0718a3d2ca18348b9ab525560b2763, type: 3}
+  m_Script: {fileID: 11500000, guid: 7a8a67c0688e61a48ad5f8ab877e600b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _birthClip: {fileID: 0}
-  _lifeSpan: 20
+  _lifeSpan: 10
   _source: {fileID: 0}
+  _targetTransform: {fileID: 0}
   _speed: 1.4
   deathPT: {fileID: 1530144398299324, guid: d2a3620cfb4ade84eb28a0b7dab57d7f, type: 2}
+  _hitGroundSound: {fileID: 0}
 --- !u!114 &114217258559089098
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -210,7 +212,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4711a2217b9c0bd43abf0b8778ca79a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _rotateSpeed: 3
 --- !u!136 &136073993583637346
 CapsuleCollider:
   m_ObjectHideFlags: 1
