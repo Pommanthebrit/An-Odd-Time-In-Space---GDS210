@@ -1749,6 +1749,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _health: 3
+  _maxDisForRay: 40
+  _layersToCount:
+    serializedVersion: 2
+    m_Bits: 256
 --- !u!1001 &1112455300
 Prefab:
   m_ObjectHideFlags: 0
