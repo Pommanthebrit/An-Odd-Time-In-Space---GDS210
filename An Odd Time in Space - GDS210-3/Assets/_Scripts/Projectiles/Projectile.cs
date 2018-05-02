@@ -35,7 +35,7 @@ public abstract class Projectile : MonoBehaviour {
 
 	protected virtual void Die()
 	{
-		Destroy(this.gameObject);
+		Destroy(gameObject);
 	}
 
 	protected abstract void OnCollisionEnter(Collision col);
