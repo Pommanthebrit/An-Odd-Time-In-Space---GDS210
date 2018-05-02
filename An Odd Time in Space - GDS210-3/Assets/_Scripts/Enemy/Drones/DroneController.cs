@@ -43,7 +43,9 @@ public abstract class DroneController : BaseEnemyController, IShoot
 	protected Vector3 _velToAdd;
     #endregion
 
-
+    #region "||||| Targeting Variables |||||"
+    [Header("Targeting")]
+    [SerializeField] private GameObject _targetedEffect;
     public bool Targeted
     {
         get { return _targeted; }
@@ -58,14 +60,13 @@ public abstract class DroneController : BaseEnemyController, IShoot
 
         }
     }
-
-    [SerializeField] private GameObject _targetedEffect;
     private bool _targeted;
+    #endregion
 
-	//_scoreWorth located in baseEnemyController
+    //_scoreWorth located in baseEnemyController
     //[SerializeField] private int _scoreWorth;
 
-	void OnEnable()
+    void OnEnable()
 	{
 		if(_shootingMechanism == null)
 			_shootingMechanism = ScriptableObject.CreateInstance<SimpleAutoShoot>();
