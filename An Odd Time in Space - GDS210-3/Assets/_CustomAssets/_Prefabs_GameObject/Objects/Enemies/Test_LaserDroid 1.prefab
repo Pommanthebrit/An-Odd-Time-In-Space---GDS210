@@ -177,7 +177,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1597546737160508}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 16.931263, y: -4.5099998, z: -10.798759}
+  m_LocalPosition: {x: -28.99649, y: 2.57, z: -8.331152}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children:
   - {fileID: 4360159615287178}
@@ -458,6 +458,7 @@ MonoBehaviour:
   _target: {fileID: 0}
   _moveRight: 0
   _speed: 1
+  _targetedEffect: {fileID: 1374518843561050}
   _verticalMove: 1
   _smoothTime: 0.2
   _maxVerticalVelocity: 3
@@ -585,7 +586,7 @@ ParticleSystem:
   stopAction: 0
   looping: 1
   prewarm: 1
-  playOnAwake: 0
+  playOnAwake: 1
   useUnscaledTime: 0
   autoRandomSeed: 1
   useRigidbodyForVelocity: 1
@@ -639,7 +640,7 @@ ParticleSystem:
     enabled: 1
     startLifetime:
       serializedVersion: 2
-      minMaxState: 3
+      minMaxState: 0
       scalar: 2
       minScalar: 1
       maxCurve:
@@ -785,8 +786,8 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 0.05
-      minScalar: 0.01
+      scalar: 0.005
+      minScalar: 0.002
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -1028,7 +1029,7 @@ ParticleSystem:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 0
-    randomizeRotationDirection: 1
+    randomizeRotationDirection: 0
     maxNumParticles: 1000
     size3D: 0
     rotation3D: 1
@@ -1193,7 +1194,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 200
+      scalar: 1000
       minScalar: 10
       maxCurve:
         serializedVersion: 2

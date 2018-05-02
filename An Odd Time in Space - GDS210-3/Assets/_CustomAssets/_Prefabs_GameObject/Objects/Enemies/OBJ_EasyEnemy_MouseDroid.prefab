@@ -172,7 +172,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1584480196732676}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -29.655771, y: 0.38, z: 1.439116}
+  m_LocalPosition: {x: -29.68772, y: 3.5076828, z: -1.7130647}
   m_LocalScale: {x: 8, y: 8, z: 8}
   m_Children:
   - {fileID: 4205351114002348}
@@ -232,7 +232,7 @@ Transform:
   m_GameObject: {fileID: 1738599653689158}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.625, y: 0.625, z: 0.625}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4280653491365618}
   m_RootOrder: 4
@@ -396,6 +396,7 @@ MonoBehaviour:
   _target: {fileID: 0}
   _moveRight: 1
   _speed: 0.8
+  _targetedEffect: {fileID: 1738599653689158}
   _slowStartPercentage: 0.25
 --- !u!137 &137162186477306248
 SkinnedMeshRenderer:
@@ -458,7 +459,7 @@ ParticleSystem:
   stopAction: 0
   looping: 1
   prewarm: 1
-  playOnAwake: 0
+  playOnAwake: 1
   useUnscaledTime: 0
   autoRandomSeed: 1
   useRigidbodyForVelocity: 1
@@ -512,9 +513,9 @@ ParticleSystem:
     enabled: 1
     startLifetime:
       serializedVersion: 2
-      minMaxState: 3
+      minMaxState: 0
       scalar: 2
-      minScalar: 1
+      minScalar: 10
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -658,8 +659,8 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 0.05
-      minScalar: 0.01
+      scalar: 0.005
+      minScalar: 0.002
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -901,7 +902,7 @@ ParticleSystem:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 0
-    randomizeRotationDirection: 1
+    randomizeRotationDirection: 0
     maxNumParticles: 1000
     size3D: 0
     rotation3D: 1
@@ -1066,7 +1067,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 200
+      scalar: 1000
       minScalar: 10
       maxCurve:
         serializedVersion: 2
