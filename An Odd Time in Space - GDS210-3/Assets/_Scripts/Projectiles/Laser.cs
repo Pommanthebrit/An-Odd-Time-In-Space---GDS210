@@ -7,10 +7,7 @@ public class Laser : Projectile
 
     [Header("Movement")]
     [SerializeField] private float _speed;
-
-    [Header("Deflection")]
-    [SerializeField] private float _maxDeflectAimDis;
-    [SerializeField] private LayerMask _layersToDetect;
+    [HideInInspector] public Transform _homingTarget;
 
     [Header("Effects")]
     [SerializeField] private GameObject deathPT;
@@ -35,7 +32,8 @@ public class Laser : Projectile
         }
         else
         {
-            StartCoroutine(Deflect());
+            if (_homingTarget == null)
+                _rb.velocity *= -1;
         }
     }
 
@@ -43,24 +41,18 @@ public class Laser : Projectile
     {
         if(other.gameObject.tag == "Sword")
         {
-            StartCoroutine(Deflect());
             gameObject.tag = "PlayerProjectile";
         }
     }
 
-    IEnumerator Deflect()
+    private void HomeIn()
     {
-        yield return new WaitForFixedUpdate();
+        _rb.velocity = (transform.position - _homingTarget.position).normalized * _speed;
+    }
 
-        RaycastHit hitInfo;
-        Ray screenCenter = Camera.main.ScreenPointToRay(new Vector3(Screen.width / 2, Screen.height / 2));
-
-        if (Physics.Raycast(screenCenter, out hitInfo, 100.0f, _layersToDetect))
-        {
-            transform.LookAt(hitInfo.point);
-            Move();
-        }
-
-        yield return null;
+    private void Update()
+    {
+        if (_homingTarget != null)
+            HomeIn();
     }
 }

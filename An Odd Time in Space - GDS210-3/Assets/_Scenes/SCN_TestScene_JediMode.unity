@@ -1753,6 +1753,8 @@ MonoBehaviour:
   _layersToCount:
     serializedVersion: 2
     m_Bits: 256
+  _playerDeflectionItem: {fileID: 1644518622}
+  _selectedTransform: {fileID: 0}
 --- !u!1001 &1112455300
 Prefab:
   m_ObjectHideFlags: 0
@@ -2600,6 +2602,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: be4f6b30eaa7e7a409452403b89f26c2, type: 3}
   - {fileID: 8300000, guid: 333e6c475a20a8f46b7c917d52111d37, type: 3}
   - {fileID: 8300000, guid: 0d96458f43a18c34891e45bf57faf536, type: 3}
+  _targetedEnemy: {fileID: 0}
 --- !u!82 &1644518623
 AudioSource:
   m_ObjectHideFlags: 0

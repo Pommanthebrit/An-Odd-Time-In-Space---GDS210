@@ -9,6 +9,7 @@ public class Deflection : MonoBehaviour {
 	[Header("Effects")]
 	[SerializeField] GameObject deflectPT;
 	[SerializeField] AudioClip[] swordDeflects;
+    [HideInInspector] public Transform _targetedEnemy;
 
 	void Start () {
 		_audioSource = GetComponent<AudioSource> ();
@@ -23,6 +24,12 @@ public class Deflection : MonoBehaviour {
     {
         Instantiate(deflectPT, other.transform.position, Quaternion.identity);
         _audioSource.PlayOneShot(swordDeflects[Random.Range(0, swordDeflects.Length)]);
+
+       if(other.transform.tag == "projectile" && other.transform.GetComponent<Laser>() != null)
+        {
+            Laser deflectedLaser = other.transform.GetComponent<Laser>();
+            deflectedLaser._homingTarget = _targetedEnemy;
+        }
     }
 }
 

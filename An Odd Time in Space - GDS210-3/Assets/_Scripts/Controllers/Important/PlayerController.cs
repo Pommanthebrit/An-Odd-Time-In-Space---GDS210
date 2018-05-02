@@ -10,6 +10,8 @@ public class PlayerController : MonoBehaviour
     [Header("Deflection Aiming")]
     [SerializeField] private float _maxDisForRay;
     [SerializeField] private LayerMask _layersToCount;
+    [SerializeField] private Deflection _playerDeflectionItem;
+    [HideInInspector] public Transform _selectedTransform;
 
     public void OnCollisionEnter(Collision collision)
     {
@@ -28,7 +30,9 @@ public class PlayerController : MonoBehaviour
     {
         if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out _hitInfo, _maxDisForRay, _layersToCount))
         {
-            Debug.Log(_hitInfo.collider.name);
+            _selectedTransform = _hitInfo.collider.transform;
+            _playerDeflectionItem._targetedEnemy = _selectedTransform;
+            Debug.Log("Looking At: " + _hitInfo.collider.name);
         }
         else
         {
