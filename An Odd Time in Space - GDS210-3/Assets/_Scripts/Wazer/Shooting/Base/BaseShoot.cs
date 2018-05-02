@@ -46,6 +46,11 @@ public class BaseShoot : ScriptableObject
 	// Alarms.
 	[HideInInspector] public float _currentTime;
 	[HideInInspector] public float _shootReadyTime;
+
+    // Animations
+    private bool _animChecked;
+    private bool _hasShootAnim;
+
 	#endregion
 
 	// Setups the shooting mechanic.
@@ -58,6 +63,7 @@ public class BaseShoot : ScriptableObject
 		_projectileSpawnPoint = new GameObject ("TRSF_ProjectileSP");
 		_projectileSpawnPoint.transform.SetParent(_parentObj.transform);
 		_projectileSpawnPoint.transform.localPosition = _projectileSpawnPos;
+
 		// TODO: Remove redunant components (eg. IShoot());
 	}
 
@@ -95,10 +101,29 @@ public class BaseShoot : ScriptableObject
 			GameObject newProjectile = Instantiate(_projectilePrefab, _projectileSpawnPoint.transform.position, _projectileSpawnPoint.transform.rotation);
             newProjectile.GetComponent<Projectile>()._targetTransform = this._targetTransform;
 
-            if(_parentObj.GetComponent<Animator>() != null)
+
+            if(!_animChecked || _hasShootAnim)
             {
-                _parentObj.GetComponent<Animator>().SetTrigger("Shoot");
+                if (_parentObj.GetComponent<Animator>() != null)
+                {
+                    Animator anim = _parentObj.GetComponent<Animator>();
+
+                    if(!_animChecked)
+                    {
+                        for (int index = 0; index < anim.parameters.Length; index++)
+                        {
+                            if (anim.parameters[index].name == "Shoot")
+                            {
+                                anim.SetTrigger("Shoot");
+                                _hasShootAnim = true;
+                            }
+                        }
+
+                        _animChecked = true;
+                    }
+                }
             }
+
 //			_objShooting.MyAudioSource.PlayOneShot(_shootSound);
 			// TODO: Finish sounds here.
 
