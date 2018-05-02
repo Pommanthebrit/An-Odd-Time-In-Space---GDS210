@@ -9,7 +9,7 @@ public class GameGod : MonoBehaviour
 	[SerializeField] private AudioClip[] _musicClips;
 	public int _score;
 	private int _highscore;
-	private AudioSource _myAudioSource;
+	//private AudioSource _myAudioSource; // <<< AUDIO
 
 	public int _currentEnemyCount;
 
@@ -21,7 +21,7 @@ public class GameGod : MonoBehaviour
 //		else
 //			DontDestroyOnLoad(this.gameObject);
 
-		_myAudioSource = GetComponent<AudioSource>();
+		//_myAudioSource = GetComponent<AudioSource>(); // <<< AUDIO
 		// TODO: Add music functionality. (Possibly between scenes.)
 	}
 

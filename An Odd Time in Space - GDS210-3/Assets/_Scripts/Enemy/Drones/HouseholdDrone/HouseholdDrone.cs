@@ -25,10 +25,6 @@ public class HouseholdDrone : DroneController
 	protected override void CalculateMovement()
 	{
 		float timeTillShot = _shootingMechanism._shootReadyTime - _shootingMechanism._currentTime;
-		float timePassedFromShot = _shootingMechanism._shootDelay - timeTillShot;
-		float timePassedSlow;
-		float timeTillSlow;
-		float smoothTime = _shootingMechanism._shootDelay * _slowStartPercentage;
 
 		if(timeTillShot < _shootingMechanism._shootDelay * _slowStartPercentage && !_starting)
 		{
