@@ -42,7 +42,10 @@ public class Laser : Projectile
     protected void OnTriggerEnter(Collider other)
     {
         if(other.gameObject.tag == "Sword")
+        {
             StartCoroutine(Deflect());
+            gameObject.tag = "PlayerProjectile";
+        }
     }
 
     IEnumerator Deflect()
@@ -56,8 +59,6 @@ public class Laser : Projectile
         {
             transform.LookAt(hitInfo.point);
             Move();
-            //Debug.Log(hitInfo.rigidbody.name);
-            Debug.Log("Test");
         }
 
         yield return null;

@@ -47,7 +47,7 @@ public class BaseEnemyController : MonoBehaviour
 
 	void OnMouseDown()
 	{
-		TakeHealth(1);
+		//TakeHealth(1);
 	}
 
 	// Takes away health.
