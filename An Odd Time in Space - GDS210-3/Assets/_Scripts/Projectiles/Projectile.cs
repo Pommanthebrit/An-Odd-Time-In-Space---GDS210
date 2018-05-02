@@ -26,7 +26,6 @@ public abstract class Projectile : MonoBehaviour {
 		_audioSource.PlayOneShot(_birthClip);
 
         transform.LookAt(_targetTransform);
-        print(_targetTransform);
 
 		Invoke ("Die", _lifeSpan);
 	}

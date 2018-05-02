@@ -15,9 +15,14 @@ public class Deflection : MonoBehaviour {
 	}
 
     void OnCollisionEnter(Collision collider) {
-			Debug.Log ("Sword hit: " + collider);
-			Instantiate (deflectPT, collider.transform.position, Quaternion.identity);
-			_audioSource.PlayOneShot (swordDeflects [Random.Range (0, swordDeflects.Length)]); 
+			//Instantiate (deflectPT, collider.transform.position, Quaternion.identity);
+			//_audioSource.PlayOneShot (swordDeflects [Random.Range (0, swordDeflects.Length)]); 
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        Instantiate(deflectPT, other.transform.position, Quaternion.identity);
+        _audioSource.PlayOneShot(swordDeflects[Random.Range(0, swordDeflects.Length)]);
     }
 }
 
