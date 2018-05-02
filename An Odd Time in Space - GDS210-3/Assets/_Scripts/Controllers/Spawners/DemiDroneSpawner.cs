@@ -62,9 +62,12 @@ public class DemiDroneSpawner : BaseDemiSpawner
 
 		// Repeats indefinetly;
 		while(true) {
-			// Creates spawn effect.
-			Vector3 spawnPos = transform.position;
-			GameObject spawnEffect = Instantiate(_spawnEffectPrefab, spawnPos, transform.rotation);
+            // Creates spawn effect.
+            while (GetPooledObject() == null)
+                yield return null;
+
+            Vector3 spawnPos = transform.position;
+            GameObject spawnEffect = Instantiate(_spawnEffectPrefab, spawnPos, transform.rotation);
 
 			// Stops code from going further if spawn effect is still active.
 			while(spawnEffect != null) 

@@ -40,8 +40,8 @@ public abstract class BaseDemiSpawner : MonoBehaviour
 			if(!obj.activeInHierarchy)
 				return obj;
 
-			if(_canGrow)
-				return AddObjectToPool(_pooledObj);
+            if (_canGrow)
+                return AddObjectToPool(_pooledObj);
 		}
 
 		return null;
@@ -57,7 +57,7 @@ public abstract class BaseDemiSpawner : MonoBehaviour
 		return obj;
 	}
 
-	public virtual bool AttemptSpawnObj(Vector3 spawnPos)
+    public virtual bool AttemptSpawnObj(Vector3 spawnPos)
 	{
 		GameObject obj = GetPooledObject();
 		if(obj != null)
