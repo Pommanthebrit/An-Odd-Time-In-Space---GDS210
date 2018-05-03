@@ -16,9 +16,10 @@ MonoBehaviour:
   _projectileSpawnPoint: {fileID: 1292700280893642, guid: 46daf42f546e2b940976080d796656ce,
     type: 2}
   _shootDelay: 4
-  _shootSound: {fileID: 8300000, guid: e67c0b0f15b69ea4fb595d13bed57557, type: 3}
+  _shootSound: {fileID: 8300000, guid: 7afc4e74587450049b09dffdafc8812b, type: 3}
   _shootEffect: {fileID: 1363810707886984, guid: 0a54a1e999b77d74191cf9c227e9e4fa,
     type: 2}
+  _targetTransform: {fileID: 0}
   _currentTime: 0
   _shootReadyTime: 0
   _maxShootDelay: 3

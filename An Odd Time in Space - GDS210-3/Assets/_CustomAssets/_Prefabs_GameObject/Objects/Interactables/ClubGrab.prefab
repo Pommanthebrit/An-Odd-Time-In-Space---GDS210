@@ -57,7 +57,6 @@ GameObject:
   - component: {fileID: 136629290239948030}
   - component: {fileID: 96562271879592838}
   - component: {fileID: 65754064802161928}
-  - component: {fileID: 114538519943331436}
   m_Layer: 11
   m_Name: Club
   m_TagString: Untagged
@@ -490,19 +489,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b93b6a877adcbf94c89a9d6e0c0e844d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &114538519943331436
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1584160904504610}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 70dbfbe0dbbc4844e9211ec2932604c1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _hitForce: 1500
-  _pushRadius: 40
 --- !u!114 &114944139654223486
 MonoBehaviour:
   m_ObjectHideFlags: 1

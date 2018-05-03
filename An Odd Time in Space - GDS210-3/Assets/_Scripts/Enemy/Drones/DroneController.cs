@@ -45,7 +45,7 @@ public abstract class DroneController : BaseEnemyController, IShoot
 
     #region "||||| Targeting Variables |||||"
     [Header("Targeting")]
-    [SerializeField] private GameObject _targetedEffect;
+	[SerializeField] private GameObject _targetedEffect;
     public bool Targeted
     {
         get { return _targeted; }
@@ -53,7 +53,7 @@ public abstract class DroneController : BaseEnemyController, IShoot
         {
             _targeted = value;
 
-            if (_targeted)
+            if (_targeted) 
                 _targetedEffect.SetActive(true);
             else
                 _targetedEffect.SetActive(false);

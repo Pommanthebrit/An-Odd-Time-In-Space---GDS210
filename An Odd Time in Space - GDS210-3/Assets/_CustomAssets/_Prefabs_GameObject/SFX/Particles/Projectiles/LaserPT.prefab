@@ -216,10 +216,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _birthClip: {fileID: 0}
-  _deathClip: {fileID: 0}
   _lifeSpan: 0
   _source: {fileID: 0}
+  _targetTransform: {fileID: 0}
   _speed: 0
+  _homingTarget: {fileID: 0}
+  deathPT: {fileID: 0}
 --- !u!136 &136999963269579984
 CapsuleCollider:
   m_ObjectHideFlags: 1

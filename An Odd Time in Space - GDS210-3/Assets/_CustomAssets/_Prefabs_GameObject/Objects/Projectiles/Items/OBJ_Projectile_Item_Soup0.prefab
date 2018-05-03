@@ -114,7 +114,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: ca4623eca476e1b458722c2b2dd2b774, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.3
+  m_Volume: 0.435
   m_Pitch: 2
   Loop: 1
   Mute: 0
@@ -194,13 +194,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a8a67c0688e61a48ad5f8ab877e600b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _birthClip: {fileID: 0}
+  _birthClip: {fileID: 8300000, guid: 57963cc4ee7381c42babafd88c4b92a4, type: 3}
   _lifeSpan: 10
   _source: {fileID: 0}
   _targetTransform: {fileID: 0}
-  _speed: 1.4
-  deathPT: {fileID: 1530144398299324, guid: d2a3620cfb4ade84eb28a0b7dab57d7f, type: 2}
-  _hitGroundSound: {fileID: 0}
+  _speed: 1.8
+  deathPT: {fileID: 1249287907381744, guid: 63dc8b3e4ec42fe48b7e9decb19fc30c, type: 2}
+  _hitGroundSound: {fileID: 8300000, guid: ea60dc606c7f9224cbd15fe78b9f972f, type: 3}
 --- !u!114 &114933029979767772
 MonoBehaviour:
   m_ObjectHideFlags: 1
