@@ -6,6 +6,11 @@ public class Activate : MonoBehaviour {
 
 	public Material Purple;
 	[SerializeField] ParticleSystem swordPT;
+	AudioSource _audioSource;
+
+	void Start () {
+		_audioSource = GetComponent<AudioSource> ();
+	}
 
 	public void SwordActivate () {
 		Material[] previousMaterials = GetComponent<MeshRenderer> ().materials;
@@ -13,5 +18,6 @@ public class Activate : MonoBehaviour {
 		GetComponent<MeshRenderer> ().materials = previousMaterials;
 
 		swordPT.Play ();
+		_audioSource.Play ();
 	}
 }

@@ -6,6 +6,7 @@ public class ItemChomp : MonoBehaviour {
 
 	Animator chompAnim;
 	ParticleSystem chompPT;
+	[SerializeField] ParticleSystem letterDiePT;
 	AudioSource _audioSource;
 
 	void Start () {
@@ -21,6 +22,7 @@ public class ItemChomp : MonoBehaviour {
 		}
 		if (collider.gameObject.tag == "Letter") {
 			Invoke ("ChompItem", 0.01f);
+			Instantiate(letterDiePT, collider.transform.position, Quaternion.identity);
 			Destroy (collider.gameObject);
 		}
 	}

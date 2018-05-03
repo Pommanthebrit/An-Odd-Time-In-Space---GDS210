@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class ChangeScene : MonoBehaviour {
 
 	AudioSource _audioSource;
+	[SerializeField] ParticleSystem sceneChangePT;
 
 	void Start () {
 		_audioSource = GetComponent<AudioSource> ();
@@ -19,7 +20,8 @@ public class ChangeScene : MonoBehaviour {
 
 	IEnumerator Load(string sceneName) {
 		_audioSource.Play ();
-		yield return new WaitForSeconds (0.5f);
+		Instantiate(sceneChangePT, transform.position, Quaternion.identity);
+		yield return new WaitForSeconds (1f);
 		SceneManager.LoadScene (sceneName);
 	}
 }
