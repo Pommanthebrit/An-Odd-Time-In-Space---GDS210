@@ -449,7 +449,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _enemyDeathEffect: {fileID: 1530144398299324, guid: d2a3620cfb4ade84eb28a0b7dab57d7f,
     type: 2}
-  _health: 3
+  _health: 1
   _scoreWorth: 10
   _gg: {fileID: 0}
   _shootingMechanism: {fileID: 11400000, guid: 3d29698d11fe5d1459d7a7eb9a50fe8b, type: 2}

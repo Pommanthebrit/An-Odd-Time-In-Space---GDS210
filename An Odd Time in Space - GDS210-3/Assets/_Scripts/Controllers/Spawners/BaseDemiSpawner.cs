@@ -17,6 +17,7 @@ public abstract class BaseDemiSpawner : MonoBehaviour
 	protected virtual void Awake()
 	{
 		_pooledObjects = new List<GameObject>();
+        _gg = GameObject.FindGameObjectWithTag("GameGod").GetComponent<GameGod>();
 		// Setup object pool.
 		for(int index = 0; index < _pooledObjAmount; index++)
 		{
