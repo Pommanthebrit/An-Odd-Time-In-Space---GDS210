@@ -1,9 +1,9 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{D91DEB7A-F0ED-72CE-69DA-EE58339ECF3B}"
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "An Odd Time in Space - GDS210-3", "Assembly-CSharp.csproj", "{D91DEB7A-F0ED-72CE-69DA-EE58339ECF3B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{847D09AB-E510-CC0C-AE1B-94412A705F8C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "An Odd Time in Space - GDS210-3", "Assembly-CSharp-Editor.csproj", "{847D09AB-E510-CC0C-AE1B-94412A705F8C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,5 +22,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal
